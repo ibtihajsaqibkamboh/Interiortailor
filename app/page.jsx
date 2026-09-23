@@ -6,7 +6,7 @@ import { pageMetadata } from '@/lib/site';
 export const metadata = pageMetadata({
   title: 'Paint Calculator - How Much Paint Do I Need?',
   description:
-    'Calculate how much paint you need for walls and ceilings. Account for room size, doors, windows, coats and paint coverage, then explore colors with Paint Planners.',
+    'Calculate how much paint you need for walls and ceilings. Account for room size, doors, windows, coats and paint coverage, then explore colors with Interior Tailor.',
   path: '/',
 });
 
@@ -14,7 +14,7 @@ const faqs = [
   {
     question: 'How much paint do I need for a room?',
     answer:
-      "The amount depends on the room's wall area, ceiling area if applicable, doors and windows, number of coats and the paint's coverage rate. Enter your measurements into the Paint Planners calculator to get an estimate.",
+      "The amount depends on the room's wall area, ceiling area if applicable, doors and windows, number of coats and the paint's coverage rate. Enter your measurements into the Interior Tailor calculator to get an estimate.",
   },
   {
     question: 'How do I calculate paint for walls?',
@@ -70,10 +70,10 @@ export default function HomePage() {
     <>
       <JsonLd data={faqJsonLd} />
       <section className="seo-hero">
-        <span className="eyebrow">PAINT PLANNERS</span>
+        <span className="eyebrow">INTERIOR TAILOR</span>
         <h1>Paint Calculator - How Much Paint Do I Need?</h1>
         <p>
-          Planning a painting project? Paint Planners helps you estimate how much paint you may need
+          Planning a painting project? Interior Tailor helps you estimate how much paint you may need
           before you buy. Enter your room dimensions, doors and windows, number of coats, paint
           coverage and waste allowance to get a practical paint estimate.
         </p>
@@ -124,7 +124,7 @@ export default function HomePage() {
 
           <article className="seo-card">
             <h2>Calculate Paint for Different Painting Projects</h2>
-            <p>Paint Planners can be used as a starting point for estimating paint requirements for:</p>
+            <p>Interior Tailor can be used as a starting point for estimating paint requirements for:</p>
             <ul>
               <li>Bedrooms, living rooms, dining rooms and offices</li>
               <li>Hallways, ceilings and interior walls</li>
@@ -174,7 +174,7 @@ export default function HomePage() {
             <a href="/room-color-visualizer/">Preview wall colors</a>
             <a href="/color-mixing/">Explore color mixing</a>
             <a href="/how-much-paint-do-i-need/">Learn how much paint you need</a>
-            <a href="/about/">About Paint Planners</a>
+            <a href="/about/">About Interior Tailor</a>
           </div>
         </article>
       </section>

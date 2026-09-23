@@ -5,7 +5,7 @@ import { pageMetadata } from '@/lib/site';
 export const metadata = pageMetadata({
   title: 'Room Color Visualizer - Preview Wall Paint Colors',
   description:
-    'Preview paint colors in a room setting with Paint Planners. Explore wall colors, HEX colors and different lighting conditions before choosing a paint color.',
+    'Preview paint colors in a room setting with Interior Tailor. Explore wall colors, HEX colors and different lighting conditions before choosing a paint color.',
   path: '/room-color-visualizer/',
 });
 
@@ -16,7 +16,7 @@ export default function RoomColorVisualizerPage() {
         <span className="eyebrow">ROOM COLOR VISUALIZER</span>
         <h1>Room Color Visualizer</h1>
         <p>
-          Trying to decide which wall color will work in your room? The Paint Planners Room Color
+          Trying to decide which wall color will work in your room? The Interior Tailor Room Color
           Visualizer lets you explore different paint colors in a room environment before you start
           painting.
         </p>

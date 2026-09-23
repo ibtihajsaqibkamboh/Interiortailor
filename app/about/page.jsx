@@ -2,9 +2,9 @@ import ContentMarkup from '@/components/ContentMarkup';
 import { pageMetadata } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'About Paint Planners',
+  title: 'About Interior Tailor',
   description:
-    'Learn about Paint Planners, a practical resource for estimating paint quantities and exploring wall colors before a painting project.',
+    'Learn about Interior Tailor, a practical resource for estimating paint quantities and exploring wall colors before a painting project.',
   path: '/about/',
 });
 

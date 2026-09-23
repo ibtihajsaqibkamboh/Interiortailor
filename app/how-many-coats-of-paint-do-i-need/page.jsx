@@ -45,7 +45,7 @@ export default function PaintCoatsArticlePage() {
 
         <h2>Estimate Paint With Coats Included</h2>
         <p>
-          The <a href="/paint-calculator/">Paint Planners paint quantity calculator</a> lets you enter
+          The <a href="/paint-calculator/">Interior Tailor paint quantity calculator</a> lets you enter
           the number of coats so your estimate reflects your project plan. After estimating paint
           quantity, you can <a href="/room-color-visualizer/">preview your wall color</a> before you
           start painting.

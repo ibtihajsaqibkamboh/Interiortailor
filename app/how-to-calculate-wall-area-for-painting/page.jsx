@@ -50,7 +50,7 @@ export default function WallAreaArticlePage() {
         <h2>Turn Wall Area Into a Paint Estimate</h2>
         <p>
           Once you have the paintable wall area, combine it with coverage and number of coats. You
-          can do this manually or use the <a href="/paint-calculator/">Paint Planners paint calculator</a>{' '}
+          can do this manually or use the <a href="/paint-calculator/">Interior Tailor paint calculator</a>{' '}
           to estimate paint quantity from your measurements.
         </p>
       </article>

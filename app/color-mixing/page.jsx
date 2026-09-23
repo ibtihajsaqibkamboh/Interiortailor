@@ -16,7 +16,7 @@ export default function ColorMixingPage() {
         <span className="eyebrow">COLOR MIXING LAB</span>
         <h1>Paint Color Mixing Tool</h1>
         <p>
-          Want to explore a custom paint color? The Paint Planners Color Mixing Lab lets you enter a
+          Want to explore a custom paint color? The Interior Tailor Color Mixing Lab lets you enter a
           target HEX color and experiment with an estimated digital mixing recipe.
         </p>
         <p>

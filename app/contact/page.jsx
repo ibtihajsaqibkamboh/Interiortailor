@@ -2,9 +2,9 @@ import ContentMarkup from '@/components/ContentMarkup';
 import { pageMetadata } from '@/lib/site';
 
 export const metadata = pageMetadata({
-  title: 'Contact Paint Planners',
+  title: 'Contact Interior Tailor',
   description:
-    'Contact Paint Planners with calculator issues, color tool feedback, feature suggestions or general website questions.',
+    'Contact Interior Tailor with calculator issues, color tool feedback, feature suggestions or general website questions.',
   path: '/contact/',
 });
 

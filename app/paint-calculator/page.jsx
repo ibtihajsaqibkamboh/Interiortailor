@@ -16,7 +16,7 @@ export default function PaintCalculatorPage() {
         <span className="eyebrow">PAINT CALCULATOR</span>
         <h1>Paint Quantity Calculator</h1>
         <p>
-          Use the Paint Planners paint quantity calculator to estimate how much paint you may need
+          Use the Interior Tailor paint quantity calculator to estimate how much paint you may need
           for your next painting project.
         </p>
         <p>

@@ -17,7 +17,7 @@
       tabs[key].setAttribute('aria-selected', active ? 'true' : 'false');
     });
     document.body.classList.toggle('page-mixer-active', name === 'mixer');
-    document.title = name === 'mixer' ? 'Color Mixing Lab — Paint Planners' : 'Paint Calculator — Paint Planners';
+    document.title = name === 'mixer' ? 'Color Mixing Lab — Interior Tailor' : 'Paint Calculator — Interior Tailor';
     try{ localStorage.setItem('paint-tools-active-page', name); }catch(e){}
     if (location.hash.slice(1) !== name) history.replaceState(null, '', '#' + name);
   }
@@ -104,7 +104,7 @@
     document.querySelectorAll('[data-unit-label="coverage"]').forEach(el => el.textContent = u.coverageLabel);
     document.querySelectorAll('[data-unit-label="price"]').forEach(el => el.textContent = u.priceLabel);
     $('heroUnit').textContent = u.volumeUnit;
-    $('mobileUnit').textContent = u.volumeUnit;
+    if ($('mobileUnit')) $('mobileUnit').textContent = u.volumeUnit;
   }
 
   function round2(n){ return Math.round(n * 100) / 100; }
@@ -185,14 +185,14 @@
     const areaUnit = AREA_FIELDS_LABEL[unit]; const volUnit = UNITS[unit].volumeUnit;
     if (!valid){
       $('heroValue').textContent = '—'; $('heroNote').textContent = 'Check your inputs above — some fields need a valid value.';
-      $('mobileValue').textContent = '—';
+      if ($('mobileValue')) $('mobileValue').textContent = '—';
       ['outWallArea','outOpeningsArea','outCeilingArea','outPaintableArea','outPaintRequired','outWaste','outRecommended','outCost'].forEach(id => $(id).textContent = '—');
       $('explainText').textContent = 'Once every field above is valid, the formula and your numbers will appear here.';
       $('costRow').style.display = 'none'; saveCalcState(); return;
     }
     const inputs = readInputs(); const r = PaintCalc.calculate(inputs);
     $('heroValue').textContent = fmt(r.recommended, 0);
-    $('mobileValue').textContent = fmt(r.recommended, 0);
+    if ($('mobileValue')) $('mobileValue').textContent = fmt(r.recommended, 0);
     $('heroNote').textContent = `Enough for ${inputs.coats} coat${inputs.coats == 1 ? '' : 's'} over ${fmt(r.paintableArea,1)} ${areaUnit}, plus ${inputs.waste}% waste.`;
     $('outWallArea').textContent = `${fmt(r.wallArea,1)} ${areaUnit}`;
     $('outOpeningsArea').textContent = `${fmt(r.openingsArea,1)} ${areaUnit}`;
@@ -246,7 +246,7 @@
     $('errorBanner').classList.remove('is-visible'); renderCalc();
   });
   $('printBtn').addEventListener('click', () => window.print());
-  $('mobileJump').addEventListener('click', () => $('results').scrollIntoView({ behavior:'smooth' }));
+  if ($('mobileJump')) $('mobileJump').addEventListener('click', () => $('results').scrollIntoView({ behavior:'smooth' }));
 
   function initCalculator(){
     const restored = loadCalcState(); if (!restored) applyDefaults(unit);

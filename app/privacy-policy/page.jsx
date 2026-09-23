@@ -4,7 +4,7 @@ import { pageMetadata } from '@/lib/site';
 export const metadata = pageMetadata({
   title: 'Privacy Policy',
   description:
-    'Read the Paint Planners privacy policy, including information about contact submissions, browser storage, analytics and advertising.',
+    'Read the Interior Tailor privacy policy, including information about contact submissions, browser storage, analytics and advertising.',
   path: '/privacy-policy/',
 });
 

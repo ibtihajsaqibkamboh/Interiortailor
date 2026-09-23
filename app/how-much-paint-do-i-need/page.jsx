@@ -50,14 +50,14 @@ export default function HowMuchPaintPage() {
         <h2>Add a Practical Allowance</h2>
         <p>
           A small waste allowance can help account for cutting in, roller loading, touch-ups and
-          measurement differences. The Paint Planners calculator includes a waste allowance field so
+          measurement differences. The Interior Tailor calculator includes a waste allowance field so
           you can see how it changes the estimate.
         </p>
 
         <h2>Use the Paint Calculator</h2>
         <p>
           For a quicker estimate, enter your room measurements, doors, windows, coats and coverage
-          into the <a href="/paint-calculator/">Paint Planners paint quantity calculator</a>.
+          into the <a href="/paint-calculator/">Interior Tailor paint quantity calculator</a>.
         </p>
         <p>
           After estimating paint quantity, you can also <a href="/room-color-visualizer/">preview wall colors</a>{' '}

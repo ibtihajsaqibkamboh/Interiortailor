@@ -7,11 +7,11 @@ import { siteName, siteUrl } from '@/lib/site';
 export const metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: 'Paint Calculator - How Much Paint Do I Need? | Paint Planners',
-    template: '%s | Paint Planners',
+    default: 'Paint Calculator - How Much Paint Do I Need? | Interior Tailor',
+    template: '%s | Interior Tailor',
   },
   description:
-    'Calculate how much paint you need for walls and ceilings, then explore paint colors with Paint Planners.',
+    'Calculate how much paint you need for walls and ceilings, then explore paint colors with Interior Tailor.',
   icons: {
     icon: '/assets/paint-planners-icon.png',
   },

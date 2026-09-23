@@ -1,6 +1,6 @@
-# Paint Planners - Next.js
+# Interior Tailor - Next.js
 
-This project is a Next.js App Router website for Paint Planners. It includes a paint calculator, color mixing lab, room color visualizer, SEO content pages, legal pages, branding assets, and responsive styling.
+This project is a Next.js App Router website for Interior Tailor. It includes a paint calculator, color mixing lab, room color visualizer, SEO content pages, legal pages, branding assets, and responsive styling.
 
 ## Routes
 
