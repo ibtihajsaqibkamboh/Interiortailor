@@ -15,7 +15,7 @@ export default function Header() {
     <header className="site-header">
       <nav className="site-nav">
         <a className="site-brand" href="/" aria-label="Paint Planners home">
-          <img src="/assets/paint-planners-logo.png" alt="Paint Planners" className="site-logo" />
+          <img src="/assets/interior-tailor-logo.png" alt="Paint Planners" className="site-logo" />
         </a>
         <div className="site-links">
           <a className={active === 'home' ? 'active' : ''} href="/">Home</a>
