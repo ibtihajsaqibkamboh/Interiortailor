@@ -1,16 +1,22 @@
-# Paint Planners — Next.js
+# Paint Planners - Next.js
 
-This project migrates the supplied Paint Planners HTML website into a Next.js App Router project while preserving the original calculator, color mixing lab, room preview, styling, logo, and legal pages.
+This project is a Next.js App Router website for Paint Planners. It includes a paint calculator, color mixing lab, room color visualizer, SEO content pages, legal pages, branding assets, and responsive styling.
 
 ## Routes
 
 - `/`
-- `/calculator/`
+- `/paint-calculator/`
+- `/room-color-visualizer/`
 - `/color-mixing/`
+- `/how-much-paint-do-i-need/`
+- `/how-to-calculate-wall-area-for-painting/`
+- `/how-many-coats-of-paint-do-i-need/`
 - `/about/`
 - `/contact/`
 - `/privacy-policy/`
 - `/terms/`
+
+The legacy `/calculator/` route still renders the calculator for compatibility.
 
 ## Run locally
 
@@ -26,6 +32,6 @@ npm run build
 npm start
 ```
 
-Before publishing, replace `YOUR-DOMAIN.com` in `app/layout.jsx`, `app/robots.js`, and `app/sitemap.js` with the real domain.
+Set `NEXT_PUBLIC_SITE_URL` to the production domain when deploying. If it is not set, metadata, sitemap, and robots use `https://paintplanners.com`.
 
-The contact page still contains the original `contact@example.com` placeholder and should be replaced with the real contact address.
+The contact page still contains the placeholder `contact@example.com` and should be replaced with the real contact address before publishing.

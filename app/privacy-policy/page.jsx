@@ -1,9 +1,12 @@
 import ContentMarkup from '@/components/ContentMarkup';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata = {
-  title: 'privacy policy',
-  description: 'Paint Planners provides practical paint planning, quantity estimation, and color exploration tools.',
-};
+export const metadata = pageMetadata({
+  title: 'Privacy Policy',
+  description:
+    'Read the Paint Planners privacy policy, including information about contact submissions, browser storage, analytics and advertising.',
+  path: '/privacy-policy/',
+});
 
 export default function Page() {
   return <ContentMarkup name="privacy-policy" />;

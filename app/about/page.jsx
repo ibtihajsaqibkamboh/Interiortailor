@@ -1,9 +1,12 @@
 import ContentMarkup from '@/components/ContentMarkup';
+import { pageMetadata } from '@/lib/site';
 
-export const metadata = {
-  title: 'about',
-  description: 'Paint Planners provides practical paint planning, quantity estimation, and color exploration tools.',
-};
+export const metadata = pageMetadata({
+  title: 'About Paint Planners',
+  description:
+    'Learn about Paint Planners, a practical resource for estimating paint quantities and exploring wall colors before a painting project.',
+  path: '/about/',
+});
 
 export default function Page() {
   return <ContentMarkup name="about" />;

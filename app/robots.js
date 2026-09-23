@@ -1,6 +1,8 @@
+import { siteUrl } from '@/lib/site';
+
 export default function robots() {
   return {
     rules: [{ userAgent: '*', allow: '/' }],
-    sitemap: 'https://YOUR-DOMAIN.com/sitemap.xml',
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }
