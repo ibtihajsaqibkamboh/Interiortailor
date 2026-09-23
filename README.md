@@ -32,6 +32,6 @@ npm run build
 npm start
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` to the production domain when deploying. If it is not set, metadata, sitemap, and robots use `https://paintplanners.com`.
+Set `NEXT_PUBLIC_SITE_URL` to the production domain when deploying. If it is not set, metadata, sitemap, and robots use `https://interiortailor.com`.
 
 The contact page still contains the placeholder `contact@example.com` and should be replaced with the real contact address before publishing.
