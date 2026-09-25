@@ -514,3 +514,23 @@ body.nav-open{ overflow:hidden; }
 }
 .preset-btn:hover{ background:var(--purple-soft); color:var(--purple); border-color:var(--purple); }
 .preset-btn:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+
+/* ============================================================
+   MEGA / WIDE TOOLS DROPDOWN
+   ============================================================ */
+.nav-dropdown__menu--wide{
+  min-width:760px;
+  right:-20px;
+  display:grid;
+  grid-template-columns:repeat(4,1fr);
+  gap:0;
+  padding:8px;
+}
+@media(max-width:900px){ .nav-dropdown__menu--wide{ grid-template-columns:repeat(2,1fr); min-width:400px; } }
+
+.nav-dropdown__group{ padding:8px 4px; }
+.nav-dropdown__group-label{
+  font-size:.68rem; font-weight:700; letter-spacing:.07em;
+  color:var(--ink-soft); text-transform:uppercase;
+  padding:4px 8px 6px; white-space:nowrap;
+}
