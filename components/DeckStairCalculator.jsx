@@ -66,7 +66,7 @@ export default function DeckStairCalculator() {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="number" inputMode="decimal" min="0" step="any" value={val} placeholder={placeholder}
+        <input id={id} type="text" inputMode="decimal" value={val} placeholder={placeholder}
           onChange={ev => { set(ev.target.value); setErrors(p => ({ ...p, [id]: undefined })); setResult(null); }} />
         {note && <span className="field-hint">{note}</span>}
         {err  && <span className="field-error">{err}</span>}

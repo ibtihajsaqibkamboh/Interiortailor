@@ -68,7 +68,7 @@ export default function FenceCalculator() {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="number" inputMode="decimal" min="0" step={step} value={val} placeholder={placeholder}
+        <input id={id} type="text" inputMode="decimal" value={val} placeholder={placeholder}
           onChange={ev => { set(ev.target.value); setErrors(p => ({ ...p, [id]: undefined })); setResult(null); }} />
         {err && <span className="field-error">{err}</span>}
       </div>
@@ -106,7 +106,7 @@ export default function FenceCalculator() {
                 Gates & material
               </h2>
               <div className="field-row">
-                <F id="gateCount" label="Number of gates" val={gateCount} set={setGateCount} err={errors.gateCount} step="1" placeholder="1"/>
+                <F id="gateCount" label="Number of gates" val={gateCount} set={setGateCount} err={errors.gateCount} placeholder="1"/>
               </div>
               <div className="field" style={{ marginTop: '12px' }}>
                 <label htmlFor="fenceType">Fence type</label>

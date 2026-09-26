@@ -88,7 +88,7 @@ export default function WallpaperCalculator() {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="number" inputMode="decimal" min="0" step={step} value={val} placeholder={placeholder}
+        <input id={id} type="text" inputMode="decimal" value={val} placeholder={placeholder}
           onChange={ev => { set(ev.target.value); setErrors(p => ({ ...p, [id]: undefined })); setResult(null); }} />
         {err && <span className="field-error">{err}</span>}
       </div>
@@ -127,8 +127,8 @@ export default function WallpaperCalculator() {
                 Openings to deduct
               </h2>
               <div className="field-row">
-                <F id="wdoors"   label="Number of doors"   val={doors}   set={setDoors}   err={errors.doors}   step="1" placeholder="1" />
-                <F id="wwindows" label="Number of windows" val={windows} set={setWindows} err={errors.windows} step="1" placeholder="2" />
+                <F id="wdoors"   label="Number of doors"   val={doors}   set={setDoors}   err={errors.doors} placeholder="1" />
+                <F id="wwindows" label="Number of windows" val={windows} set={setWindows} err={errors.windows} placeholder="2" />
               </div>
               <p className="group-hint">Assumes avg door 3×7 ft (21 sq ft) and window 3×5 ft (15 sq ft).</p>
             </div>
@@ -151,8 +151,8 @@ export default function WallpaperCalculator() {
                 </div>
               )}
               <div className="field-row" style={{ marginTop: '12px' }}>
-                <F id="wpatternR" label="Pattern repeat loss (%)" val={patternR} set={setPatternR} err={errors.patternR} step="1" placeholder="0" />
-                <F id="wwaste"    label="Waste (%)"               val={wastePct} set={setWastePct} err={errors.wastePct} step="1" placeholder="15" />
+                <F id="wpatternR" label="Pattern repeat loss (%)" val={patternR} set={setPatternR} err={errors.patternR} placeholder="0" />
+                <F id="wwaste"    label="Waste (%)"               val={wastePct} set={setWastePct} err={errors.wastePct} placeholder="15" />
               </div>
               <p className="group-hint">Pattern repeat adds extra waste: 0% for plain, ~15–25% for large repeating patterns.</p>
             </div>

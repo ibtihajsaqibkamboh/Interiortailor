@@ -69,7 +69,7 @@ export default function DeckCostCalculator() {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="number" inputMode="decimal" min="0" step={step} value={val} placeholder={placeholder}
+        <input id={id} type="text" inputMode="decimal" value={val} placeholder={placeholder}
           onChange={ev => { set(ev.target.value); setErrors(p => ({ ...p, [id]: undefined })); setResult(null); }} />
         {err && <span className="field-error">{err}</span>}
       </div>
@@ -121,8 +121,8 @@ export default function DeckCostCalculator() {
                 Cost factors
               </h2>
               <div className="field-row">
-                <F id="wastePct" label="Material waste (%)" val={wastePct} set={setWastePct} err={errors.wastePct} step="1" placeholder="10"/>
-                <F id="laborPct" label="Labor (% of material)" val={laborPct} set={setLaborPct} err={errors.laborPct} step="1" placeholder="50"/>
+                <F id="wastePct" label="Material waste (%)" val={wastePct} set={setWastePct} err={errors.wastePct} placeholder="10"/>
+                <F id="laborPct" label="Labor (% of material)" val={laborPct} set={setLaborPct} err={errors.laborPct} placeholder="50"/>
               </div>
               <p className="group-hint">Labor % is relative to material cost. Adjust to match your local rates.</p>
             </div>

@@ -66,7 +66,7 @@ export default function ConcreteBagCalculator() {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
-        <input id={id} type="number" inputMode="decimal" min="0" step={step} value={val} placeholder={placeholder}
+        <input id={id} type="text" inputMode="decimal" value={val} placeholder={placeholder}
           onChange={ev => { set(ev.target.value); setErrors(p => ({ ...p, [id]: undefined })); setResult(null); }} />
         {err && <span className="field-error">{err}</span>}
       </div>
@@ -119,7 +119,7 @@ export default function ConcreteBagCalculator() {
                 Waste allowance
               </h2>
               <div className="field-row">
-                <F id="cbwaste" label="Waste (%)" val={wastePct} set={setWastePct} err={errors.wastePct} step="1" placeholder="5" />
+                <F id="cbwaste" label="Waste (%)" val={wastePct} set={setWastePct} err={errors.wastePct} placeholder="5" />
               </div>
             </div>
 

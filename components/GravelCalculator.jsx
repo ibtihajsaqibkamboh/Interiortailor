@@ -95,8 +95,7 @@ export default function GravelCalculator() {
     <div className={`field${error ? ' has-error' : ''}`}>
       <label htmlFor={id}>{label}</label>
       <input
-        id={id} type="number" inputMode="decimal"
-        min="0" step={step}
+        id={id} type="text" inputMode="decimal"
         value={value}
         placeholder={placeholder}
         onChange={e => { onChange(e.target.value); setErrors(prev => ({ ...prev, [id]: undefined })); setResult(null); }}
@@ -180,7 +179,7 @@ export default function GravelCalculator() {
                 Waste allowance
               </h2>
               <div className="field-row">
-                <Field id="wastePct" label="Waste (%)" value={wastePct} onChange={setWastePct} error={errors.wastePct} placeholder="10" step="1" />
+                <Field id="wastePct" label="Waste (%)" value={wastePct} onChange={setWastePct} error={errors.wastePct} placeholder="10" />
               </div>
             </div>
 

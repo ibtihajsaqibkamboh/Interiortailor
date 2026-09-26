@@ -153,6 +153,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      <ToolsGrid />
+
+      
+
       <section className="seo-band">
         <article className="seo-card">
           <h2>Frequently Asked Questions</h2>
@@ -166,9 +170,6 @@ export default function HomePage() {
           </div>
         </article>
       </section>
-
-      <ToolsGrid />
-
       <section className="seo-band">
         <article className="seo-card">
           <h2>Related Paint Planning Tools</h2>

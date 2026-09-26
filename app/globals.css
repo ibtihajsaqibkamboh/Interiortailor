@@ -474,6 +474,112 @@ body.nav-open{ overflow:hidden; }
 .mobile-nav__link-icon{ display:flex; align-items:center; flex-shrink:0; opacity:.65; }
 .mobile-nav__link--tool.active .mobile-nav__link-icon{ opacity:1; }
 
+/* ──────────────────────────────────────────────────────────
+   MOBILE TOOLS ACCORDION
+   ────────────────────────────────────────────────────────── */
+
+/* Root wrapper — sits after the main nav links */
+.mobile-nav__tools-root{
+  margin-top:4px;
+}
+
+/* "Tools" collapsible row */
+.mobile-nav__tools-toggle{
+  width:100%;
+  display:flex; align-items:center; justify-content:space-between;
+  background:transparent; border:none; cursor:pointer;
+  padding:12px 14px; border-radius:var(--radius-sm);
+  color:var(--ink); font-size:.94rem; font-weight:700;
+  transition:background .12s ease, color .12s ease;
+  text-align:left;
+}
+.mobile-nav__tools-toggle:hover,
+.mobile-nav__tools-toggle.is-open{ background:var(--purple-soft); color:var(--purple); }
+.mobile-nav__tools-toggle.active{ color:var(--purple); }
+.mobile-nav__tools-toggle:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+
+.mobile-nav__tools-toggle-inner{
+  display:flex; align-items:center; gap:9px;
+}
+.mobile-nav__tools-count{
+  display:inline-flex; align-items:center; justify-content:center;
+  background:var(--line); color:var(--ink-soft);
+  font-size:.7rem; font-weight:700;
+  padding:2px 7px; border-radius:999px; line-height:1.4;
+}
+.mobile-nav__tools-toggle.is-open .mobile-nav__tools-count,
+.mobile-nav__tools-toggle.active .mobile-nav__tools-count{
+  background:var(--purple-soft); color:var(--purple);
+}
+
+/* Panel that holds all groups */
+.mobile-nav__tools-panel{
+  margin:2px 0 4px;
+  border:1px solid var(--line);
+  border-radius:var(--radius-sm);
+  overflow:hidden;
+}
+
+/* Each group container */
+.mobile-nav__group{
+  border-bottom:1px solid var(--line);
+}
+.mobile-nav__group:last-child{ border-bottom:none; }
+
+/* Group header button */
+.mobile-nav__group-toggle{
+  width:100%; display:flex; align-items:center; justify-content:space-between;
+  background:transparent; border:none; cursor:pointer;
+  padding:11px 14px;
+  color:var(--ink-soft); font-size:.78rem; font-weight:700;
+  letter-spacing:.04em; text-transform:uppercase;
+  text-align:left;
+  transition:background .12s ease, color .12s ease;
+}
+.mobile-nav__group-toggle:hover{ background:var(--bg); color:var(--ink); }
+.mobile-nav__group-toggle.has-active{ color:var(--purple); }
+.mobile-nav__group-toggle.is-open{ background:var(--bg); color:var(--ink); }
+.mobile-nav__group-toggle:focus-visible{ outline:2px solid var(--focus); outline-offset:2px; }
+
+.mobile-nav__group-meta{
+  display:flex; align-items:center; gap:6px; flex-shrink:0;
+}
+.mobile-nav__group-count{
+  font-size:.68rem; font-weight:600;
+  background:var(--line); color:var(--ink-soft);
+  padding:1px 6px; border-radius:999px;
+}
+.mobile-nav__group-toggle.has-active .mobile-nav__group-count{
+  background:var(--purple-soft); color:var(--purple);
+}
+
+/* Tool links inside an open group */
+.mobile-nav__group-links{
+  background:var(--bg);
+  padding:4px 8px 8px;
+  display:flex; flex-direction:column; gap:1px;
+}
+
+.mobile-nav__tool-link{
+  display:flex; align-items:center; gap:10px;
+  color:var(--ink-soft); text-decoration:none;
+  padding:9px 10px; border-radius:var(--radius-sm);
+  font-size:.86rem; font-weight:500;
+  transition:background .12s ease, color .12s ease;
+}
+.mobile-nav__tool-link:hover{ background:var(--card); color:var(--ink); }
+.mobile-nav__tool-link.active{
+  background:var(--purple-soft); color:var(--purple); font-weight:700;
+}
+
+.mobile-nav__tool-icon{
+  display:flex; align-items:center; flex-shrink:0;
+  opacity:.6; width:20px; height:20px;
+  justify-content:center;
+}
+.mobile-nav__tool-link.active .mobile-nav__tool-icon{ opacity:1; }
+.mobile-nav__tool-label{ flex:1; min-width:0; }
+
 /* ============================================================
    CALCULATOR TOOL SHARED STYLES
    (Concrete / Gravel / Mulch pages)

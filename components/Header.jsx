@@ -85,27 +85,21 @@ const ICONS = {
   '/fence-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M6 4v16M10 4v16M14 4v16M18 4v16M4 8h2M8 8h2M12 8h2M16 8h2"/></svg>,
   '/deck-cost-calculator/':      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="12" width="20" height="8" rx="1"/><path d="M5 12V6m4-2v8m4-5v7m4-3v5"/></svg>,
   '/flooring-calculator/':       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="6" width="20" height="14" rx="1"/><path d="M2 11h20M2 16h20M8 6v14M14 6v14"/></svg>,
-  // Masonry & Materials
   '/brick-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="4" rx="1"/><rect x="2" y="13" width="20" height="4" rx="1"/></svg>,
   '/block-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="5" width="20" height="6" rx="1"/><rect x="2" y="13" width="20" height="6" rx="1"/></svg>,
   '/mortar-calculator/':         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 8h16M4 16h16"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>,
   '/cement-calculator/':         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 2h12l2 6H4L6 2z"/><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M9 8v13"/></svg>,
   '/rebar-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>,
-  // Volume & Lumber
   '/board-foot-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="8" width="20" height="8" rx="1"/><path d="M7 8V5m10 3V5"/></svg>,
   '/cubic-yard-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3L3 8v8l9 5 9-5V8L12 3z"/><path d="M3 8l9 5m0 0v8m0-8l9-5"/></svg>,
   '/cubic-feet-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>,
-  // Electrical & Solar
   '/voltage-drop-calculator/':   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>,
   '/wire-size-calculator/':      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M3 7h18M3 17h18"/></svg>,
   '/solar-panel-calculator/':    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41"/></svg>,
-  // Pool
   '/pool-gallon-calculator/':    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 17c1.5-2 3.5-2 5 0s3.5 2 5 0 3.5-2 5 0"/><path d="M2 12c2-8 16-8 20 0v8H2v-8z"/></svg>,
   '/pool-chemical-calculator/':  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 2h6v7l4 5a4 4 0 0 1-3.2 6.4H8.2A4 4 0 0 1 5 15l4-6V2z"/></svg>,
-  // HVAC
   '/hvac-btu-calculator/':       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M2 12h20M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>,
   '/ac-size-calculator/':        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 11h.01M10 11h.01M14 11h.01"/><path d="M2 13h20"/></svg>,
-  // Structural
   '/joist-span-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 8h20M2 16h20M6 8v8M12 8v8M18 8v8"/></svg>,
   '/deck-stair-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 20h4v-4h4v-4h4v-4h4v-4"/></svg>,
   '/retaining-wall-calculator/': <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="6" width="20" height="4" rx="1"/><rect x="2" y="12" width="20" height="4" rx="1"/><rect x="2" y="18" width="20" height="3" rx="1"/></svg>,
@@ -121,11 +115,24 @@ function getGroups() {
   return groups;
 }
 
+// Chevron icon reused in mobile accordion
+const Chevron = ({ open }) => (
+  <svg
+    width="14" height="14" viewBox="0 0 24 24" fill="none"
+    stroke="currentColor" strokeWidth="2.5" strokeLinecap="round"
+    style={{ transition: 'transform .2s ease', transform: open ? 'rotate(180deg)' : 'rotate(0deg)', flexShrink: 0 }}
+  >
+    <polyline points="6 9 12 15 18 9"/>
+  </svg>
+);
+
 export default function Header() {
   const pathname = usePathname() || '/';
-  const [menuOpen, setMenuOpen]   = useState(false);
-  const [toolsOpen, setToolsOpen] = useState(false);
-  const [mounted, setMounted]     = useState(false);
+  const [menuOpen, setMenuOpen]       = useState(false);
+  const [toolsOpen, setToolsOpen]     = useState(false);   // desktop dropdown
+  const [mobileToolsOpen, setMobileToolsOpen] = useState(false); // mobile tools row
+  const [openGroup, setOpenGroup]     = useState(null);    // which group accordion is open
+  const [mounted, setMounted]         = useState(false);
   const hamburgerRef = useRef(null);
   const drawerRef    = useRef(null);
   const toolsBtnRef  = useRef(null);
@@ -140,6 +147,15 @@ export default function Header() {
     pathname.startsWith('/color-mixing')                                               ? 'mixer'      :
     pathname.startsWith('/about')                                                      ? 'about'      :
     pathname.startsWith('/contact')                                                    ? 'contact'    : '';
+
+  // Auto-open the group that contains the current tool on mount
+  useEffect(() => {
+    const activeGroup = toolsLinks.find(t => pathname.startsWith(t.href))?.group ?? null;
+    if (activeGroup) {
+      setMobileToolsOpen(true);
+      setOpenGroup(activeGroup);
+    }
+  }, [pathname]);
 
   useEffect(() => { setMounted(true); }, []);
   useEffect(() => { setMenuOpen(false); setToolsOpen(false); }, [pathname]);
@@ -182,9 +198,9 @@ export default function Header() {
   }, [toolsOpen]);
 
   const mainLinks = [
-    { id: 'home',       href: '/',                       label: 'Home' },
-    { id: 'about',      href: '/about/',                 label: 'About' },
-    { id: 'contact',    href: '/contact/',               label: 'Contact' },
+    { id: 'home',    href: '/',         label: 'Home' },
+    { id: 'about',   href: '/about/',   label: 'About' },
+    { id: 'contact', href: '/contact/', label: 'Contact' },
   ];
 
   const groups = getGroups();
@@ -209,6 +225,7 @@ export default function Header() {
         </div>
 
         <nav aria-label="Mobile navigation" className="mobile-nav__body">
+          {/* ── Main links ── */}
           {mainLinks.map(({ id, href, label }) => (
             <a key={id} href={href} onClick={() => setMenuOpen(false)}
               className={`mobile-nav__link${active === id ? ' active' : ''}`}>
@@ -221,23 +238,73 @@ export default function Header() {
             </a>
           ))}
 
-          {groups.map(group => (
-            <div key={group}>
-              <div className="mobile-nav__section-label">{group}</div>
-              {toolsLinks.filter(t => t.group === group).map(({ href, label }) => (
-                <a key={href} href={href} onClick={() => setMenuOpen(false)}
-                  className={`mobile-nav__link mobile-nav__link--tool${pathname.startsWith(href) ? ' active' : ''}`}>
-                  <span className="mobile-nav__link-icon">{ICONS[href]}</span>
-                  {label}
-                  {pathname.startsWith(href) && (
-                    <svg className="mobile-nav__tick" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
-                      <polyline points="20 6 9 17 4 12"/>
-                    </svg>
-                  )}
-                </a>
-              ))}
-            </div>
-          ))}
+          {/* ── Tools collapsible ── */}
+          <div className="mobile-nav__tools-root">
+            {/* Tools toggle row */}
+            <button
+              type="button"
+              className={`mobile-nav__tools-toggle${isTools ? ' active' : ''}${mobileToolsOpen ? ' is-open' : ''}`}
+              onClick={() => setMobileToolsOpen(v => !v)}
+              aria-expanded={mobileToolsOpen}
+            >
+              <span className="mobile-nav__tools-toggle-inner">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+                Tools
+                <span className="mobile-nav__tools-count">{toolsLinks.length}</span>
+              </span>
+              <Chevron open={mobileToolsOpen} />
+            </button>
+
+            {/* Tools panel — groups accordion */}
+            {mobileToolsOpen && (
+              <div className="mobile-nav__tools-panel">
+                {groups.map(group => {
+                  const groupTools = toolsLinks.filter(t => t.group === group);
+                  const isGroupOpen = openGroup === group;
+                  const hasActive = groupTools.some(t => pathname.startsWith(t.href));
+
+                  return (
+                    <div key={group} className="mobile-nav__group">
+                      {/* Group header — click to expand */}
+                      <button
+                        type="button"
+                        className={`mobile-nav__group-toggle${hasActive ? ' has-active' : ''}${isGroupOpen ? ' is-open' : ''}`}
+                        onClick={() => setOpenGroup(isGroupOpen ? null : group)}
+                        aria-expanded={isGroupOpen}
+                      >
+                        <span>{group}</span>
+                        <span className="mobile-nav__group-meta">
+                          <span className="mobile-nav__group-count">{groupTools.length}</span>
+                          <Chevron open={isGroupOpen} />
+                        </span>
+                      </button>
+
+                      {/* Tool links inside group */}
+                      {isGroupOpen && (
+                        <div className="mobile-nav__group-links">
+                          {groupTools.map(({ href, label }) => (
+                            <a key={href} href={href}
+                              onClick={() => setMenuOpen(false)}
+                              className={`mobile-nav__tool-link${pathname.startsWith(href) ? ' active' : ''}`}>
+                              <span className="mobile-nav__tool-icon">{ICONS[href]}</span>
+                              <span className="mobile-nav__tool-label">{label}</span>
+                              {pathname.startsWith(href) && (
+                                <svg className="mobile-nav__tick" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                                  <polyline points="20 6 9 17 4 12"/>
+                                </svg>
+                              )}
+                            </a>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
+              </div>
+            )}
+          </div>
         </nav>
 
         <div className="mobile-nav__foot"><p>© 2026 Interior Tailor</p></div>

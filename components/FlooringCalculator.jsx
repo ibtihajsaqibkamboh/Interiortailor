@@ -104,13 +104,13 @@ export default function FlooringCalculator() {
                   <div className="field-row" style={{ flex: 1, marginTop: 0 }}>
                     <div className={`field${errors[`${room.id}_l`] ? ' has-error' : ''}`}>
                       <label htmlFor={`rl${room.id}`}>Room {idx + 1} Length ({lenLbl})</label>
-                      <input id={`rl${room.id}`} type="number" inputMode="decimal" min="0" step="any" value={room.l}
+                      <input id={`rl${room.id}`} type="text" inputMode="decimal" value={room.l}
                         onChange={ev => updateRoom(room.id, 'l', ev.target.value)} />
                       {errors[`${room.id}_l`] && <span className="field-error">{errors[`${room.id}_l`]}</span>}
                     </div>
                     <div className={`field${errors[`${room.id}_w`] ? ' has-error' : ''}`}>
                       <label htmlFor={`rw${room.id}`}>Room {idx + 1} Width ({lenLbl})</label>
-                      <input id={`rw${room.id}`} type="number" inputMode="decimal" min="0" step="any" value={room.w}
+                      <input id={`rw${room.id}`} type="text" inputMode="decimal" value={room.w}
                         onChange={ev => updateRoom(room.id, 'w', ev.target.value)} />
                       {errors[`${room.id}_w`] && <span className="field-error">{errors[`${room.id}_w`]}</span>}
                     </div>
@@ -150,7 +150,7 @@ export default function FlooringCalculator() {
               <div className="field-row">
                 <div className={`field${errors.wastePct ? ' has-error' : ''}`}>
                   <label htmlFor="fwaste">Waste (%)</label>
-                  <input id="fwaste" type="number" inputMode="numeric" min="0" step="1" value={wastePct}
+                  <input id="fwaste" type="text" inputMode="numeric" value={wastePct}
                     onChange={ev => { setWastePct(ev.target.value); setErrors(p => ({ ...p, wastePct: undefined })); setResult(null); }} />
                   {errors.wastePct && <span className="field-error">{errors.wastePct}</span>}
                 </div>
