@@ -1,6 +1,7 @@
 import ToolMarkup from '@/components/ToolMarkup';
 import ToolBoot from '@/components/ToolBoot';
 import JsonLd from '@/components/JsonLd';
+import ToolsGrid from '@/components/ToolsGrid';
 import { pageMetadata } from '@/lib/site';
 
 export const metadata = pageMetadata({
@@ -165,6 +166,8 @@ export default function HomePage() {
           </div>
         </article>
       </section>
+
+      <ToolsGrid />
 
       <section className="seo-band">
         <article className="seo-card">

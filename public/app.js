@@ -9,7 +9,7 @@
   const pages = { calculator: $('page-calculator'), mixer: $('page-mixer') };
   const tabs = { calculator: $('tabCalculator'), mixer: $('tabMixer') };
 
-  function showPage(name){
+  function showPage(name, updateHash){
     Object.keys(pages).forEach(key => {
       const active = key === name;
       pages[key].hidden = !active;
@@ -18,12 +18,19 @@
     });
     document.body.classList.toggle('page-mixer-active', name === 'mixer');
     document.title = name === 'mixer' ? 'Color Mixing Lab — Interior Tailor' : 'Paint Calculator — Interior Tailor';
-    try{ localStorage.setItem('paint-tools-active-page', name); }catch(e){}
-    if (location.hash.slice(1) !== name) history.replaceState(null, '', '#' + name);
+    // Only write hash when explicitly switching tabs, or when deep-linking to mixer
+    if (updateHash) {
+      if (name === 'mixer') {
+        if (location.hash.slice(1) !== 'mixer') history.replaceState(null, '', '#mixer');
+      } else {
+        // Remove the hash entirely when switching back to calculator
+        if (location.hash) history.replaceState(null, '', location.pathname + location.search);
+      }
+    }
   }
 
-  tabs.calculator.addEventListener('click', () => showPage('calculator'));
-  tabs.mixer.addEventListener('click', () => showPage('mixer'));
+  tabs.calculator.addEventListener('click', () => showPage('calculator', true));
+  tabs.mixer.addEventListener('click', () => showPage('mixer', true));
 
   /* =========================================================================================
      ============================  MODULE 1: PAINT QUANTITY CALCULATOR  ======================
@@ -561,12 +568,14 @@
 
   window.addEventListener('hashchange', () => {
     const h = location.hash.replace('#','');
-    if (h === 'mixer' || h === 'calculator') showPage(h);
+    if (h === 'mixer' || h === 'calculator') showPage(h, false);
   });
 
-  let startPage = (window.__PAINT_PLANNERS_INITIAL_TOOL === 'mixer') ? 'mixer' : 'calculator';
+  // Default is always 'calculator'. Only override if the URL explicitly contains #mixer.
+  // localStorage is intentionally NOT used to restore the last tab — calculator is always
+  // the default so the home page never opens with the colour mixer active.
   const hashPage = location.hash.replace('#','');
-  if (hashPage === 'mixer' || hashPage === 'calculator') startPage = hashPage;
-  else { try{ const saved = localStorage.getItem('paint-tools-active-page'); if (saved === 'mixer' || saved === 'calculator') startPage = saved; }catch(e){} }
-  showPage(startPage);
+  const startPage = (hashPage === 'mixer') ? 'mixer' : 'calculator';
+  // Pass updateHash only when deep-linking to mixer via hash
+  showPage(startPage, startPage === 'mixer');
 })();

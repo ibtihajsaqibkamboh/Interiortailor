@@ -34,6 +34,30 @@ const toolsLinks = [
   { href: '/deck-cost-calculator/',    label: 'Deck Cost Calculator',       group: 'Building & Structure' },
   // ── Flooring & interior ──
   { href: '/flooring-calculator/',     label: 'Flooring Calculator',        group: 'Flooring & Interior' },
+  // ── Masonry & concrete (new) ──
+  { href: '/brick-calculator/',        label: 'Brick Calculator',           group: 'Masonry & Materials' },
+  { href: '/block-calculator/',        label: 'Block Calculator',           group: 'Masonry & Materials' },
+  { href: '/mortar-calculator/',       label: 'Mortar Calculator',          group: 'Masonry & Materials' },
+  { href: '/cement-calculator/',       label: 'Cement Calculator',          group: 'Masonry & Materials' },
+  { href: '/rebar-calculator/',        label: 'Rebar Calculator',           group: 'Masonry & Materials' },
+  // ── Volume & lumber ──
+  { href: '/board-foot-calculator/',   label: 'Board Foot Calculator',      group: 'Volume & Lumber' },
+  { href: '/cubic-yard-calculator/',   label: 'Cubic Yard Calculator',      group: 'Volume & Lumber' },
+  { href: '/cubic-feet-calculator/',   label: 'Cubic Feet Calculator',      group: 'Volume & Lumber' },
+  // ── Electrical & solar ──
+  { href: '/voltage-drop-calculator/', label: 'Voltage Drop Calculator',    group: 'Electrical & Solar' },
+  { href: '/wire-size-calculator/',    label: 'Wire Size Calculator',       group: 'Electrical & Solar' },
+  { href: '/solar-panel-calculator/',  label: 'Solar Panel Calculator',     group: 'Electrical & Solar' },
+  // ── Pool ──
+  { href: '/pool-gallon-calculator/',  label: 'Pool Gallon Calculator',     group: 'Pool' },
+  { href: '/pool-chemical-calculator/',label: 'Pool Chemical Calculator',   group: 'Pool' },
+  // ── HVAC ──
+  { href: '/hvac-btu-calculator/',     label: 'HVAC BTU Calculator',        group: 'HVAC' },
+  { href: '/ac-size-calculator/',      label: 'AC Size Calculator',         group: 'HVAC' },
+  // ── Structural ──
+  { href: '/joist-span-calculator/',   label: 'Joist Span Calculator',      group: 'Structural' },
+  { href: '/deck-stair-calculator/',   label: 'Deck Stair Calculator',      group: 'Structural' },
+  { href: '/retaining-wall-calculator/',label: 'Retaining Wall Calculator', group: 'Structural' },
 ];
 
 // ── Icon map keyed by href ────────────────────────────────────────────────────
@@ -61,6 +85,30 @@ const ICONS = {
   '/fence-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M6 4v16M10 4v16M14 4v16M18 4v16M4 8h2M8 8h2M12 8h2M16 8h2"/></svg>,
   '/deck-cost-calculator/':      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="12" width="20" height="8" rx="1"/><path d="M5 12V6m4-2v8m4-5v7m4-3v5"/></svg>,
   '/flooring-calculator/':       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="6" width="20" height="14" rx="1"/><path d="M2 11h20M2 16h20M8 6v14M14 6v14"/></svg>,
+  // Masonry & Materials
+  '/brick-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="4" rx="1"/><rect x="2" y="13" width="20" height="4" rx="1"/></svg>,
+  '/block-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="5" width="20" height="6" rx="1"/><rect x="2" y="13" width="20" height="6" rx="1"/></svg>,
+  '/mortar-calculator/':         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M4 8h16M4 16h16"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>,
+  '/cement-calculator/':         <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M6 2h12l2 6H4L6 2z"/><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M9 8v13"/></svg>,
+  '/rebar-calculator/':          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg>,
+  // Volume & Lumber
+  '/board-foot-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="8" width="20" height="8" rx="1"/><path d="M7 8V5m10 3V5"/></svg>,
+  '/cubic-yard-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 3L3 8v8l9 5 9-5V8L12 3z"/><path d="M3 8l9 5m0 0v8m0-8l9-5"/></svg>,
+  '/cubic-feet-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 3v18"/></svg>,
+  // Electrical & Solar
+  '/voltage-drop-calculator/':   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>,
+  '/wire-size-calculator/':      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 12h18M3 7h18M3 17h18"/></svg>,
+  '/solar-panel-calculator/':    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.93 4.93l1.41 1.41m11.32 11.32 1.41 1.41M4.93 19.07l1.41-1.41m11.32-11.32 1.41-1.41"/></svg>,
+  // Pool
+  '/pool-gallon-calculator/':    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 17c1.5-2 3.5-2 5 0s3.5 2 5 0 3.5-2 5 0"/><path d="M2 12c2-8 16-8 20 0v8H2v-8z"/></svg>,
+  '/pool-chemical-calculator/':  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M9 2h6v7l4 5a4 4 0 0 1-3.2 6.4H8.2A4 4 0 0 1 5 15l4-6V2z"/></svg>,
+  // HVAC
+  '/hvac-btu-calculator/':       <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M12 2v20M2 12h20M5.6 5.6l12.8 12.8M18.4 5.6 5.6 18.4"/></svg>,
+  '/ac-size-calculator/':        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="7" width="20" height="10" rx="2"/><path d="M6 11h.01M10 11h.01M14 11h.01"/><path d="M2 13h20"/></svg>,
+  // Structural
+  '/joist-span-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M2 8h20M2 16h20M6 8v8M12 8v8M18 8v8"/></svg>,
+  '/deck-stair-calculator/':     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M3 20h4v-4h4v-4h4v-4h4v-4"/></svg>,
+  '/retaining-wall-calculator/': <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><rect x="2" y="6" width="20" height="4" rx="1"/><rect x="2" y="12" width="20" height="4" rx="1"/><rect x="2" y="18" width="20" height="3" rx="1"/></svg>,
 };
 
 // Build unique groups in insertion order
