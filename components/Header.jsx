@@ -128,11 +128,12 @@ const Chevron = ({ open }) => (
 
 export default function Header() {
   const pathname = usePathname() || '/';
-  const [menuOpen, setMenuOpen]       = useState(false);
-  const [toolsOpen, setToolsOpen]     = useState(false);   // desktop dropdown
+  const [menuOpen, setMenuOpen]             = useState(false);
+  const [toolsOpen, setToolsOpen]           = useState(false);   // desktop dropdown
+  const [activeDesktopGroup, setActiveDesktopGroup] = useState(null); // desktop hover group
   const [mobileToolsOpen, setMobileToolsOpen] = useState(false); // mobile tools row
-  const [openGroup, setOpenGroup]     = useState(null);    // which group accordion is open
-  const [mounted, setMounted]         = useState(false);
+  const [openGroup, setOpenGroup]           = useState(null);    // mobile group accordion
+  const [mounted, setMounted]               = useState(false);
   const hamburgerRef = useRef(null);
   const drawerRef    = useRef(null);
   const toolsBtnRef  = useRef(null);
@@ -155,6 +156,8 @@ export default function Header() {
       setMobileToolsOpen(true);
       setOpenGroup(activeGroup);
     }
+    // Set default desktop hover group to first group or current tool's group
+    setActiveDesktopGroup(activeGroup ?? groups[0]);
   }, [pathname]);
 
   useEffect(() => { setMounted(true); }, []);
@@ -327,7 +330,7 @@ export default function Header() {
               </a>
             ))}
 
-            {/* ── Tools mega-dropdown ── */}
+            {/* ── Tools two-pane dropdown ── */}
             <div className="nav-dropdown" role="listitem">
               <button ref={toolsBtnRef} type="button"
                 className={`nav-dropdown__trigger${isTools ? ' active' : ''}${toolsOpen ? ' is-open' : ''}`}
@@ -340,20 +343,51 @@ export default function Header() {
               </button>
 
               <div ref={toolsMenuRef} role="menu"
-                className={`nav-dropdown__menu nav-dropdown__menu--wide${toolsOpen ? ' is-open' : ''}`}>
-                {groups.map(group => (
-                  <div key={group} className="nav-dropdown__group">
-                    <div className="nav-dropdown__group-label">{group}</div>
-                    {toolsLinks.filter(t => t.group === group).map(({ href, label }) => (
+                className={`nav-dropdown__menu nav-dropdown__menu--two-pane${toolsOpen ? ' is-open' : ''}`}>
+
+                {/* Left pane — category list */}
+                <div className="nav-dp__categories">
+                  {groups.map(group => {
+                    const hasActive = toolsLinks.filter(t => t.group === group).some(t => pathname.startsWith(t.href));
+                    const isSelected = activeDesktopGroup === group;
+                    return (
+                      <button
+                        key={group}
+                        type="button"
+                        role="menuitem"
+                        className={`nav-dp__cat${isSelected ? ' is-selected' : ''}${hasActive ? ' has-active' : ''}`}
+                        onMouseEnter={() => setActiveDesktopGroup(group)}
+                        onClick={() => setActiveDesktopGroup(group)}
+                      >
+                        <span className="nav-dp__cat-label">{group}</span>
+                        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                          <polyline points="9 18 15 12 9 6"/>
+                        </svg>
+                      </button>
+                    );
+                  })}
+                </div>
+
+                {/* Right pane — tools for selected category */}
+                <div className="nav-dp__tools">
+                  {activeDesktopGroup && toolsLinks
+                    .filter(t => t.group === activeDesktopGroup)
+                    .map(({ href, label }) => (
                       <a key={href} href={href} role="menuitem"
-                        className={`nav-dropdown__item${pathname.startsWith(href) ? ' active' : ''}`}
+                        className={`nav-dp__tool${pathname.startsWith(href) ? ' active' : ''}`}
                         onClick={() => setToolsOpen(false)}>
-                        <span className="nav-dropdown__item-icon">{ICONS[href]}</span>
-                        {label}
+                        <span className="nav-dp__tool-icon">{ICONS[href]}</span>
+                        <span className="nav-dp__tool-label">{label}</span>
+                        {pathname.startsWith(href) && (
+                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" style={{marginLeft:'auto',flexShrink:0,color:'var(--purple)'}}>
+                            <polyline points="20 6 9 17 4 12"/>
+                          </svg>
+                        )}
                       </a>
-                    ))}
-                  </div>
-                ))}
+                    ))
+                  }
+                </div>
+
               </div>
             </div>
           </div>
