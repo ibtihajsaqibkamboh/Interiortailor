@@ -39,8 +39,12 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <head>
-        {/* Google Analytics */}
+      <body>
+        <JsonLd data={structuredData} />
+        <Header />
+        {children}
+        <Footer />
+        {/* Google Analytics — must be in <body>, not <head>, in App Router */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
           strategy="afterInteractive"
@@ -53,12 +57,6 @@ export default function RootLayout({ children }) {
             gtag('config', '${GA_ID}');
           `}
         </Script>
-      </head>
-      <body>
-        <JsonLd data={structuredData} />
-        <Header />
-        {children}
-        <Footer />
       </body>
     </html>
   );
