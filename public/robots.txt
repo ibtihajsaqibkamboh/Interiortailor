@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Canonical sitemap — non-www URL only
+Sitemap: https://interiortailor.com/sitemap.xml

@@ -218,7 +218,13 @@ export default function Header() {
 
         <div className="mobile-nav__head">
           <a href="/" className="mobile-nav__brand" onClick={() => setMenuOpen(false)}>
-            <img src="/assets/interior-tailor-logo.png" alt="Interior Tailor" className="mobile-nav__logo" />
+            <img
+                src="/assets/interior-tailor-logo.png"
+                alt="Interior Tailor"
+                className="mobile-nav__logo"
+                width="130"
+                height="40"
+              />
           </a>
           <button className="mobile-nav__close" aria-label="Close menu" onClick={() => setMenuOpen(false)} type="button">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round">
@@ -320,18 +326,26 @@ export default function Header() {
       <header className="site-header">
         <nav className="site-nav" aria-label="Main navigation">
           <a className="site-brand" href="/" aria-label="Interior Tailor home">
-            <img src="/assets/interior-tailor-logo.png" alt="Interior Tailor" className="site-logo" />
+            <img
+                src="/assets/interior-tailor-logo.png"
+                alt="Interior Tailor"
+                className="site-logo"
+                width="160"
+                height="40"
+              />
           </a>
 
-          <div className="site-links" role="list">
+          <ul className="site-links">
             {mainLinks.map(({ id, href, label }) => (
-              <a key={id} href={href} role="listitem" className={active === id ? 'active' : ''}>
-                {label}
-              </a>
+              <li key={id}>
+                <a href={href} className={active === id ? 'active' : ''}>
+                  {label}
+                </a>
+              </li>
             ))}
 
             {/* ── Tools two-pane dropdown ── */}
-            <div className="nav-dropdown" role="listitem">
+            <li className="nav-dropdown">
               <button ref={toolsBtnRef} type="button"
                 className={`nav-dropdown__trigger${isTools ? ' active' : ''}${toolsOpen ? ' is-open' : ''}`}
                 aria-haspopup="true" aria-expanded={toolsOpen}
@@ -389,8 +403,8 @@ export default function Header() {
                 </div>
 
               </div>
-            </div>
-          </div>
+            </li>
+          </ul>
 
           <button ref={hamburgerRef} type="button"
             className={`hamburger${menuOpen ? ' is-open' : ''}`}
