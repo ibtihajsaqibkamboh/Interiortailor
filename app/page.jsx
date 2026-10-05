@@ -72,15 +72,15 @@ export default function HomePage() {
       <JsonLd data={faqJsonLd} />
       <section className="seo-hero">
         <span className="eyebrow">INTERIOR TAILOR</span>
-        <h1>Paint Calculator - How Much Paint Do I Need?</h1>
+        <h1>Free Home Improvement Calculators for Every Project</h1>
         <p>
-          Planning a painting project? Interior Tailor helps you estimate how much paint you may need
-          before you buy. Enter your room dimensions, doors and windows, number of coats, paint
-          coverage and waste allowance to get a practical paint estimate.
+          Interior Tailor gives you instant, accurate estimates for paint, concrete, masonry,
+          landscaping, roofing, electrical, HVAC and more. Enter your measurements and get
+          material quantities, costs and measurements in seconds — no sign-up required.
         </p>
         <p>
-          You can also explore custom colors with our Color Mixing Lab and preview a selected color
-          in a room visualization.
+          Start with our paint calculator to work out exactly how much paint to buy, explore
+          colors with the Color Mixing Lab, or browse all 40+ free calculators below.
         </p>
       </section>
 

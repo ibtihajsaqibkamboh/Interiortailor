@@ -12,7 +12,7 @@ export default function GroutPage() {
     <>
       <section className="seo-hero">
         <span className="eyebrow">GROUT CALCULATOR</span>
-        <h1>Grout Calculator</h1>
+        <h1>Grout Calculator — How Much Grout Do I Need?</h1>
         <p>
           Calculate how much grout you need for a tiling project. Enter the tiled area, tile
           dimensions, thickness and grout joint width to get an accurate estimate in pounds with
@@ -25,22 +25,57 @@ export default function GroutPage() {
       <section className="seo-band">
         <div className="seo-grid">
           <article className="seo-card">
-            <h2>Sanded vs Unsanded Grout</h2>
+            <h2>How Grout Quantity Is Calculated</h2>
+            <p>
+              Grout fills all the joints between tiles. The volume of grout required depends on
+              the total joint length, joint width and tile thickness. The industry formula is:
+            </p>
+            <p><span className="formula">Grout (lbs) = (L + W) ÷ (L × W) × D × J × 1.5 × (1/CF)</span></p>
+            <p>
+              Where L and W are tile dimensions, D is tile thickness, J is joint width and CF is
+              the compacted factor (typically 0.07 for standard grout). In practice, plan on
+              roughly 1 lb of grout per 10–15 sq ft for average-size tiles with standard joints,
+              and always buy 10% extra.
+            </p>
+          </article>
+
+          <article className="seo-card">
+            <h2>Sanded vs Unsanded vs Epoxy Grout</h2>
             <ul>
-              <li><strong>Unsanded grout</strong> — for joints up to 1/8 in (3 mm). Used on polished stone, glass and delicate surfaces to avoid scratching.</li>
-              <li><strong>Sanded grout</strong> — for joints 1/8 in (3 mm) and wider. More durable, resists cracking in wider joints.</li>
-              <li><strong>Epoxy grout</strong> — highly stain and chemical resistant, suitable for any joint width. More difficult to apply and more expensive.</li>
+              <li><strong>Unsanded grout:</strong> For joints up to 1/8 in (3 mm). Required for glass, polished stone and marble to prevent scratching. Smooth finish.</li>
+              <li><strong>Sanded grout:</strong> For joints 1/8 in (3 mm) and wider. Sand prevents shrinkage cracking. More durable and economical.</li>
+              <li><strong>Epoxy grout:</strong> Two-part formula (resin + hardener). Highly stain, chemical and moisture resistant. Suitable for any joint width but more difficult to apply and more expensive. Best for countertops and commercial kitchens.</li>
+              <li><strong>Furan grout:</strong> Industrial use only — chemical plants and laboratories.</li>
             </ul>
           </article>
+
           <article className="seo-card">
-            <h2>Grout Coverage Tips</h2>
-            <p>Grout usage increases with:</p>
+            <h2>Grouting Tips for a Professional Finish</h2>
             <ul>
-              <li>Smaller tile size (more joints per sq ft)</li>
-              <li>Wider grout joints</li>
-              <li>Thicker tiles</li>
+              <li>Wait at least 24 hours after setting tile before grouting — longer in humid conditions</li>
+              <li>Remove all tile spacers before grouting</li>
+              <li>Mix grout to a peanut butter consistency — slightly stiffer for wall tile, slightly looser for floors</li>
+              <li>Work in small sections (4–6 sq ft) and pack joints diagonally across the tile surface</li>
+              <li>Wash the haze with a damp sponge within 20–30 minutes — don't let it fully cure on the face</li>
+              <li>Seal grout joints after 72 hours with a penetrating silicone sealer for stain resistance</li>
+              <li>Use caulk, not grout, at inside corners and where tile meets another surface</li>
             </ul>
-            <p>Always add 10% waste to the calculated amount. Mix grout per the manufacturer's instructions and work in small sections to avoid premature hardening.</p>
+          </article>
+
+          <article className="seo-card">
+            <h2>Frequently Asked Questions</h2>
+            <details>
+              <summary>How long does grout take to dry?</summary>
+              <p>Grout is typically firm enough to clean haze after 20–30 minutes and reaches initial set in 24 hours. Full cure takes 72 hours before sealing and 28 days for maximum strength. Avoid heavy water exposure for the first 72 hours.</p>
+            </details>
+            <details>
+              <summary>Can I grout over old grout?</summary>
+              <p>Not reliably. Old grout should be removed to at least 2/3 of the joint depth with a grout saw or oscillating tool before re-grouting, to ensure adhesion and prevent the old layer from breaking away.</p>
+            </details>
+            <details>
+              <summary>Why is my grout cracking?</summary>
+              <p>Common causes: adding too much water to the mix, insufficient curing time, substrate movement (inadequate sub-floor stiffness), or grouting in joints that should be caulked (inside corners, expansion joints).</p>
+            </details>
             <div className="related-links">
               <a href="/tile-calculator/">Tile Calculator</a>
               <a href="/flooring-calculator/">Flooring Calculator</a>

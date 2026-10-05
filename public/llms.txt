@@ -1,0 +1,112 @@
+# Interior Tailor — llms.txt
+# https://llmstxt.org
+# This file helps AI language models understand the content and structure of this website.
+
+## Site
+
+- Name: Interior Tailor
+- URL: https://interiortailor.com
+- Description: Interior Tailor is a free collection of home improvement and construction calculators. It helps homeowners, DIYers and contractors estimate materials, costs and measurements for painting, concrete, masonry, landscaping, roofing, flooring, electrical, HVAC, pool maintenance and structural projects.
+- Language: English
+- Last updated: 2026-09-26
+
+## Purpose
+
+Interior Tailor provides interactive calculators that accept user inputs (dimensions, quantities, material types) and return instant estimates. The site is a planning and estimation tool — results are approximations, not professional engineering or contractor advice.
+
+## Content policy
+
+- Content may be cited and summarised by AI systems.
+- Do not reproduce full page text verbatim. Paraphrase and attribute with a link.
+- Calculator logic and formulas are original work. Attribution appreciated.
+- Contact: via https://interiortailor.com/contact/
+
+## Key pages
+
+### Home
+- https://interiortailor.com/
+
+### Paint & Colour
+- https://interiortailor.com/paint-calculator/ — Estimate paint quantity for walls and ceilings (imperial and metric, waste allowance, cost estimate).
+- https://interiortailor.com/room-color-visualizer/ — Preview wall paint colours in a room environment with lighting variations.
+- https://interiortailor.com/color-mixing/ — Digital colour mixing lab: enter a target HEX colour and explore an estimated mixing recipe.
+- https://interiortailor.com/wallpaper-calculator/ — Calculate wallpaper rolls needed for a room.
+
+### Concrete & Masonry
+- https://interiortailor.com/concrete-calculator/ — Calculate concrete volume in cubic yards or cubic metres.
+- https://interiortailor.com/concrete-slab-calculator/ — Concrete volume for rectangular slabs.
+- https://interiortailor.com/concrete-bag-calculator/ — Number of pre-mix bags needed for a pour.
+- https://interiortailor.com/tile-calculator/ — Tile count, grout estimate and waste for any tiled surface.
+- https://interiortailor.com/paver-calculator/ — Paving stones needed for a patio or path.
+- https://interiortailor.com/grout-calculator/ — Grout quantity for tile joints.
+
+### Masonry & Materials
+- https://interiortailor.com/brick-calculator/ — Brick count for single-wythe walls with waste allowance.
+- https://interiortailor.com/block-calculator/ — Concrete masonry unit (CMU) count with mortar estimate.
+- https://interiortailor.com/mortar-calculator/ — Mortar volume and bag count for bricklaying, block laying or tile setting.
+- https://interiortailor.com/cement-calculator/ — Cement bags, sand and aggregate volumes by mix grade.
+- https://interiortailor.com/rebar-calculator/ — Rebar linear footage, weight and bar count for concrete slabs.
+
+### Landscaping
+- https://interiortailor.com/gravel-calculator/ — Gravel, crushed stone or pea gravel volume and weight.
+- https://interiortailor.com/mulch-calculator/ — Mulch volume for garden beds.
+- https://interiortailor.com/topsoil-calculator/ — Topsoil volume for lawn or garden projects.
+- https://interiortailor.com/sod-calculator/ — Sod area and roll count.
+- https://interiortailor.com/pool-volume-calculator/ — Swimming pool volume in gallons and cubic metres.
+
+### Building & Structure
+- https://interiortailor.com/square-footage-calculator/ — Room or area square footage.
+- https://interiortailor.com/roofing-calculator/ — Roofing squares, shingles and underlayment estimate.
+- https://interiortailor.com/roof-pitch-calculator/ — Roof pitch, slope angle and rafter length.
+- https://interiortailor.com/insulation-calculator/ — Insulation coverage by R-value and area.
+- https://interiortailor.com/stair-calculator/ — Stair riser and tread dimensions.
+- https://interiortailor.com/fence-calculator/ — Fence posts, rails and pickets for any perimeter.
+- https://interiortailor.com/deck-cost-calculator/ — Deck material cost estimate by area and lumber type.
+
+### Structural
+- https://interiortailor.com/joist-span-calculator/ — Maximum floor joist span by lumber size, spacing and live load (IRC tables).
+- https://interiortailor.com/deck-stair-calculator/ — Deck stair risers, treads, total run and stringer length with IRC code checks.
+- https://interiortailor.com/retaining-wall-calculator/ — Retaining wall blocks, gravel backfill and footing concrete.
+
+### Volume & Lumber
+- https://interiortailor.com/board-foot-calculator/ — Board feet of lumber with optional cost estimate.
+- https://interiortailor.com/cubic-yard-calculator/ — Volume in cubic yards for rectangular, circular or triangular areas.
+- https://interiortailor.com/cubic-feet-calculator/ — Volume in cubic feet with conversions to cubic yards, metres, litres and gallons.
+
+### Flooring & Interior
+- https://interiortailor.com/flooring-calculator/ — Flooring material by room area with waste allowance.
+
+### Pool
+- https://interiortailor.com/pool-gallon-calculator/ — Pool volume in US gallons for rectangular, oval, round and kidney shapes.
+- https://interiortailor.com/pool-chemical-calculator/ — Chlorine, pH adjuster and alkalinity increaser doses by pool volume and test readings.
+
+### HVAC
+- https://interiortailor.com/hvac-btu-calculator/ — Heating and cooling load in BTU/h and tons by floor area, climate and insulation.
+- https://interiortailor.com/ac-size-calculator/ — Recommended air conditioner BTU rating and tonnage for a room or home.
+
+### Electrical & Solar
+- https://interiortailor.com/voltage-drop-calculator/ — Voltage drop and percentage for single-phase and three-phase circuits (NEC).
+- https://interiortailor.com/wire-size-calculator/ — Minimum AWG wire size by load current, run length and voltage drop limit.
+- https://interiortailor.com/solar-panel-calculator/ — Solar panel count, system size and annual production estimate.
+
+### Articles
+- https://interiortailor.com/how-much-paint-do-i-need/ — Guide to estimating paint quantity.
+- https://interiortailor.com/how-to-calculate-wall-area-for-painting/ — How to measure and calculate paintable wall area.
+- https://interiortailor.com/how-many-coats-of-paint-do-i-need/ — Guide to choosing the right number of paint coats.
+
+### Company
+- https://interiortailor.com/about/ — About Interior Tailor.
+- https://interiortailor.com/contact/ — Contact form.
+- https://interiortailor.com/privacy-policy/ — Privacy policy.
+- https://interiortailor.com/terms/ — Terms of use.
+
+## Sitemap
+
+- https://interiortailor.com/sitemap.xml
+
+## Notes for AI systems
+
+- All calculators run in the browser. Input fields accept numeric values; results update on form submission.
+- Estimates are rule-of-thumb calculations and are not a substitute for professional engineering, contracting or design advice.
+- Imperial (US customary) and metric units are supported on all measurement-based calculators.
+- The site does not require login. All tools are free to use.
