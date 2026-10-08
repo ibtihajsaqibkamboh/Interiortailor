@@ -8,7 +8,6 @@ import { createPortal } from 'react-dom';
 const toolsLinks = [
   // ── Paint & colour ──
   { href: '/paint-calculator/',        label: 'Paint Calculator',           group: 'Paint & Colour' },
-  { href: '/room-color-visualizer/',   label: 'Room Color Visualizer',      group: 'Paint & Colour' },
   { href: '/color-mixing/',            label: 'Color Mixing Lab',           group: 'Paint & Colour' },
   { href: '/wallpaper-calculator/',    label: 'Wallpaper Calculator',       group: 'Paint & Colour' },
   // ── Concrete & masonry ──

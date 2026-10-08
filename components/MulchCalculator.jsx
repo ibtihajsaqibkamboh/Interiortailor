@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 
 const MULCH_TYPES = {
   wood:       { label: 'Wood chip / bark mulch',  kgM3: 320  },
@@ -103,7 +103,8 @@ export default function MulchCalculator() {
     setResult(null);
   }
 
-  const Field = ({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) => (
+  const Field = useMemo(() => function Field({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) {
+    return (
     <div className={`field${error ? ' has-error' : ''}`}>
       <label htmlFor={id}>{label}</label>
       <input
@@ -114,7 +115,8 @@ export default function MulchCalculator() {
       />
       {error && <span className="field-error">{error}</span>}
     </div>
-  );
+    );
+  }, []);
 
   return (
     <div className="page-wrap">

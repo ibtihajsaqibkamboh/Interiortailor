@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 
 const PRESETS = [
   { label: 'Slab / patio',    thickness: 0.1  },
@@ -113,7 +113,8 @@ export default function ConcreteCalculator() {
     setResult(null);
   }
 
-  const Field = ({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) => (
+  const Field = useMemo(() => function Field({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) {
+    return (
     <div className={`field${error ? ' has-error' : ''}`}>
       <label htmlFor={id}>{label}</label>
       <input
@@ -124,7 +125,8 @@ export default function ConcreteCalculator() {
       />
       {error && <span className="field-error">{error}</span>}
     </div>
-  );
+    );
+  }, []);
 
   return (
     <div className="page-wrap">

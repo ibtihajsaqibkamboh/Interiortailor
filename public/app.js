@@ -9,6 +9,19 @@
   const pages = { calculator: $('page-calculator'), mixer: $('page-mixer') };
   const tabs = { calculator: $('tabCalculator'), mixer: $('tabMixer') };
 
+  function dedicatedRoutePage(){
+    const path = location.pathname.replace(/\/+$/, '/') || '/';
+    if (path === '/color-mixing/') return 'mixer';
+    if (path === '/paint-calculator/') return 'calculator';
+    return null;
+  }
+
+  function applyTabVisibility(onlyPage){
+    Object.keys(tabs).forEach(key => {
+      tabs[key].hidden = Boolean(onlyPage && key !== onlyPage);
+    });
+  }
+
   function showPage(name, updateHash){
     Object.keys(pages).forEach(key => {
       const active = key === name;
@@ -567,15 +580,20 @@
   initMixer();
 
   window.addEventListener('hashchange', () => {
+    const onlyPage = dedicatedRoutePage();
+    if (onlyPage){ showPage(onlyPage, false); return; }
     const h = location.hash.replace('#','');
     if (h === 'mixer' || h === 'calculator') showPage(h, false);
   });
 
-  // Default is always 'calculator'. Only override if the URL explicitly contains #mixer.
-  // localStorage is intentionally NOT used to restore the last tab — calculator is always
-  // the default so the home page never opens with the colour mixer active.
+  // Default can be provided by the route. localStorage is intentionally NOT
+  // used to restore the last tab.
   const hashPage = location.hash.replace('#','');
-  const startPage = (hashPage === 'mixer') ? 'mixer' : 'calculator';
+  const initialTool = window.__PAINT_PLANNERS_INITIAL_TOOL;
+  const routePage = (initialTool === 'mixer' || initialTool === 'calculator') ? initialTool : 'calculator';
+  const onlyPage = dedicatedRoutePage();
+  applyTabVisibility(onlyPage);
+  const startPage = onlyPage || ((hashPage === 'mixer' || hashPage === 'calculator') ? hashPage : routePage);
   // Pass updateHash only when deep-linking to mixer via hash
   showPage(startPage, startPage === 'mixer');
 })();

@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 function fmt(n, d = 2) {
   if (!isFinite(n)) return '—';
@@ -66,7 +66,7 @@ export default function CubicYardCalculator() {
     setDim1(''); setDim2(''); setDepth(''); setWastePct('0'); setErrors({}); setResult(null);
   }
 
-  function F({ id, label, val, set, err, placeholder = '0' }) {
+  const F = useMemo(() => function F({ id, label, val, set, err, placeholder = '0' }) {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
@@ -75,7 +75,8 @@ export default function CubicYardCalculator() {
         {err && <span className="field-error">{err}</span>}
       </div>
     );
-  }
+  
+  }, []);
 
   const dim1Label = shape === 'circular' ? `Diameter (${lenLbl})` : `Length (${lenLbl})`;
   const dim2Label = shape === 'triangular' ? `Height of triangle (${lenLbl})` : `Width (${lenLbl})`;

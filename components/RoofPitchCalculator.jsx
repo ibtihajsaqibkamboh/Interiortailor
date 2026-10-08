@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 function fmt(n, d = 2) {
   if (!isFinite(n)) return '—';
@@ -88,7 +88,7 @@ export default function RoofPitchCalculator() {
     setErrors({}); setResult(null);
   }
 
-  function F({ id, label, val, set, err, step = 'any', placeholder = '0' }) {
+  const F = useMemo(() => function F({ id, label, val, set, err, step = 'any', placeholder = '0' }) {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
@@ -97,7 +97,8 @@ export default function RoofPitchCalculator() {
         {err && <span className="field-error">{err}</span>}
       </div>
     );
-  }
+  
+  }, []);
 
   const commonPitches = [2, 3, 4, 5, 6, 7, 8, 9, 10, 12];
 

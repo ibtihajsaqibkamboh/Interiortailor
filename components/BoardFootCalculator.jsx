@@ -1,5 +1,5 @@
 'use client';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 
 function fmt(n, d = 2) {
   if (!isFinite(n)) return '—';
@@ -46,7 +46,7 @@ export default function BoardFootCalculator() {
     setThickness(''); setWidth(''); setLength(''); setQty('1'); setPricePerBF(''); setErrors({}); setResult(null);
   }
 
-  function F({ id, label, val, set, err, placeholder = '0', note }) {
+  const F = useMemo(() => function F({ id, label, val, set, err, placeholder = '0', note }) {
     return (
       <div className={`field${err ? ' has-error' : ''}`}>
         <label htmlFor={id}>{label}</label>
@@ -56,7 +56,7 @@ export default function BoardFootCalculator() {
         {err  && <span className="field-error">{err}</span>}
       </div>
     );
-  }
+  }, []);
 
   return (
     <div className="page-wrap">

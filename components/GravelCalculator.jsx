@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useMemo } from 'react';
 
 const DENSITIES = {
   pea:       { label: 'Pea gravel',          kgM3: 1680 },
@@ -91,7 +91,8 @@ export default function GravelCalculator() {
     setWastePct('10'); setErrors({}); setResult(null);
   }
 
-  const Field = ({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) => (
+  const Field = useMemo(() => function Field({ id, label, value, onChange, error, placeholder = '0', step = 'any' }) {
+    return (
     <div className={`field${error ? ' has-error' : ''}`}>
       <label htmlFor={id}>{label}</label>
       <input
@@ -102,7 +103,8 @@ export default function GravelCalculator() {
       />
       {error && <span className="field-error">{error}</span>}
     </div>
-  );
+    );
+  }, []);
 
   return (
     <div className="page-wrap">
