@@ -2,6 +2,8 @@ import ToolMarkup from '@/components/ToolMarkup';
 import ToolBoot from '@/components/ToolBoot';
 import JsonLd from '@/components/JsonLd';
 import ToolsGrid from '@/components/ToolsGrid';
+import BlogCards from '@/components/BlogCards';
+import { blogPosts } from '@/lib/blog';
 import { pageMetadata } from '@/lib/site';
 
 export const metadata = pageMetadata({
@@ -74,12 +76,12 @@ export default function HomePage() {
         <span className="eyebrow">INTERIOR TAILOR</span>
         <h1>Free Home Improvement Calculators for Every Project</h1>
         <p>
-          Interior Tailor gives you instant, accurate estimates for paint, concrete, masonry,
+          Interior Tailor gives you quick planning estimates for paint, concrete, masonry,
           landscaping, roofing, electrical, HVAC and more. Enter your measurements and get
           material quantities, costs and measurements in seconds — no sign-up required.
         </p>
         <p>
-          Start with our paint calculator to work out exactly how much paint to buy, explore
+          Start with our paint calculator to estimate how much paint to buy, explore
           colors with the Color Mixing Lab, or browse all 40+ free calculators below.
         </p>
       </section>
@@ -153,6 +155,10 @@ export default function HomePage() {
         </div>
       </section>
 
+      <section className="blog-home" aria-labelledby="latest-color-guides">
+        <h2 className="blog-section-title" id="latest-color-guides">Paint color inspiration <a href="/blog/">Explore the blog ↗</a></h2>
+        <BlogCards posts={blogPosts} />
+      </section>
       <ToolsGrid />
 
       

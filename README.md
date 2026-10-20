@@ -32,6 +32,14 @@ npm run build
 npm start
 ```
 
-Set `NEXT_PUBLIC_SITE_URL` to the production domain when deploying. If it is not set, metadata, sitemap, and robots use `https://interiortailor.com`.
+Set `NEXT_PUBLIC_SITE_URL` to the production domain when deploying. If it is not set, metadata, sitemap, and robots use `https://www.interiortailor.com`.
 
-The contact page still contains the placeholder `contact@example.com` and should be replaced with the real contact address before publishing.
+The contact email is `interiortailor@gmail.com`. The Contact page uses a direct email link, not a backend form.
+
+## Blog
+
+`/blog/` lists four complete paint guides. Article content lives in `lib/blog-content.json`; the static article template, metadata and BlogPosting/BreadcrumbList structured data live in `app/blog/[slug]/page.jsx`. Edit publication dates only when accurate. Original cover illustrations are generated with `node scripts/generate-blog-images.mjs`.
+
+Google Analytics loads only after an opt-in through the cookie preferences. This controls analytics only; AdSense and an advertising consent platform are not configured. See `PUBLISHING_CHECKLIST.md` before deploying or applying for AdSense.
+
+With the production server running, use `npm run check:blog` to verify full article rendering, metadata, structured data, sitemap entries, images, navigation and 404 behavior. Set `TEST_SITE_URL` to check another origin.

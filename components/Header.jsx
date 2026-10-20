@@ -145,6 +145,7 @@ export default function Header() {
     (pathname.startsWith('/paint-calculator') || pathname.startsWith('/calculator'))   ? 'calculator' :
     pathname.startsWith('/room-color-visualizer')                                      ? 'visualizer' :
     pathname.startsWith('/color-mixing')                                               ? 'mixer'      :
+    pathname.startsWith('/blog')                                                       ? 'blog'       :
     pathname.startsWith('/about')                                                      ? 'about'      :
     pathname.startsWith('/contact')                                                    ? 'contact'    : '';
 
@@ -202,6 +203,7 @@ export default function Header() {
   const mainLinks = [
     { id: 'home',    href: '/',         label: 'Home' },
     { id: 'about',   href: '/about/',   label: 'About' },
+    { id: 'blog',    href: '/blog/',     label: 'Blog' },
     { id: 'contact', href: '/contact/', label: 'Contact' },
   ];
 
@@ -228,7 +230,7 @@ export default function Header() {
 
         <nav aria-label="Mobile navigation" className="mobile-nav__body">
           {/* ── Main links ── */}
-          {mainLinks.map(({ id, href, label }) => (
+          {mainLinks.slice(0, 1).map(({ id, href, label }) => (
             <a key={id} href={href} onClick={() => setMenuOpen(false)}
               className={`mobile-nav__link${active === id ? ' active' : ''}`}>
               {label}
@@ -307,6 +309,17 @@ export default function Header() {
               </div>
             )}
           </div>
+          {mainLinks.slice(1).map(({ id, href, label }) => (
+            <a key={id} href={href} onClick={() => setMenuOpen(false)}
+              className={`mobile-nav__link${active === id ? ' active' : ''}`}>
+              {label}
+              {active === id && (
+                <svg className="mobile-nav__tick" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round">
+                  <polyline points="20 6 9 17 4 12"/>
+                </svg>
+              )}
+            </a>
+          ))}
         </nav>
 
         <div className="mobile-nav__foot"><p>© 2026 Interior Tailor</p></div>
@@ -323,7 +336,7 @@ export default function Header() {
           </a>
 
           <div className="site-links" role="list">
-            {mainLinks.map(({ id, href, label }) => (
+            {mainLinks.slice(0, 1).map(({ id, href, label }) => (
               <a key={id} href={href} role="listitem" className={active === id ? 'active' : ''}>
                 {label}
               </a>
@@ -389,6 +402,11 @@ export default function Header() {
 
               </div>
             </div>
+            {mainLinks.slice(1).map(({ id, href, label }) => (
+              <a key={id} href={href} role="listitem" className={active === id ? 'active' : ''}>
+                {label}
+              </a>
+            ))}
           </div>
 
           <button ref={hamburgerRef} type="button"

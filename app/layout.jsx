@@ -1,11 +1,10 @@
 import './globals.css';
-import Script from 'next/script';
+import './blog.css';
+import PrivacyPreferences from '@/components/PrivacyPreferences';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
 import { siteName, siteUrl } from '@/lib/site';
-
-const GA_ID = 'G-NNVDRXJN21';
 
 export const metadata = {
   metadataBase: new URL(siteUrl),
@@ -44,19 +43,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
-        {/* Google Analytics — must be in <body>, not <head>, in App Router */}
-        <Script
-          src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_ID}');
-          `}
-        </Script>
+        <PrivacyPreferences />
       </body>
     </html>
   );
