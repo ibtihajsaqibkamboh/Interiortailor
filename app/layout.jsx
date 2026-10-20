@@ -38,6 +38,9 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
+      <head>
+        <script src="https://analytics.ahrefs.com/analytics.js" data-key="y0IVZw2NV6fDP3lkl58mXg" async />
+      </head>
       <body>
         <JsonLd data={structuredData} />
         <Header />
