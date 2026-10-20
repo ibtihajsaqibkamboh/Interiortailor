@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const post = blogPosts.find(p => p.slug === slug);
   if (!post) return {};
   const metadata = pageMetadata({ title: post.seoTitle, description: post.description, path: blogPath(post), type: 'article' });
-  const image = { url: `/assets/blog/${post.slug}.jpg`, width: 1200, height: 630, alt: `${post.category}: an illustrated room and a coordinated color palette` };
+  const image = { url: `/assets/blog/${post.slug}.jpg`, width: 1200, height: 630, alt: `${post.category}: purple editorial cover with paint swatches` };
   return { ...metadata, openGraph: { ...metadata.openGraph, images: [image], publishedTime: `${post.date}T00:00:00+05:00`, authors: [`${siteUrl}/about/`] },
     twitter: { card: 'summary_large_image', title: post.seoTitle, description: post.description, images: [image.url] },
   };
@@ -76,7 +76,7 @@ export default async function BlogArticlePage({ params }) {
           <p className="blog-article-deck">{post.description}</p>
           <div className="blog-byline"><a href="/about/">By Interior Tailor</a><span>Published <time dateTime={post.date}>{formatBlogDate(post.date)}</time></span><span>{post.readingMinutes} min read</span></div>
         </header>
-        <figure className="blog-hero-image"><img src={`/assets/blog/${post.slug}.jpg`} width="1200" height="630" alt={`Illustrated living room with ${post.slug === 'best-paint-colors-for-living-room' ? 'neutral, green and blue' : post.slug.split('-')[0]} tones and four coordinating color swatches`} fetchPriority="high" /><figcaption>Illustrative color inspiration by Interior Tailor. These are not manufacturer color swatches; test physical paint samples in your room.</figcaption></figure>
+        <figure className="blog-hero-image"><img src={`/assets/blog/${post.slug}.jpg`} width="1200" height="630" alt={`${post.title} — Interior Tailor cover with a purple gradient, paint swatches and a roller`} fetchPriority="high" /><figcaption>Cover design by Interior Tailor. These are not manufacturer color swatches; test physical paint samples in your room.</figcaption></figure>
         <div className="blog-reading-layout">
           <aside className="blog-toc"><nav aria-label="On this page"><h2>In this guide</h2><ol>{headings.map(h => <li key={h.text}><a href={`#${headingId(h.text)}`}>{h.text}</a></li>)}</ol></nav><a className="blog-text-link" href="/paint-calculator/">Estimate your paint ↗</a></aside>
           <div className="blog-prose">
