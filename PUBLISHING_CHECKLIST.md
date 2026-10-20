@@ -1,6 +1,6 @@
 # Publishing and AdSense preparation
 
-The seven supplied PDF articles are now full HTML pages under `/blog/`, with descriptive titles and summaries, canonical URLs, original illustrations, social previews, visible publication dates, a publisher byline, structured data, table-of-contents anchors and related articles. They are linked from the homepage, shared navigation and sitemap. No ad inventory or publisher identifiers have been invented.
+The eight supplied PDF articles are now full HTML pages under `/blog/`, with descriptive titles and summaries, canonical URLs, original illustrations, social previews, visible publication dates, a publisher byline, structured data, table-of-contents anchors and related articles. They are linked from the homepage, shared navigation and sitemap. No ad inventory or publisher identifiers have been invented.
 
 ## Before applying
 

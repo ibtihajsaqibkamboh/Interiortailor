@@ -1,5 +1,519 @@
 [
   {
+    "slug": "how-to-figure-out-how-much-mulch-you-need",
+    "title": "How to Figure Out How Much Mulch You Need: A Step-by-Step Guide",
+    "seoTitle": "How to Figure Out How Much Mulch You Need",
+    "description": "Learn how to figure out how much mulch you need: measure beds, choose a depth, and convert to cubic yards or bags with simple formulas and worked examples.",
+    "category": "LANDSCAPING",
+    "date": "2026-10-20",
+    "palette": [
+      "#dec7a8",
+      "#bd9270",
+      "#956640",
+      "#69482f"
+    ],
+    "readingMinutes": 9,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Buying mulch should be simple, but it is easy to guess wrong. Too little means a second trip or delivery fee. Too much means a leftover pile that dries out, blows around, or sits in your driveway for weeks. The good news is that working out the right amount takes four numbers: the area of your beds, the depth you want, the bag size or bulk unit you are buying, and a small allowance. This guide shows you exactly how to figure it out, with formulas, coverage charts, worked examples and common mistakes to avoid."
+      },
+      {
+        "type": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "type": "li",
+        "text": "Cubic yards of mulch = area (sq ft) x depth (ft) / 27. Shortcut: sq ft x depth in inches / 324.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Most beds need about 2 to 3 inches of mulch. Refreshing an existing layer usually needs only 1 to 2 inches added.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "One cubic yard covers roughly 162 sq ft at 2 inches, 108 sq ft at 3 inches and 81 sq ft at 4 inches.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "A cubic yard is about 14 bags at 2 cubic feet each, or 9 bags at 3 cubic feet each. Always check the bag label.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Bulk mulch is generally cheaper per cubic foot than bagged, so it usually wins once you need around a yard or more.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Before You Start: What You Need"
+      },
+      {
+        "type": "li",
+        "text": "A tape measure (or a measuring wheel for large beds)",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "A sketch of each bed with its dimensions",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "A ruler to check how much mulch is already there",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "A calculator, or the Interior Tailor Mulch Calculator to double-check your numbers",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Step 1: Measure the Area You Want to Mulch"
+      },
+      {
+        "type": "p",
+        "text": "Measure each bed in feet and work out its area in square feet. Split irregular beds into simple shapes, calculate each one, and add the results."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Shape",
+            "Area formula",
+            "Example"
+          ],
+          [
+            "Rectangle or square",
+            "length x width",
+            "20 x 10 = 200 sq ft"
+          ],
+          [
+            "Circle",
+            "3.14 x radius x radius",
+            "radius 4 ft: 3.14 x 4 x 4 = 50 sq ft"
+          ],
+          [
+            "Triangle",
+            "0.5 x base x height",
+            "0.5 x 8 x 5 = 20 sq ft"
+          ],
+          [
+            "Tree ring (circle with a clear center)",
+            "3.14 x (outer radius squared minus inner radius squared)",
+            "outer 3 ft, inner 0.5 ft: 3.14 x (9 - 0.25) = 27.5 sq ft"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For a tree or shrub, treat the mulched area as a ring and leave the zone around the trunk clear, so the mulch does not pile against the bark. Keep the trunk flare visible and leave a mulch-free gap around the trunk; the ring dimensions in these examples are for estimating area, not a universal planting specification."
+      },
+      {
+        "type": "h2",
+        "text": "Step 2: Choose the Right Mulch Depth"
+      },
+      {
+        "type": "p",
+        "text": "Depth drives your quantity more than anything else. Gardening guidance generally points to about 2 to 3 inches for new beds, and a lighter 1 to 2 inches when you are refreshing an existing layer. Wood mulch around trees and shrubs and on pathways is commonly put down at 2 to 3 inches."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Situation",
+            "Typical depth",
+            "Note"
+          ],
+          [
+            "New planting bed",
+            "2 to 3 inches",
+            "Enough to suppress weeds and hold moisture"
+          ],
+          [
+            "Refreshing existing mulch",
+            "1 to 2 inches added",
+            "Subtract the depth already there"
+          ],
+          [
+            "Trees and shrubs",
+            "2 to 3 inches",
+            "Keep mulch back from trunks and stems"
+          ],
+          [
+            "Paths with wood chips",
+            "2 to 3 inches",
+            "Top up as chips break down"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "If you already have mulch down, measure how much remains. If you have 1 inch and want 3 inches in total, you only need to add 2 inches."
+      },
+      {
+        "type": "h2",
+        "text": "Step 3: Convert Area and Depth into Cubic Yards"
+      },
+      {
+        "type": "p",
+        "text": "Bulk mulch is sold by the cubic yard, and a cubic yard is 27 cubic feet. Convert your depth from inches to feet by dividing by 12, multiply by the area, then divide by 27."
+      },
+      {
+        "type": "li",
+        "text": "Cubic feet = area (sq ft) x depth (inches) / 12",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Cubic yards = cubic feet / 27",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Shortcut: cubic yards = area (sq ft) x depth (inches) / 324",
+        "ordered": false
+      },
+      {
+        "type": "h3",
+        "text": "How far does one cubic yard go?"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Mulch depth",
+            "Area covered by 1 cubic yard"
+          ],
+          [
+            "1 inch",
+            "324 sq ft"
+          ],
+          [
+            "2 inches",
+            "162 sq ft"
+          ],
+          [
+            "3 inches",
+            "108 sq ft"
+          ],
+          [
+            "4 inches",
+            "81 sq ft"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Suppliers often use a rough rule of 100 square feet per cubic yard at 3 inches, which is a quick sanity check."
+      },
+      {
+        "type": "h2",
+        "text": "Step 4: Convert Cubic Feet into Bags"
+      },
+      {
+        "type": "p",
+        "text": "Bagged mulch is sold in cubic feet, commonly in bags of about 1.5, 2 or 3 cubic feet. Divide the cubic feet you need by the bag size on the label, and round up."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Bag size",
+            "Bags per cubic yard (27 cu ft)"
+          ],
+          [
+            "1.5 cubic feet",
+            "18 bags"
+          ],
+          [
+            "2 cubic feet",
+            "About 14 bags (13.5)"
+          ],
+          [
+            "3 cubic feet",
+            "9 bags"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Example: a 10 ft by 10 ft bed at 3 inches deep needs 100 x 3 / 12 = 25 cubic feet. With 2-cubic-foot bags that is 12.5, so buy 13 bags."
+      },
+      {
+        "type": "h2",
+        "text": "Step 5: Add an Allowance and Decide Bulk or Bagged"
+      },
+      {
+        "type": "p",
+        "text": "A small buffer, often around 5 to 10%, covers uneven ground, spills and settling. Round up to a full bag, or to a delivery quantity your supplier offers."
+      },
+      {
+        "type": "p",
+        "text": "Bagged mulch is easy to carry and suits small jobs, and it is often the simplest option for homeowners. Bulk mulch is usually cheaper per cubic foot, so it tends to win as projects grow. Some retailers include delivery once an order reaches a minimum quantity, such as about 3 cubic yards, but policies vary, so ask your local supplier."
+      },
+      {
+        "type": "h2",
+        "text": "Worked Examples"
+      },
+      {
+        "type": "p",
+        "text": "All examples use 3-inch depth unless noted, and 2-cubic-foot bags."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Project",
+            "Calculation",
+            "Cubic yards",
+            "Bags (2 cu ft)"
+          ],
+          [
+            "10 x 10 ft bed",
+            "100 sq ft x 3 / 324",
+            "0.93",
+            "13"
+          ],
+          [
+            "20 x 10 ft bed",
+            "200 sq ft x 3 / 324",
+            "1.85",
+            "25"
+          ],
+          [
+            "Tree ring, 6 ft across, 1 ft clear center",
+            "27.5 sq ft x 3 / 324",
+            "0.25",
+            "4"
+          ],
+          [
+            "Refresh 200 sq ft bed (add 2 in)",
+            "200 sq ft x 2 / 324",
+            "1.23",
+            "17"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Combined garden project"
+      },
+      {
+        "type": "p",
+        "text": "Suppose you are mulching a 15 ft by 4 ft border (60 sq ft), an 8 ft by 8 ft bed (64 sq ft) and one tree ring (about 27.5 sq ft) at 3 inches deep."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Step",
+            "Calculation",
+            "Result"
+          ],
+          [
+            "Total area",
+            "60 + 64 + 27.5",
+            "151.5 sq ft"
+          ],
+          [
+            "Volume",
+            "151.5 x 3 / 12",
+            "37.9 cu ft"
+          ],
+          [
+            "Cubic yards",
+            "37.9 / 27",
+            "1.40 cu yd"
+          ],
+          [
+            "Add 10% allowance",
+            "1.40 x 1.1",
+            "1.54 cu yd"
+          ],
+          [
+            "Bags (2 cu ft)",
+            "41.7 / 2, rounded up",
+            "21 bags"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "At roughly one and a half cubic yards, this project sits right around the point where bulk delivery is worth pricing against about 21 bags."
+      },
+      {
+        "type": "h2",
+        "text": "Choosing the Right Type of Mulch"
+      },
+      {
+        "type": "p",
+        "text": "The type of mulch affects how long it lasts and how often you will top it up, but it does not change the volume math. Horticulture guidance notes that organic mulches such as wood chips, evergreen needles and shredded leaves keep soil cooler and moister in summer, suppress weeds and improve soil as they break down. Wood chips that include bark, twigs and leaves tend to resist compaction, and some mulches, such as cedar, are naturally long-lasting. Shredded leaves and evergreen needles suit perennials and annual flowers and vegetables. For lightly covering newly seeded lawns, clean straw works well, but be careful not to confuse it with hay. Some municipalities also offer freshly ground tree mulch to homeowners at no charge, so check locally."
+      },
+      {
+        "type": "h2",
+        "text": "What Is Changing in Mulch in 2026"
+      },
+      {
+        "type": "p",
+        "text": "Freedonia’s US Lawn & Garden Mulch forecast projected demand of about $824 million in 2026, with annual growth below 1%. This is a published forecast, not a measurement of completed 2026 sales. For a household project, local prices, delivery charges, bag size and the mulch suited to your plants matter more than the national market outlook."
+      },
+      {
+        "type": "p",
+        "text": "For homeowners, this reinforces the basics: choose the type that suits your plants and climate, and figure your quantity carefully so you buy only what you need."
+      },
+      {
+        "type": "h2",
+        "text": "Common Mistakes When Figuring Mulch"
+      },
+      {
+        "type": "li",
+        "text": "Piling mulch against trunks. Keep it clear of bark and stems rather than mounding it up.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Applying too thick a layer. More is not better; stay within the recommended depth.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Forgetting existing mulch. Subtract what is already there before you calculate.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Mixing units. Convert depth from inches to feet, or use the 324 shortcut.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Assuming all bags are the same size. Check the label, since bags may hold 1.5, 2 or 3 cubic feet.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Skipping the allowance. A small buffer saves a second trip.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Working in the wrong unit when comparing prices. Compare price per cubic foot or per cubic yard, not per bag.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Check Your Math with the Mulch Calculator"
+      },
+      {
+        "type": "p",
+        "text": "Enter rectangular-bed length and width, depth, mulch type and waste allowance in the Interior Tailor Mulch Calculator. Metric uses metres and centimetres; Imperial uses feet and inches. The tool estimates volume, weight and 50 L bags in either unit system. It does not let you choose a cubic-foot bag size: for 1.5, 2 or 3 cu ft bags, use the conversion table in this article and check the label. For circular or irregular beds, calculate each area by hand first. If your project also needs soil or stone, try the Topsoil Calculator or Gravel Calculator, and use the Square Footage Calculator for other shapes."
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions About How Much Mulch You Need"
+      },
+      {
+        "type": "h3",
+        "text": "How do I calculate how much mulch I need?"
+      },
+      {
+        "type": "p",
+        "text": "Measure the area in square feet, choose a depth in inches, then multiply area by depth and divide by 324 to get cubic yards. For bags, multiply area by depth, divide by 12 for cubic feet, then divide by the bag size."
+      },
+      {
+        "type": "h3",
+        "text": "How much area does one cubic yard of mulch cover?"
+      },
+      {
+        "type": "p",
+        "text": "About 162 square feet at 2 inches deep, 108 square feet at 3 inches and 81 square feet at 4 inches."
+      },
+      {
+        "type": "h3",
+        "text": "How many bags of mulch are in a cubic yard?"
+      },
+      {
+        "type": "p",
+        "text": "A cubic yard is 27 cubic feet, so it equals about 14 bags of 2 cubic feet, 9 bags of 3 cubic feet, or 18 bags of 1.5 cubic feet."
+      },
+      {
+        "type": "h3",
+        "text": "How deep should mulch be?"
+      },
+      {
+        "type": "p",
+        "text": "Most beds do well with 2 to 3 inches. If you are topping up an existing layer, 1 to 2 inches is often enough. Keep mulch away from trunks and stems."
+      },
+      {
+        "type": "h3",
+        "text": "How much mulch do I need for 100 square feet?"
+      },
+      {
+        "type": "p",
+        "text": "At 3 inches deep you need about 0.93 cubic yards, or about 25 cubic feet. That is roughly 13 bags of 2 cubic feet."
+      },
+      {
+        "type": "h3",
+        "text": "How much mulch do I need around a tree?"
+      },
+      {
+        "type": "p",
+        "text": "Treat it as a ring: subtract the area of the clear center from the area of the outer circle, then apply your chosen depth. A ring 6 feet across with a 1-foot clear center at 3 inches deep needs about 0.25 cubic yards."
+      },
+      {
+        "type": "h3",
+        "text": "Is bulk or bagged mulch cheaper?"
+      },
+      {
+        "type": "p",
+        "text": "Bulk mulch is generally cheaper per cubic foot, and it becomes the better value as your project grows. Bags suit small jobs and easy carrying. Compare prices per cubic foot or cubic yard."
+      },
+      {
+        "type": "h3",
+        "text": "How much extra mulch should I buy?"
+      },
+      {
+        "type": "p",
+        "text": "A buffer of around 5 to 10% is a sensible planning allowance, rounded up to a full bag or the next bulk quantity."
+      },
+      {
+        "type": "h3",
+        "text": "Is a mulch calculator exact?"
+      },
+      {
+        "type": "p",
+        "text": "No. It gives a good estimate from your measurements. Real coverage varies with mulch type, how loosely it is spread and the shape of your beds, so confirm with your supplier if you are unsure."
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "Figuring out how much mulch you need comes down to a few reliable steps: measure the area, choose a depth, convert to cubic yards or bags, and add a small allowance. Do the math once and you can price any bed in minutes. When you want a fast double-check, open the Mulch Calculator and compare."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Mulching trees and shrubs — University of Maryland Extension",
+        "url": "https://www.extension.umd.edu/resource/mulching-trees-and-shrubs"
+      },
+      {
+        "label": "Mulching for soil and garden health — University of Minnesota Extension",
+        "url": "https://extension.umn.edu/garden-and-home/yard-and-garden/gardening-in-minnesota/mulching-for-soil-and-garden-health"
+      },
+      {
+        "label": "US Lawn & Garden Mulch forecast — Freedonia",
+        "url": "https://www.freedoniagroup.com/industry-study/lawn-garden-mulch-4041?hsLang=en"
+      }
+    ]
+  },
+  {
     "slug": "how-to-figure-gravel",
     "title": "Figuring Gravel: How to Calculate Yards, Tons and Bags for Any Project",
     "seoTitle": "Figuring Gravel: How to Calculate Yards, Tons & Bags",

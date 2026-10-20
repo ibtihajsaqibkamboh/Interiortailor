@@ -7,6 +7,7 @@ const output = new URL('../public/assets/blog/', import.meta.url);
 await fs.mkdir(output, { recursive: true });
 
 const covers = {
+  'how-to-figure-out-how-much-mulch-you-need': { lines: ['How Much Mulch', 'Do You Need?', 'Measure. Plan. Grow.'], tag: 'LANDSCAPING KNOW-HOW', number: '08', glow: '#d0b18b' },
   'how-to-figure-gravel': { lines: ['Figuring Gravel', 'Calculate Yards,', 'Tons & Bags'], tag: 'LANDSCAPING KNOW-HOW', number: '05', glow: '#c5c7b2' },
   'beige-paint': { lines: ['Beige Paint in 2026', 'Warm Neutrals.', 'A Fresh Perspective.'], tag: 'PAINT & COLOUR', number: '06', glow: '#ead4b4' },
   'gravel-calculator-guide': { lines: ['How Much Gravel', 'Do You Need?', 'Plan Your Project.'], tag: 'THE GRAVEL CALCULATOR GUIDE', number: '07', glow: '#afc7b7' },
@@ -20,6 +21,7 @@ const escape = text => text.replace(/&/g, '&amp;').replace(/</g, '&lt;');
 for (const post of posts) {
   const cover = covers[post.slug];
   const landscaping = post.category === 'LANDSCAPING';
+  const mulch = post.slug === 'how-to-figure-out-how-much-mulch-you-need';
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
     <defs>
       <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#9275fb"/><stop offset=".42" stop-color="#7155e4"/><stop offset="1" stop-color="#28204f"/></linearGradient>
@@ -41,8 +43,8 @@ for (const post of posts) {
     ${landscaping ? `<g transform="translate(866 274)" filter="url(#shadow)">
       <rect x="0" y="5" width="227" height="225" rx="24" fill="url(#card)" stroke="#fff" stroke-opacity=".25"/>
       <path d="M22 180h183M22 180v-30m45 30v-15m46 15v-15m46 15v-15m46 15v-30" stroke="#eee6ff" stroke-width="3" stroke-linecap="round"/>
-      ${[[45,105,30,22,0],[100,108,32,25,1],[161,110,35,23,2],[79,60,30,25,2],[142,60,29,22,0]].map(([x,y,rx,ry,c]) => `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${post.palette[c+1]}" transform="rotate(-12 ${x} ${y})"/>`).join('')}
-      <text x="114" y="209" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="#eee6ff">YARDS / TONS / BAGS</text>
+      ${[[45,105,30,22,0],[100,108,32,25,1],[161,110,35,23,2],[79,60,30,25,2],[142,60,29,22,0]].map(([x,y,rx,ry,c]) => mulch ? `<path d="M${x-rx} ${y-8}l${rx+9} -13 ${rx-9} 13 -13 19 -${rx} -4z" fill="${post.palette[c+1]}" transform="rotate(-12 ${x} ${y})"/>` : `<ellipse cx="${x}" cy="${y}" rx="${rx}" ry="${ry}" fill="${post.palette[c+1]}" transform="rotate(-12 ${x} ${y})"/>`).join('')}
+      <text x="114" y="209" text-anchor="middle" font-family="Arial,sans-serif" font-weight="700" font-size="13" letter-spacing="2" fill="#eee6ff">${mulch ? 'BEDS / YARDS / BAGS' : 'YARDS / TONS / BAGS'}</text>
     </g>` : `<g transform="translate(875 285)" filter="url(#shadow)">
       ${[-24, 0, 24].map((rotation, i) => `<g transform="rotate(${rotation} 89 225)">
         <rect x="19" y="0" width="140" height="248" rx="18" fill="url(#card)" stroke="#fff" stroke-opacity=".25"/>
