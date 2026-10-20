@@ -12,7 +12,7 @@ export async function generateMetadata({ params }) {
   const post = blogPosts.find(p => p.slug === slug);
   if (!post) return {};
   const metadata = pageMetadata({ title: post.seoTitle, description: post.description, path: blogPath(post), type: 'article' });
-  const image = { url: `/assets/blog/${post.slug}.jpg`, width: 1200, height: 630, alt: `${post.category}: purple editorial cover with paint swatches` };
+  const image = { url: `/assets/blog/${post.slug}.jpg`, width: 1200, height: 630, alt: `${post.title} — Interior Tailor editorial cover` };
   return { ...metadata, openGraph: { ...metadata.openGraph, images: [image], publishedTime: `${post.date}T00:00:00+05:00`, authors: [`${siteUrl}/about/`] },
     twitter: { card: 'summary_large_image', title: post.seoTitle, description: post.description, images: [image.url] },
   };
@@ -20,13 +20,36 @@ export async function generateMetadata({ params }) {
 
 function LinkedText({ text, currentSlug }) {
   const links = [
+    ['beige paint planning guide', '/blog/beige-paint/'],
     ['guide to beige paint colors', '/blog/beige-paint-colors/'],
+    ['beige paint colors guide', '/blog/beige-paint-colors/'],
+    ['gravel calculator guide', '/blog/gravel-calculator-guide/'],
+    ['figuring gravel guide', '/blog/how-to-figure-gravel/'],
+    ['gravel calculator', '/gravel-calculator/'],
+    ['cubic yard calculator', '/cubic-yard-calculator/'],
+    ['cubic feet calculator', '/cubic-feet-calculator/'],
+    ['square footage calculator', '/square-footage-calculator/'],
+    ['paver calculator', '/paver-calculator/'],
+    ['topsoil calculator', '/topsoil-calculator/'],
+    ['mulch calculator', '/mulch-calculator/'],
+    ['sod calculator', '/sod-calculator/'],
+    ['concrete calculator', '/concrete-calculator/'],
+    ['color mixing lab', '/color-mixing/'],
+    ['how much paint do I need', '/how-much-paint-do-i-need/'],
     ['paint calculator', '/paint-calculator/'],
     ['room color visualizer', '/room-color-visualizer/'],
   ].filter(([, href]) => href !== `/blog/${currentSlug}/`);
-  const match = links.map(([phrase, href]) => ({ phrase, href, index: text.toLowerCase().indexOf(phrase) })).find(m => m.index >= 0);
-  if (!match) return text;
-  return <>{text.slice(0, match.index)}<a href={match.href}>{text.slice(match.index, match.index + match.phrase.length)}</a>{text.slice(match.index + match.phrase.length)}</>;
+  const parts = [];
+  let rest = text;
+  while (rest) {
+    const match = links.map(([phrase, href]) => ({ phrase, href, index: rest.toLowerCase().indexOf(phrase) }))
+      .filter(m => m.index >= 0).sort((a, b) => a.index - b.index || b.phrase.length - a.phrase.length)[0];
+    if (!match) { parts.push(rest); break; }
+    parts.push(rest.slice(0, match.index));
+    parts.push(<a key={parts.length} href={match.href}>{rest.slice(match.index, match.index + match.phrase.length)}</a>);
+    rest = rest.slice(match.index + match.phrase.length);
+  }
+  return parts;
 }
 
 function ArticleBody({ post }) {
@@ -58,8 +81,11 @@ export default async function BlogArticlePage({ params }) {
   if (!post) notFound();
   const url = `${siteUrl}${blogPath(post)}`;
   const headings = post.blocks.filter(b => b.type === 'h2');
+  const landscaping = post.category === 'LANDSCAPING';
+  const toolPath = landscaping ? '/gravel-calculator/' : '/paint-calculator/';
+  const related = blogPosts.filter(p => p.slug !== post.slug).sort((a, b) => Number(b.category === post.category) - Number(a.category === post.category)).slice(0, 3);
   const schema = [
-    { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${url}#article`, headline: post.title, description: post.description, mainEntityOfPage: { '@type': 'WebPage', '@id': url }, url, image: [`${siteUrl}/assets/blog/${post.slug}.jpg`], datePublished: `${post.date}T00:00:00+05:00`, inLanguage: 'en', articleSection: 'Paint color guides', author: { '@type': 'Organization', name: siteName, url: `${siteUrl}/about/` }, publisher: { '@type': 'Organization', name: siteName, url: siteUrl, logo: { '@type': 'ImageObject', url: `${siteUrl}/assets/interior-tailor-logo.png` } } },
+    { '@context': 'https://schema.org', '@type': 'BlogPosting', '@id': `${url}#article`, headline: post.title, description: post.description, mainEntityOfPage: { '@type': 'WebPage', '@id': url }, url, image: [`${siteUrl}/assets/blog/${post.slug}.jpg`], datePublished: `${post.date}T00:00:00+05:00`, inLanguage: 'en', articleSection: post.category, author: { '@type': 'Organization', name: siteName, url: `${siteUrl}/about/` }, publisher: { '@type': 'Organization', name: siteName, url: siteUrl, logo: { '@type': 'ImageObject', url: `${siteUrl}/assets/interior-tailor-logo.png` } } },
     { '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: siteUrl },
       { '@type': 'ListItem', position: 2, name: 'Blog', item: `${siteUrl}/blog/` },
@@ -76,17 +102,17 @@ export default async function BlogArticlePage({ params }) {
           <p className="blog-article-deck">{post.description}</p>
           <div className="blog-byline"><a href="/about/">By Interior Tailor</a><span>Published <time dateTime={post.date}>{formatBlogDate(post.date)}</time></span><span>{post.readingMinutes} min read</span></div>
         </header>
-        <figure className="blog-hero-image"><img src={`/assets/blog/${post.slug}.jpg`} width="1200" height="630" alt={`${post.title} — Interior Tailor cover with a purple gradient, paint swatches and a roller`} fetchPriority="high" /><figcaption>Cover design by Interior Tailor. These are not manufacturer color swatches; test physical paint samples in your room.</figcaption></figure>
+        <figure className="blog-hero-image"><img src={`/assets/blog/${post.slug}.jpg`} width="1200" height="630" alt={`${post.title} — purple Interior Tailor cover with ${landscaping ? 'gravel and measurement graphics' : 'paint swatches and a roller'}`} fetchPriority="high" /><figcaption>Cover design by Interior Tailor. {landscaping ? 'Material illustrations are for inspiration; confirm the actual stone, density and specification with your supplier.' : 'These are not manufacturer color swatches; test physical paint samples in your room.'}</figcaption></figure>
         <div className="blog-reading-layout">
-          <aside className="blog-toc"><nav aria-label="On this page"><h2>In this guide</h2><ol>{headings.map(h => <li key={h.text}><a href={`#${headingId(h.text)}`}>{h.text}</a></li>)}</ol></nav><a className="blog-text-link" href="/paint-calculator/">Estimate your paint ↗</a></aside>
+          <aside className="blog-toc"><nav aria-label="On this page"><h2>In this guide</h2><ol>{headings.map(h => <li key={h.text}><a href={`#${headingId(h.text)}`}>{h.text}</a></li>)}</ol></nav><a className="blog-text-link" href={toolPath}>Estimate your {landscaping ? 'gravel' : 'paint'} ↗</a></aside>
           <div className="blog-prose">
             <ArticleBody post={post} />
-            <aside className="blog-editor-note"><h2 id="color-references">Color references &amp; sampling notes</h2><p>Use the manufacturer’s current color library to confirm names, codes and product availability. Color impressions are subjective, and screen colors cannot reproduce a painted finish. Directional-light examples describe typical Northern Hemisphere conditions; local climate, obstructions and hemisphere can change them.</p><ul>{[...(post.sources || []), ...colorResources].map(resource => <li key={resource.url}><a href={resource.url}>{resource.label}</a></li>)}</ul>{post.slug === 'beige-paint-colors' && <p>Manufacturer reference: <a href="https://www.benjaminmoore.com/en-us/paint-colors/color/oc-12/muslin">Muslin OC-12 has an LRV of 66.54</a>. Other LRV figures in this guide are approximate; confirm the current value before purchase.</p>}<p>Brand names identify paint examples. This article contains no affiliate links. For a correction or a question, <a href="/contact/">contact Interior Tailor</a>.</p></aside>
-            <aside className="blog-tool-callout"><div><h2>Make your color choice a project plan.</h2><p>Explore a digital preview, then estimate paint using the coverage on your chosen product.</p><div className="blog-tool-links"><a href="/room-color-visualizer/">Try the room visualizer ↗</a><a href="/paint-calculator/">Calculate paint quantity ↗</a></div></div></aside>
+            <aside className="blog-editor-note"><h2 id="article-references">{landscaping ? 'References & material estimates' : 'Color references & sampling notes'}</h2><p>{landscaping ? 'Gravel quantities and weights are planning estimates. Confirm material density, compaction, layer depths and delivery quantities with your local supplier. Drainage and driveway construction need a design suited to the site.' : 'Use the manufacturer’s current color library to confirm names, codes and product availability. Color impressions are subjective, and screen colors cannot reproduce a painted finish. Directional-light examples describe typical Northern Hemisphere conditions; local climate, obstructions and hemisphere can change them.'}</p><ul>{[...(post.sources || []), ...(landscaping ? [] : colorResources)].map(resource => <li key={resource.url}><a href={resource.url}>{resource.label}</a></li>)}</ul>{post.slug === 'beige-paint-colors' && <p>Manufacturer reference: <a href="https://www.benjaminmoore.com/en-us/paint-colors/color/oc-12/muslin">Muslin OC-12 has an LRV of 66.54</a>. Other LRV figures in this guide are approximate; confirm the current value before purchase.</p>}<p>This article contains no affiliate links. For a correction or a question, <a href="/contact/">contact Interior Tailor</a>.</p></aside>
+            <aside className="blog-tool-callout"><div><h2>{landscaping ? 'Turn your measurements into a material estimate.' : 'Make your color choice a project plan.'}</h2><p>{landscaping ? 'Calculate volume and approximate weight, then confirm your order with your supplier.' : 'Explore a digital preview, then estimate paint using the coverage on your chosen product.'}</p><div className="blog-tool-links">{landscaping ? <><a href="/gravel-calculator/">Calculate gravel quantity ↗</a><a href={post.slug === 'how-to-figure-gravel' ? '/blog/gravel-calculator-guide/' : '/blog/how-to-figure-gravel/'}>Read the companion gravel guide ↗</a></> : <><a href="/room-color-visualizer/">Try the room visualizer ↗</a><a href="/paint-calculator/">Calculate paint quantity ↗</a></>}</div></div></aside>
           </div>
         </div>
       </article>
-      <section className="blog-related" aria-labelledby="related-guides"><h2 id="related-guides" className="blog-section-title">Keep exploring <a href="/blog/">All paint guides ↗</a></h2><BlogCards posts={blogPosts.filter(p => p.slug !== post.slug)} /></section>
+      <section className="blog-related" aria-labelledby="related-guides"><h2 id="related-guides" className="blog-section-title">Keep exploring <a href="/blog/">All project guides ↗</a></h2><BlogCards posts={related} /></section>
     </main>
   );
 }

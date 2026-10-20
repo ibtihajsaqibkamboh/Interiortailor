@@ -38,7 +38,7 @@ The contact email is `interiortailor@gmail.com`. The Contact page uses a direct 
 
 ## Blog
 
-`/blog/` lists four complete paint guides. Article content lives in `lib/blog-content.json`; the static article template, metadata and BlogPosting/BreadcrumbList structured data live in `app/blog/[slug]/page.jsx`. Edit publication dates only when accurate. Original cover illustrations are generated with `node scripts/generate-blog-images.mjs`.
+`/blog/` lists seven complete paint and landscaping guides. Article content lives in `lib/blog-content.json`; the static article template, metadata and BlogPosting/BreadcrumbList structured data live in `app/blog/[slug]/page.jsx`. Edit publication dates only when accurate. Original cover illustrations are generated with `node scripts/generate-blog-images.mjs`.
 
 Google Analytics loads only after an opt-in through the cookie preferences. This controls analytics only; AdSense and an advertising consent platform are not configured. See `PUBLISHING_CHECKLIST.md` before deploying or applying for AdSense.
 

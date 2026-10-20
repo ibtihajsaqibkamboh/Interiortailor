@@ -1,5 +1,1553 @@
 [
   {
+    "slug": "how-to-figure-gravel",
+    "title": "Figuring Gravel: How to Calculate Yards, Tons and Bags for Any Project",
+    "seoTitle": "Figuring Gravel: How to Calculate Yards, Tons & Bags",
+    "description": "Learn how to figure gravel by hand: formulas for rectangles, circles and irregular shapes, plus yard, ton and bag conversions with worked examples.",
+    "category": "LANDSCAPING",
+    "date": "2026-10-20",
+    "palette": [
+      "#dbd8d0",
+      "#b7b6ae",
+      "#898981",
+      "#5c615b"
+    ],
+    "readingMinutes": 8,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Figuring gravel sounds harder than it is. Behind every online gravel calculator is the same short chain of steps: find the area, multiply by depth, convert to cubic yards, then convert to tons or bags. Once you understand the chain, you can estimate any project on paper, double-check a calculator, or compare supplier quotes with confidence. This guide walks through each step, covers rectangles, circles, triangles and irregular shapes, and finishes with a full worked project."
+      },
+      {
+        "type": "p",
+        "text": "In this guide, a ton means a US short ton (2,000 lb), not a metric tonne. The calculator labels imperial output in short tons and metric output in tonnes. Example weights use an assumed density; the tool uses the density of the selected material, so weight estimates can differ."
+      },
+      {
+        "type": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "type": "li",
+        "text": "Cubic yards = length x width x depth (all in feet) / 27.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Shortcut: cubic yards = square feet x depth in inches / 324.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "One cubic yard of gravel is roughly 1.4 tons, and about 54 bags at 0.5 cubic feet each.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "For circles use 3.14 x radius x radius. For odd shapes, split them into simple shapes and add.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Add about 10% for settling, and round up to the quantity your supplier sells.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "What Does “Figuring Gravel” Actually Mean?"
+      },
+      {
+        "type": "p",
+        "text": "When people ask how to figure gravel, they usually want to answer one of three questions:"
+      },
+      {
+        "type": "li",
+        "text": "How much volume do I need? This is cubic yards, the unit most suppliers use for bulk gravel.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "How much will it weigh? This is tons, which matters if your supplier sells by weight or you need to know what a truck will carry.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "How many bags or loads is that? Useful for small jobs, or when you are moving material by wheelbarrow.",
+        "ordered": false
+      },
+      {
+        "type": "p",
+        "text": "All three come from the same volume calculation, so start there."
+      },
+      {
+        "type": "h2",
+        "text": "Step 1: Gather Accurate Measurements"
+      },
+      {
+        "type": "li",
+        "text": "Use a tape measure and measure in feet. If you measure in inches, convert to feet before you calculate.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Sketch the area and label each side. A rough drawing makes it much easier to split an odd shape later.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Measure the depth you plan to spread, not the depth of the hole. Common planning depths are about 2 to 3 inches for paths and decorative areas and 4 to 6 inches for driveways.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Measure more than once. If the width changes along a path, take several readings and use the average, or split the path into sections.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Step 2: Figure the Area by Shape"
+      },
+      {
+        "type": "h3",
+        "text": "Rectangles and squares"
+      },
+      {
+        "type": "p",
+        "text": "Area = length x width. A 25 ft by 3 ft path is 75 square feet."
+      },
+      {
+        "type": "h3",
+        "text": "Circles"
+      },
+      {
+        "type": "p",
+        "text": "Area = 3.14 x radius x radius, where the radius is half the diameter. A circular fire pit area 12 ft across has a 6 ft radius, so the area is 3.14 x 6 x 6 = about 113 square feet."
+      },
+      {
+        "type": "h3",
+        "text": "Triangles"
+      },
+      {
+        "type": "p",
+        "text": "Area = one half x base x height. A triangular corner with a 10 ft base and 6 ft height is 0.5 x 10 x 6 = 30 square feet."
+      },
+      {
+        "type": "h3",
+        "text": "Irregular and curved areas"
+      },
+      {
+        "type": "p",
+        "text": "Break the shape into simple pieces, calculate each, and add them together. A capsule-shaped bed (a rectangle with semicircular ends), for example, can be treated as a rectangle with a half circle on each end. Take an 8 ft by 10 ft rectangle plus two half circles with a 4 ft radius: the rectangle is 80 square feet, the two half circles together make one full circle of about 50 square feet, and the total is about 130 square feet. At a depth of 1 foot, that is roughly 4.8 cubic yards."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Shape",
+            "Area formula",
+            "Example"
+          ],
+          [
+            "Rectangle",
+            "length x width",
+            "25 x 3 = 75 sq ft"
+          ],
+          [
+            "Circle",
+            "3.14 x radius x radius",
+            "3.14 x 6 x 6 = 113 sq ft"
+          ],
+          [
+            "Triangle",
+            "0.5 x base x height",
+            "0.5 x 10 x 6 = 30 sq ft"
+          ],
+          [
+            "Capsule (rectangle + 2 half circles)",
+            "rectangle + 3.14 x radius x radius",
+            "80 + 50 = 130 sq ft"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Step 3: Turn Area into Cubic Yards"
+      },
+      {
+        "type": "p",
+        "text": "Multiply the area by the depth in feet, then divide by 27, because there are 27 cubic feet in a cubic yard."
+      },
+      {
+        "type": "li",
+        "text": "Cubic yards = area (sq ft) x depth (ft) / 27",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Depth in feet = depth in inches / 12",
+        "ordered": false
+      },
+      {
+        "type": "h3",
+        "text": "The quick shortcut"
+      },
+      {
+        "type": "p",
+        "text": "Combine those two steps and you get a shortcut that is easy to do in your head: cubic yards = square feet x depth in inches / 324. A 200 sq ft area at 4 inches deep is 200 x 4 / 324 = about 2.47 cubic yards."
+      },
+      {
+        "type": "h3",
+        "text": "Coverage per cubic yard"
+      },
+      {
+        "type": "p",
+        "text": "Flip the shortcut around and you can see how far one cubic yard goes at each depth:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Depth",
+            "Square feet covered by 1 cubic yard"
+          ],
+          [
+            "2 inches",
+            "162 sq ft"
+          ],
+          [
+            "3 inches",
+            "108 sq ft"
+          ],
+          [
+            "4 inches",
+            "81 sq ft"
+          ],
+          [
+            "6 inches",
+            "54 sq ft"
+          ]
+        ]
+      },
+      {
+        "type": "h2",
+        "text": "Step 4: Figure the Weight in Tons"
+      },
+      {
+        "type": "p",
+        "text": "Multiply cubic yards by the weight of your gravel per cubic yard. Many suppliers quote roughly 2,500 to 3,000 pounds per cubic yard, which is about 1.25 to 1.5 tons, with a common planning figure of about 1.4 tons. Pea gravel tends to be at the lighter end, crushed stone a little heavier, and compactable mixes such as road base heavier still."
+      },
+      {
+        "type": "li",
+        "text": "Tons = cubic yards x about 1.4 (confirm the figure with your supplier)",
+        "ordered": false
+      },
+      {
+        "type": "p",
+        "text": "Moisture changes weight, and so does stone size, so treat the result as a planning number. If your supplier sells by the ton, ask them for the exact weight per cubic yard of the product you are buying."
+      },
+      {
+        "type": "h2",
+        "text": "Step 5: Figure Bags and Wheelbarrow Loads"
+      },
+      {
+        "type": "p",
+        "text": "Bagged gravel is usually sold by volume, with 0.5 cubic feet a common bag size (0.4 cubic feet bags also exist). Since a cubic yard is 27 cubic feet, one cubic yard equals about 54 half-cubic-foot bags."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Volume",
+            "Cubic feet",
+            "Bags at 0.5 cu ft"
+          ],
+          [
+            "0.25 cubic yard",
+            "6.75",
+            "14 bags"
+          ],
+          [
+            "0.5 cubic yard",
+            "13.5",
+            "27 bags"
+          ],
+          [
+            "1 cubic yard",
+            "27",
+            "54 bags"
+          ],
+          [
+            "2 cubic yards",
+            "54",
+            "108 bags"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Bags make sense for small jobs, roughly half a cubic yard or less, or where a delivery truck cannot reach. Beyond about a cubic yard, bulk delivery is usually far cheaper per cubic foot and saves a lot of lifting."
+      },
+      {
+        "type": "p",
+        "text": "For wheelbarrow planning, check your barrow’s capacity. A typical homeowner barrow holds about 3 cubic feet of gravel when filled sensibly, which works out to roughly 9 loads per cubic yard. Larger contractor barrows carry more. Delivery trucks vary a lot in capacity, and suppliers quote anything from about 10 tons for a single-axle truck to over 20 tons for larger ones, so ask what applies to your delivery."
+      },
+      {
+        "type": "h2",
+        "text": "Step 6: Add an Allowance and Round Up"
+      },
+      {
+        "type": "p",
+        "text": "Gravel settles and compacts after it is spread, and some is lost to handling and irregular edges. Adding about 10% is a common planning allowance, and suppliers often suggest more for small orders. Then round up to the nearest quantity your supplier sells, since delivery fees are usually charged per trip and a second delivery is costly."
+      },
+      {
+        "type": "h2",
+        "text": "Full Worked Example: Path Plus Fire Pit Area"
+      },
+      {
+        "type": "p",
+        "text": "Suppose you are laying a 25 ft by 3 ft pea gravel path at 2 inches deep, ending at a circular fire pit area 12 ft across at 3 inches deep. Use 1.4 tons per cubic yard and a 10% allowance."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Part",
+            "Area",
+            "Cubic yards",
+            "Tons"
+          ],
+          [
+            "Path: 25 x 3 ft, 2 in deep",
+            "75 sq ft",
+            "75 x 2 / 324 = 0.46",
+            "0.65"
+          ],
+          [
+            "Fire pit: 12 ft across, 3 in deep",
+            "113 sq ft",
+            "113.1 x 3 / 324 = 1.05",
+            "1.47"
+          ],
+          [
+            "Total",
+            "188 sq ft",
+            "1.51",
+            "2.11"
+          ],
+          [
+            "With 10% allowance",
+            "",
+            "1.66",
+            "2.33"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In bags, 1.66 cubic yards would be roughly 90 half-cubic-foot bags, so this project is a strong candidate for bulk delivery. You would likely order about 1.75 to 2 cubic yards, or around 2.5 tons, depending on how your supplier sells and delivers."
+      },
+      {
+        "type": "h2",
+        "text": "Planning Gravel with Pavers and Planting"
+      },
+      {
+        "type": "p",
+        "text": "A gravel project can combine a path, paver edging and planting beds. Calculate each area and material layer separately so the delivery matches the design. A surface layer and its compacted base need separate estimates."
+      },
+      {
+        "type": "h2",
+        "text": "Common Mistakes When Figuring Gravel"
+      },
+      {
+        "type": "li",
+        "text": "Forgetting to convert inches to feet. A 4-inch depth is 0.333 ft, not 4.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Using diameter instead of radius. Halve the diameter before squaring.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Calculating the whole area at one depth. If depth varies, figure each section separately.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Skipping the allowance. Exact figures often leave you short once gravel settles.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Confusing tons and cubic yards. They are different units, so compare quotes in the same unit.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Ignoring the base layer. New driveways and paths often need a coarser base underneath, which means a second quantity.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Check Your Math with the Calculator"
+      },
+      {
+        "type": "p",
+        "text": "Doing the math by hand is the best way to understand your order. Once you have your numbers, run them through the Interior Tailor Gravel Calculator to double-check the result in cubic yards and tons. For more on choosing depth and gravel type, read the gravel calculator guide. Related tools include the Cubic Yard Calculator and the Square Footage Calculator for measuring odd shapes."
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions About Figuring Gravel"
+      },
+      {
+        "type": "h3",
+        "text": "How do I figure yards of gravel?"
+      },
+      {
+        "type": "p",
+        "text": "Multiply length by width by depth, all in feet, then divide by 27. For a shortcut, multiply square feet by depth in inches and divide by 324."
+      },
+      {
+        "type": "h3",
+        "text": "How do I figure gravel for a circle?"
+      },
+      {
+        "type": "p",
+        "text": "Find the radius (half the diameter), then multiply 3.14 x radius x radius to get the area. Multiply by depth in feet and divide by 27 for cubic yards."
+      },
+      {
+        "type": "h3",
+        "text": "How many square feet does a cubic yard of gravel cover?"
+      },
+      {
+        "type": "p",
+        "text": "About 162 sq ft at 2 inches deep, 108 sq ft at 3 inches, 81 sq ft at 4 inches and 54 sq ft at 6 inches."
+      },
+      {
+        "type": "h3",
+        "text": "How many bags of gravel are in a cubic yard?"
+      },
+      {
+        "type": "p",
+        "text": "About 54 bags if each bag holds 0.5 cubic feet, or about 68 bags if each holds 0.4 cubic feet."
+      },
+      {
+        "type": "h3",
+        "text": "How do I figure gravel in tons?"
+      },
+      {
+        "type": "p",
+        "text": "Multiply your cubic yards by the weight per cubic yard of your gravel. A common planning figure is about 1.4 tons, but confirm with your supplier."
+      },
+      {
+        "type": "h3",
+        "text": "How do I figure gravel for an irregular area?"
+      },
+      {
+        "type": "p",
+        "text": "Split the area into rectangles, circles and triangles, calculate each one, and add the totals. Use the same depth for each piece, or calculate separate depths separately."
+      },
+      {
+        "type": "h3",
+        "text": "How much extra gravel should I order?"
+      },
+      {
+        "type": "p",
+        "text": "About 10% is a common allowance for settling and waste, and more for small orders. Round up to your supplier’s next available quantity."
+      },
+      {
+        "type": "h3",
+        "text": "Is figuring gravel by hand accurate?"
+      },
+      {
+        "type": "p",
+        "text": "It is as accurate as your measurements and assumptions. Moisture, stone size and compaction all affect real-world amounts, so treat any result as an estimate and confirm with your supplier."
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "Figuring gravel comes down to one reliable routine: measure, find the area, apply depth, convert to yards, tons or bags, then add a sensible allowance. With that routine you can price a path, a patio or a driveway in a few minutes. When you want a quick second opinion, open the Gravel Calculator and compare."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Gravel uses, drainage and base preparation — Houzz",
+        "url": "https://www.houzz.com/magazine/10-ways-to-put-gravel-to-work-in-your-garden-stsetivw-vs~105981505"
+      }
+    ]
+  },
+  {
+    "slug": "beige-paint",
+    "title": "Beige Paint in 2026: How to Choose a Warm Neutral That Feels Current",
+    "seoTitle": "Beige Paint: Shades, Undertones & 2026 Trends",
+    "description": "Explore modern beige paint, warm neutral trends, undertones and lighting tips. Learn how to calculate how much beige paint to buy before you start.",
+    "category": "PAINT & COLOUR",
+    "date": "2026-10-20",
+    "palette": [
+      "#eee1cd",
+      "#d5c4a9",
+      "#bca17e",
+      "#8b765d"
+    ],
+    "readingMinutes": 9,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Beige paint is back, but it is not the beige many of us remember. After years of cool grays and stark whites, designers and paint brands are leaning toward warmer, softer, more natural neutrals. The challenge now is picking a beige that feels fresh instead of flat. This guide covers why beige is trending, how undertones and light reflectance affect the final look, which shades are worth sampling, and how to calculate how much beige paint you need before you head to the store."
+      },
+      {
+        "type": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "type": "p",
+        "text": "For a more detailed shade-by-shade comparison, read our beige paint colors guide. This article focuses on current palettes, room planning and how much paint to buy."
+      },
+      {
+        "type": "li",
+        "text": "Recent paint-brand palettes give warm neutrals and earthy colors a prominent place, but your light and fixed finishes should decide the final shade.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Today’s popular beiges tend to be softer and more grounded than the golden beiges of the 2000s.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Undertone matters more than the name on the can: yellow, pink, green and gray undertones behave very differently in your light.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Always sample on your own walls and check them morning, afternoon and evening.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Work out your quantity from wall area, coats and the coverage printed on your paint can, then add a small waste allowance.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Why Beige Paint Is Back in 2026"
+      },
+      {
+        "type": "h3",
+        "text": "From gray to warm neutrals"
+      },
+      {
+        "type": "p",
+        "text": "Paint brands are giving warm, earthy colors renewed attention. Dunn-Edwards’ October 2026 announcement of French Press Coffee for 2027 describes a move toward nuanced warmth. That is a useful design signal, rather than proof that gray no longer belongs in homes. Choose beige because it suits your room, not because another color is supposedly out."
+      },
+      {
+        "type": "h3",
+        "text": "How today’s beige differs from the 2000s"
+      },
+      {
+        "type": "p",
+        "text": "A modern beige scheme can be lighter and quieter, or deeper and more earthy, than a strongly golden neutral. Compare depth and undertone rather than assuming that every paint named beige will behave alike. Use the manufacturer’s LRV figure to compare reflectance, then test the finish in your room."
+      },
+      {
+        "type": "h3",
+        "text": "What the 2027 Color of the Year picks suggest"
+      },
+      {
+        "type": "p",
+        "text": "Paint brands have already announced their 2027 colors, and the pattern is nature-led warmth rather than stark minimalism. Behr chose Grounded, a mossy olive green with earthy brown undertones, and built a palette around it that includes Coastal Beige, a light neutral with yellow undertones. Sherwin-Williams chose Celery, Valspar chose the mid-tone blue Cottage Door, Dutch Boy chose the earthy orange Deep Rooted, and Dunn-Edwards chose a moody brown called French Press Coffee."
+      },
+      {
+        "type": "p",
+        "text": "Graham & Brown picked a dusty pink, Rose Earth, which it positions as a new neutral as subtle as beige or taupe."
+      },
+      {
+        "type": "p",
+        "text": "The takeaway for homeowners: beige is not being replaced so much as being supported by earthy greens, browns and clay tones. A well-chosen beige makes a stable base for those accents."
+      },
+      {
+        "type": "h2",
+        "text": "Understanding Beige: Undertones, LRV and Depth"
+      },
+      {
+        "type": "h3",
+        "text": "What is an undertone?"
+      },
+      {
+        "type": "p",
+        "text": "Every beige has a hidden secondary hue. It is the reason two beiges that look identical on a paint chip can feel completely different on your wall next to a sofa, a wood floor or a white trim."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Undertone",
+            "How it tends to look",
+            "Works well with"
+          ],
+          [
+            "Yellow or golden",
+            "Sunny, cozy, traditional",
+            "Warm woods, cream trim, brass"
+          ],
+          [
+            "Pink or peach",
+            "Soft, glowing, slightly rosy",
+            "Natural linen, terracotta, light oak"
+          ],
+          [
+            "Green or olive",
+            "Muted, earthy, close to greige",
+            "Sage, olive and natural stone"
+          ],
+          [
+            "Gray or taupe",
+            "Cooler, more restrained",
+            "Mixed metals, cooler wood, black accents"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "For reference, one color consultant describes Sherwin-Williams Accessible Beige as a warm beige with green undertones, and Benjamin Moore Maritime White as having pinkish apricot undertones instead of the more common yellow. That contrast is a good example of why you should compare undertones, not just names."
+      },
+      {
+        "type": "h3",
+        "text": "What does LRV mean for beige paint?"
+      },
+      {
+        "type": "p",
+        "text": "Light Reflectance Value (LRV) is a 0 to 100 scale showing how much light a color reflects: 0 is pure black and 100 is pure white. Lighter beiges with a higher LRV reflect more light and make small or dim rooms feel more open. Deeper beiges with a lower LRV feel cozier and add more definition, but need good lighting. Most manufacturers list LRV on the color page or the back of the swatch, so check it when comparing two similar shades."
+      },
+      {
+        "type": "h2",
+        "text": "Popular Beige Paint Colors to Sample in 2026"
+      },
+      {
+        "type": "p",
+        "text": "The examples below span light beiges, earthy tans and greige. Treat them as a sampling list rather than a ranking: your light and finishes change the result."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Color",
+            "Brand",
+            "Character (as commonly described)"
+          ],
+          [
+            "Accessible Beige 7036",
+            "Sherwin-Williams",
+            "Popular, flexible warm beige leaning toward greige, with green undertones"
+          ],
+          [
+            "Balanced Beige 7037",
+            "Sherwin-Williams",
+            "Slightly deeper, soft and almost mushroom-like"
+          ],
+          [
+            "Natural Linen",
+            "Sherwin-Williams",
+            "Light, warm and airy"
+          ],
+          [
+            "Urban Putty",
+            "Sherwin-Williams",
+            "Grounded, earthy tan for moodier rooms"
+          ],
+          [
+            "Universal Khaki",
+            "Sherwin-Williams",
+            "Warm khaki-leaning neutral named in 2026 trend lists"
+          ],
+          [
+            "Maritime White",
+            "Benjamin Moore",
+            "Light, soft beige with pinkish apricot undertones"
+          ],
+          [
+            "Grant Beige",
+            "Benjamin Moore",
+            "Mid-light warm beige named in 2026 beige and tan lists"
+          ],
+          [
+            "Coastal Beige",
+            "Behr",
+            "Light neutral with yellow undertones, part of Behr’s 2027 palette"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Availability and exact color formulas can differ by region and brand, so confirm the color name and code with your local supplier."
+      },
+      {
+        "type": "h2",
+        "text": "How Lighting Changes Beige Paint"
+      },
+      {
+        "type": "p",
+        "text": "Beige is one of the most light-sensitive neutrals because its undertones shift as light changes. Plan around these conditions:"
+      },
+      {
+        "type": "li",
+        "text": "North-facing rooms: light is cooler and flatter, so beiges can look grayer. Warmer or slightly deeper beiges usually hold up better.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "South-facing rooms: strong, warm light intensifies yellow undertones. Beiges with a balanced or slightly cooler undertone can look cleaner.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "East-facing rooms: warm in the morning and cooler later in the day. Check your sample at both times.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "West-facing rooms: warm, golden evening light can make beige look richer. Check for it turning too orange.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Artificial light: warm bulbs push beige toward yellow, and cooler bulbs push it toward gray. Test your sample under the bulbs you actually use.",
+        "ordered": false
+      },
+      {
+        "type": "p",
+        "text": "Before you buy, you can preview a color in different lighting with the Interior Tailor Room Color Visualizer. It is a planning aid, so still confirm your final choice with a real painted sample."
+      },
+      {
+        "type": "h2",
+        "text": "Best Ways to Use Beige Paint in Every Room"
+      },
+      {
+        "type": "h3",
+        "text": "Living room"
+      },
+      {
+        "type": "p",
+        "text": "Beige gives a living room a calm backdrop that suits sofas of almost any color. Pair it with natural wood, woven textures and warm metals such as brass or bronze for a layered, cozy feel. A slightly deeper beige works well in large, bright rooms, while lighter beiges keep smaller living rooms open."
+      },
+      {
+        "type": "h3",
+        "text": "Bedroom"
+      },
+      {
+        "type": "p",
+        "text": "Soft, low-contrast beiges help a bedroom feel restful. Choose a color with a quiet undertone and avoid anything too yellow if the room gets strong evening sun."
+      },
+      {
+        "type": "h3",
+        "text": "Kitchen and dining"
+      },
+      {
+        "type": "p",
+        "text": "Beige works with traditional cabinetry, wood tones and natural stone. Compare it against your countertops and backsplash in daylight, since those fixed finishes will show up undertone clashes quickly."
+      },
+      {
+        "type": "h3",
+        "text": "Hallways, ceilings and whole-house flow"
+      },
+      {
+        "type": "p",
+        "text": "A single light beige carried through hallways and connecting rooms creates a consistent flow. Some designers are also using color drenching, painting walls and sometimes trim and ceiling in the same warm neutral for a seamless, enveloping look."
+      },
+      {
+        "type": "h2",
+        "text": "What to Pair with Beige Paint"
+      },
+      {
+        "type": "li",
+        "text": "Trim and ceilings: a soft, warm white usually feels more natural than a bright, stark white against beige.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Earthy accents: olive, sage, clay, terracotta and chocolate brown all sit comfortably with beige, echoing the 2027 palettes.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Materials: oak, walnut, linen, jute, wool and stone add texture so beige never looks flat.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Metals: brass and bronze add warmth, while black adds contrast and structure.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "How to Test Beige Paint Before Committing"
+      },
+      {
+        "type": "li",
+        "text": "Narrow down to two or three beiges with different undertones.",
+        "ordered": true
+      },
+      {
+        "type": "li",
+        "text": "Use large sample boards or painted patches of at least a square foot on more than one wall.",
+        "ordered": true
+      },
+      {
+        "type": "li",
+        "text": "Put samples next to your flooring, trim and fixed furniture.",
+        "ordered": true
+      },
+      {
+        "type": "li",
+        "text": "Check them in morning light, afternoon light and under evening lamps for at least a couple of days.",
+        "ordered": true
+      },
+      {
+        "type": "li",
+        "text": "If you want a custom look, the Color Mixing Lab lets you enter a target HEX color and explore an estimated mixing recipe. It is a planning tool and not an exact manufacturer formula.",
+        "ordered": true
+      },
+      {
+        "type": "h2",
+        "text": "How Much Beige Paint Do You Need?"
+      },
+      {
+        "type": "p",
+        "text": "Once you pick your shade, the next question is quantity. The basic formulas used by the Interior Tailor Paint Calculator are:"
+      },
+      {
+        "type": "li",
+        "text": "Wall area = 2 x (room length + room width) x wall height",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Ceiling area = room length x room width",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Paint needed = paintable area / coverage per coat x number of coats",
+        "ordered": false
+      },
+      {
+        "type": "h3",
+        "text": "Worked example"
+      },
+      {
+        "type": "p",
+        "text": "Take a 12 ft by 14 ft bedroom with 8 ft walls, one door of about 21 sq ft and two windows of about 15 sq ft each, painted with two coats. The coverage figure below is only an example, so use the one printed on your own can."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Step",
+            "Calculation",
+            "Result"
+          ],
+          [
+            "Wall area",
+            "2 x (12 + 14) x 8",
+            "416 sq ft"
+          ],
+          [
+            "Deduct door and windows",
+            "21 + (2 x 15) = 51",
+            "365 sq ft paintable"
+          ],
+          [
+            "Two coats",
+            "365 x 2",
+            "730 sq ft"
+          ],
+          [
+            "Paint needed (example coverage 350 sq ft per gallon)",
+            "730 / 350",
+            "about 2.1 gallons"
+          ],
+          [
+            "Add about 10% waste",
+            "2.1 x 1.1",
+            "about 2.3 gallons"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "In this example you would likely buy a little more than two gallons, rounding up to match the container sizes available. Rough surfaces, porous walls, dramatic color changes and application method can all change real coverage, so treat any calculator result as an estimate. For a full walkthrough, see how much paint do I need."
+      },
+      {
+        "type": "h2",
+        "text": "Common Beige Paint Mistakes to Avoid"
+      },
+      {
+        "type": "li",
+        "text": "Choosing from a chip or screen only. Digital colors and tiny swatches rarely match the finished wall.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Ignoring undertones. A beige that looks neutral in the store can turn pink, green or yellow at home.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Pairing it with a mismatched white. A bright white trim can make warm beige look dingy.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Skipping lighting tests. Check your sample at different times of day and under your actual bulbs.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Going too flat. Without texture, wood or contrast, an all-beige room can feel bland, so vary your finishes and materials.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Under-buying paint. Running short mid-project can cause visible batch differences. Buy enough for the whole job.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions About Beige Paint"
+      },
+      {
+        "type": "h3",
+        "text": "Is beige paint still in style in 2026?"
+      },
+      {
+        "type": "p",
+        "text": "Yes, beige can fit current warm, nature-inspired schemes. Recent brand palettes emphasize earthy colors, but a lasting choice depends more on your room, furniture and light than on the year printed on a trend report."
+      },
+      {
+        "type": "h3",
+        "text": "What is the difference between beige and greige?"
+      },
+      {
+        "type": "p",
+        "text": "Beige leans warm, with yellow, pink or peach undertones. Greige blends beige and gray, so it feels more muted and balanced. In practice many beiges sit on a spectrum between the two, which is why sampling matters."
+      },
+      {
+        "type": "h3",
+        "text": "What is the best beige paint for a living room?"
+      },
+      {
+        "type": "p",
+        "text": "There is no single best shade. Lighter beiges keep smaller or darker living rooms open, while deeper, earthier beiges suit larger, well-lit rooms. Pick based on your light direction, flooring and furniture, then sample."
+      },
+      {
+        "type": "h3",
+        "text": "Does beige paint make a room look bigger?"
+      },
+      {
+        "type": "p",
+        "text": "Lighter beiges with a higher LRV reflect more light and can help a room feel more open. Very dark or heavily saturated beiges tend to feel cozier and more enclosed."
+      },
+      {
+        "type": "h3",
+        "text": "What undertone should I choose for a north-facing room?"
+      },
+      {
+        "type": "p",
+        "text": "North light is cool, so beiges can look gray. Many people prefer a warmer or slightly deeper beige there, but always test your sample in the actual room."
+      },
+      {
+        "type": "h3",
+        "text": "How many coats of beige paint do I need?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on the paint product, surface condition, existing color and finish. Follow the manufacturer’s instructions. Many projects use two coats, but your product may differ."
+      },
+      {
+        "type": "h3",
+        "text": "How do I calculate how much beige paint I need?"
+      },
+      {
+        "type": "p",
+        "text": "Multiply the room’s perimeter by wall height, subtract doors and windows, multiply by the number of coats, divide by the coverage stated on your paint can, and add a small waste allowance. The Interior Tailor Paint Calculator does this for you."
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "Beige is a smart choice in 2026 when you treat it as a warm, grounded base instead of a default. Choose your undertone carefully, test it in your real light, pair it with natural textures and earthy accents, and plan your quantity in advance. When you are ready, preview your color with the Room Color Visualizer and estimate your paint with the Paint Calculator."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Behr’s 2027 color announcement: Grounded",
+        "url": "https://corporate.behr.com/news/behr-paint-company-announces-2027-color-of-the-year-grounded"
+      },
+      {
+        "label": "Sherwin-Williams: Celery, 2027 Color of the Year",
+        "url": "https://www.sherwin-williams.com/en-us/color/color-of-the-year/2027"
+      },
+      {
+        "label": "Valspar: Cottage Door, 2027 Color of the Year",
+        "url": "https://www.valspar.com/en/colors/color-of-the-year-2027"
+      },
+      {
+        "label": "Dutch Boy: Deep Rooted, 2027 Color of the Year",
+        "url": "https://www.dutchboy.com/en/colors/color-of-the-year"
+      },
+      {
+        "label": "Dunn-Edwards: French Press Coffee announcement",
+        "url": "https://www.dunnedwards.com/press-releases/dunn-edwards-announces-french-press-coffee-as-2027-color-of-the-year/"
+      },
+      {
+        "label": "Graham & Brown: Rose Earth, 2027 Color of the Year",
+        "url": "https://www.grahambrown.com/us/inspiration/introducing-design-and-colour-of-the-year-2027/"
+      }
+    ]
+  },
+  {
+    "slug": "gravel-calculator-guide",
+    "title": "Gravel Calculator: How Much Gravel Do You Need for Your Project?",
+    "seoTitle": "Gravel Calculator Guide: How Much Gravel Do I Need?",
+    "description": "Learn how to use a gravel calculator: convert area and depth into cubic yards and tons, choose gravel depth and type, and avoid common ordering mistakes.",
+    "category": "LANDSCAPING",
+    "date": "2026-10-20",
+    "palette": [
+      "#d6d9d2",
+      "#b2bbb1",
+      "#828c82",
+      "#566356"
+    ],
+    "readingMinutes": 9,
+    "blocks": [
+      {
+        "type": "p",
+        "text": "Order too little gravel and you pay for a second delivery. Order too much and you are left with a pile you did not need. A gravel calculator solves this by turning your project’s length, width and depth into the two numbers suppliers actually use: cubic yards and tons. This guide explains the formula behind the calculator, the right depth for common projects, how gravel weight affects your order, how gravel fits into landscaping and drainage plans, and the mistakes that cause most ordering errors."
+      },
+      {
+        "type": "p",
+        "text": "In this guide, a ton means a US short ton (2,000 lb), not a metric tonne. The calculator labels imperial output in short tons and metric output in tonnes. Example weights use an assumed density; the tool uses the density of the selected material, so weight estimates can differ."
+      },
+      {
+        "type": "h2",
+        "text": "Key takeaways"
+      },
+      {
+        "type": "li",
+        "text": "Gravel is sold by volume (cubic yards) or weight (tons). Volume = length x width x depth, with everything in feet, divided by 27.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "As a rule of thumb, one cubic yard of gravel weighs roughly 1.35 to 1.5 tons, depending on the type and moisture.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Common depths: about 2 to 3 inches for walkways and decorative beds, and 4 to 6 inches for driveways.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Add roughly 10% for compaction and settling, and more on small orders.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Convert inches to feet before multiplying. Mixing units is the most common calculator mistake.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "What a Gravel Calculator Does"
+      },
+      {
+        "type": "p",
+        "text": "A gravel calculator is a quick estimator. You enter the length and width of the area, choose a depth, and it returns the volume of material in cubic yards and the approximate weight in tons. The result depends entirely on what you enter, so inaccurate measurements lead to inaccurate orders. It is also an estimate: the actual weight of gravel changes with moisture and stone size, and the real amount you need changes with how well the ground is prepared and compacted."
+      },
+      {
+        "type": "p",
+        "text": "Use it for planning and budgeting, then confirm quantities and weights with your supplier before you order. You can try it now with the Interior Tailor Gravel Calculator."
+      },
+      {
+        "type": "h2",
+        "text": "How to Use the Interior Tailor Gravel Calculator"
+      },
+      {
+        "type": "li",
+        "ordered": true,
+        "text": "Choose Metric or Imperial. Metric uses metres for length and width and centimetres for depth; Imperial uses feet and inches."
+      },
+      {
+        "type": "li",
+        "ordered": true,
+        "text": "Enter the length, width and gravel depth of a rectangular area. For a circle or irregular shape, calculate the area by hand first, or split the project into rectangles and calculate them separately."
+      },
+      {
+        "type": "li",
+        "ordered": true,
+        "text": "Choose the material: pea gravel, crushed stone, decomposed granite, river rock or coarse sand. Each uses a different built-in density estimate."
+      },
+      {
+        "type": "li",
+        "ordered": true,
+        "text": "Review the waste allowance, which starts at 10%, and select Calculate. Read the net volume, total to order and estimated weight in the selected measurement system."
+      },
+      {
+        "type": "p",
+        "text": "The calculator has no direct bag-size or custom-density input. Use the bag conversion in our figuring gravel guide for packaged material, and ask your supplier to confirm the density and quantity for a bulk order."
+      },
+      {
+        "type": "h2",
+        "text": "The Gravel Formula, Step by Step"
+      },
+      {
+        "type": "p",
+        "text": "Even if you plan to use a calculator, understanding the math helps you catch mistakes."
+      },
+      {
+        "type": "h3",
+        "text": "Step 1: Measure the area"
+      },
+      {
+        "type": "p",
+        "text": "For a rectangle, measure the length and width in feet. For a circle, measure the diameter, find the radius (half the diameter), and use area = 3.14 x radius x radius. For irregular shapes, split the area into rectangles, circles and triangles, calculate each one, and add them together."
+      },
+      {
+        "type": "h3",
+        "text": "Step 2: Convert depth to feet"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Depth (inches)",
+            "Depth (feet)"
+          ],
+          [
+            "1 in",
+            "0.083 ft"
+          ],
+          [
+            "2 in",
+            "0.167 ft"
+          ],
+          [
+            "3 in",
+            "0.25 ft"
+          ],
+          [
+            "4 in",
+            "0.333 ft"
+          ],
+          [
+            "6 in",
+            "0.5 ft"
+          ]
+        ]
+      },
+      {
+        "type": "h3",
+        "text": "Step 3: Calculate cubic feet and cubic yards"
+      },
+      {
+        "type": "li",
+        "text": "Cubic feet = length (ft) x width (ft) x depth (ft)",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Cubic yards = cubic feet / 27",
+        "ordered": false
+      },
+      {
+        "type": "h3",
+        "text": "Step 4: Convert cubic yards to tons"
+      },
+      {
+        "type": "p",
+        "text": "Multiply cubic yards by the weight per cubic yard of your gravel. Many suppliers use about 1.4 tons per cubic yard as a general figure for common gravel, though specific materials range from roughly 1.35 to 1.5 tons or more."
+      },
+      {
+        "type": "li",
+        "text": "Tons = cubic yards x tons per cubic yard (about 1.4 for typical gravel)",
+        "ordered": false
+      },
+      {
+        "type": "h3",
+        "text": "Step 5: Add an allowance"
+      },
+      {
+        "type": "p",
+        "text": "Gravel settles and compacts after it is spread, and some is lost in handling. A common planning allowance is about 10%, with suppliers suggesting more on smaller orders. Round up to the nearest delivery quantity your supplier offers."
+      },
+      {
+        "type": "h2",
+        "text": "How Deep Should Gravel Be?"
+      },
+      {
+        "type": "p",
+        "text": "Depth drives your quantity more than any other input, so choose it for the job, not for convenience."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Project",
+            "Typical depth",
+            "Notes"
+          ],
+          [
+            "Decorative beds and garden paths",
+            "2 to 3 inches",
+            "Enough to cover soil and suppress weeds when combined with edging"
+          ],
+          [
+            "Walkways and patios",
+            "2 to 3 inches",
+            "Smaller stone such as pea gravel is common for foot traffic"
+          ],
+          [
+            "Driveways",
+            "4 to 6 inches",
+            "Heavier loads and wet climates call for the upper end"
+          ],
+          [
+            "Base layers and structural fill",
+            "About 6 inches",
+            "Often a coarser, compactable stone under a finishing layer"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Local conditions, soil type, traffic and drainage all affect the right depth. If the surface will carry vehicles or manage water, check with your supplier or a local contractor."
+      },
+      {
+        "type": "p",
+        "text": "Depths above are planning examples, not a complete driveway construction specification. The surface, compacted base and excavation can require different depths. Design for the ground conditions and loads at your site."
+      },
+      {
+        "type": "h2",
+        "text": "Gravel Weight: Tons per Cubic Yard by Type"
+      },
+      {
+        "type": "p",
+        "text": "The same volume of different stone can weigh noticeably different amounts, so tons and cubic yards are not interchangeable. Published figures vary by supplier, but these are commonly quoted approximations:"
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Material",
+            "Approx. tons per cubic yard",
+            "Common use"
+          ],
+          [
+            "Pea gravel",
+            "About 1.4",
+            "Paths, patios, decorative areas"
+          ],
+          [
+            "Crushed stone (#57)",
+            "About 1.5",
+            "Driveways, drainage trenches"
+          ],
+          [
+            "Road base / crusher run",
+            "About 1.5 to 1.7",
+            "Base layers that compact firmly"
+          ],
+          [
+            "Decorative river rock",
+            "About 1.35",
+            "Garden beds and borders"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Always confirm the density with your supplier, since moisture and stone size change the figure."
+      },
+      {
+        "type": "h2",
+        "text": "Worked Examples"
+      },
+      {
+        "type": "p",
+        "text": "These examples use 1.4 tons per cubic yard and a 10% allowance. Swap in your own numbers."
+      },
+      {
+        "type": "table",
+        "rows": [
+          [
+            "Project",
+            "Calculation",
+            "Cubic yards",
+            "Tons",
+            "With 10% extra"
+          ],
+          [
+            "Walkway, 20 ft x 3 ft x 2 in",
+            "60 sq ft x 0.167 ft = 10 cu ft / 27",
+            "0.37",
+            "0.52",
+            "0.41 yd, 0.57 tons"
+          ],
+          [
+            "Garden area, 12 ft x 12 ft x 3 in",
+            "144 sq ft x 0.25 ft = 36 cu ft / 27",
+            "1.33",
+            "1.87",
+            "1.47 yd, 2.05 tons"
+          ],
+          [
+            "Single driveway, 10 ft x 20 ft x 4 in",
+            "200 sq ft x 0.333 ft = 66.7 cu ft / 27",
+            "2.47",
+            "3.46",
+            "2.72 yd, 3.80 tons"
+          ],
+          [
+            "Double driveway, 20 ft x 20 ft x 4 in",
+            "400 sq ft x 0.333 ft = 133.3 cu ft / 27",
+            "4.94",
+            "6.91",
+            "5.43 yd, 7.60 tons"
+          ]
+        ]
+      },
+      {
+        "type": "p",
+        "text": "Figures are rounded. In practice you would round up to the next available order quantity."
+      },
+      {
+        "type": "h2",
+        "text": "Choosing the Right Gravel Type and Size"
+      },
+      {
+        "type": "li",
+        "text": "Pea gravel: small, rounded stones that suit walkways, patios and garden paths. It can shift underfoot, so use edging.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Crushed stone: angular pieces that lock together and compact well, which is why it is a common driveway and drainage choice.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Crusher run or road base: a mix of stone sizes with fine material that binds, often used as a compacted base layer.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "River rock and decorative stone: attractive for beds and borders, but rounded stones in larger sizes are generally not ideal for driveways.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Color: design writers note that darker gravel often suits contemporary gardens, while warm-toned pea gravel pairs well with cottage and Mediterranean styles.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Design and Drainage Considerations"
+      },
+      {
+        "type": "p",
+        "text": "Consider how the gravel surface connects to paths, planting and drainage. These design choices affect both your material order and site preparation:"
+      },
+      {
+        "type": "li",
+        "text": "Permeable driveways: surface stone is only one part of the system. Confirm the base, soil and drainage design before estimating each layer.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Paths and planting: calculate gravel paths separately from adjacent beds, and allow for edging and changes in width.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Replacing a hard surface: removing concrete does not by itself establish a suitable gravel base. Check the ground preparation and drainage needs first.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Stone and gravel combinations: deduct the area occupied by solid pavers when estimating gravel infill, while calculating the underlying base over its own full area.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Drainage features: gravel can form part of a drainage trench or rain-garden design, but dimensions and discharge arrangements need site-specific planning.",
+        "ordered": false
+      },
+      {
+        "type": "p",
+        "text": "If you are planning one of these projects, a calculator quantity is your starting point, and your supplier or contractor can advise on drainage and base requirements for your site."
+      },
+      {
+        "type": "h2",
+        "text": "Common Gravel Calculator Mistakes"
+      },
+      {
+        "type": "li",
+        "text": "Mixing units. Entering depth in inches while length and width are in feet gives a wildly wrong result. Convert first or use a calculator that handles unit selection.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Skipping the allowance. Gravel compacts and settles, so an exact calculation usually leaves you short.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Ignoring the base layer. New driveways and paths often need a coarser base beneath the finish layer, which means two materials and two calculations.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Using one depth everywhere. If part of an area is lower or needs more cover, calculate each section separately.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Mixing tons and cubic yards. Confirm whether your supplier sells by weight or volume, and use that unit when you order.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Forgetting delivery limits. Delivery is usually charged per trip, so a second small delivery is expensive.",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Choosing bags for a large project. Bagged gravel is convenient for small jobs but is generally much more expensive per cubic yard than bulk delivery.",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Related Interior Tailor Calculators"
+      },
+      {
+        "type": "p",
+        "text": "Gravel projects usually involve more than one material. These tools can help you plan the rest:"
+      },
+      {
+        "type": "li",
+        "text": "Cubic Yard Calculator and Cubic Feet Calculator for converting volumes",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Square Footage Calculator for measuring irregular areas",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Paver Calculator for stone and paver patios or paths",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Topsoil Calculator, Mulch Calculator and Sod Calculator for surrounding planting areas",
+        "ordered": false
+      },
+      {
+        "type": "li",
+        "text": "Concrete Calculator for edging, footings or slabs",
+        "ordered": false
+      },
+      {
+        "type": "h2",
+        "text": "Frequently Asked Questions About Gravel Calculators"
+      },
+      {
+        "type": "h3",
+        "text": "How do I calculate how much gravel I need?"
+      },
+      {
+        "type": "p",
+        "text": "Multiply length by width by depth, all in feet, to get cubic feet, then divide by 27 for cubic yards. Multiply by your gravel’s tons per cubic yard to get tons, and add a small allowance for compaction."
+      },
+      {
+        "type": "h3",
+        "text": "How many tons are in a cubic yard of gravel?"
+      },
+      {
+        "type": "p",
+        "text": "It depends on the material, but a common planning figure is about 1.4 tons per cubic yard. Specific products range from roughly 1.35 to 1.5 tons or more, so confirm with your supplier."
+      },
+      {
+        "type": "h3",
+        "text": "How much area does one ton of gravel cover?"
+      },
+      {
+        "type": "p",
+        "text": "Using about 1.4 tons per cubic yard, one ton covers roughly 116 square feet at 2 inches deep and about 58 square feet at 4 inches deep, before any allowance for settling."
+      },
+      {
+        "type": "h3",
+        "text": "How much gravel do I need for a 10 x 20 ft driveway?"
+      },
+      {
+        "type": "p",
+        "text": "At 4 inches deep, that is about 2.5 cubic yards, or roughly 3.5 tons, and a little over 3.8 tons with a 10% allowance."
+      },
+      {
+        "type": "h3",
+        "text": "How deep should a gravel driveway be?"
+      },
+      {
+        "type": "p",
+        "text": "Most guidance points to about 4 to 6 inches, with heavier use and wetter climates favoring more depth. Ask a local supplier or contractor for your conditions."
+      },
+      {
+        "type": "h3",
+        "text": "Should I order gravel by the ton or by the cubic yard?"
+      },
+      {
+        "type": "p",
+        "text": "Order in the unit your supplier uses. Many sell by weight, others by volume. A good calculator gives you both so you can compare quotes."
+      },
+      {
+        "type": "h3",
+        "text": "How much extra gravel should I order?"
+      },
+      {
+        "type": "p",
+        "text": "About 10% is a common allowance for compaction and settling, and suppliers often suggest more for small orders. Round up to the next delivery quantity."
+      },
+      {
+        "type": "h3",
+        "text": "Is a gravel calculator exact?"
+      },
+      {
+        "type": "p",
+        "text": "No. It is an estimate based on the numbers you enter and typical material density. Moisture, stone size, surface preparation and compaction all change the amount you actually need."
+      },
+      {
+        "type": "h2",
+        "text": "Final Thoughts"
+      },
+      {
+        "type": "p",
+        "text": "A gravel calculator takes the guesswork out of ordering, but the best results come from good inputs: accurate measurements, the right depth for the job, and the correct weight for your stone. Run your numbers, add a sensible allowance, and confirm everything with your supplier. When you are ready, open the Gravel Calculator and get your estimate in seconds."
+      }
+    ],
+    "sources": [
+      {
+        "label": "Gravel uses, drainage and base preparation — Houzz",
+        "url": "https://www.houzz.com/magazine/10-ways-to-put-gravel-to-work-in-your-garden-stsetivw-vs~105981505"
+      }
+    ]
+  },
+  {
     "slug": "gray-paint-colors",
     "title": "Gray Paint Colors: How to Choose a Shade That Works in Your Home",
     "seoTitle": "Gray Paint Colors: Undertones, Lighting & Room Ideas",
@@ -1628,6 +3176,10 @@
       {
         "type": "p",
         "text": "The specific shade matters less than three things: its undertone, its depth, and the light it lives in. Once you can read those, choosing gets much easier. This guide explains each one, shows where beige ends and greige begins, and walks through nine well-regarded shades along with their drawbacks. It also covers how to match beige to the floors and cabinets you're keeping, what to do when a beige goes wrong, and how to test before you buy a gallon."
+      },
+      {
+        "type": "p",
+        "text": "For current warm-neutral palettes and a worked paint-quantity example, see our beige paint planning guide."
       },
       {
         "type": "h2",

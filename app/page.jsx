@@ -156,8 +156,8 @@ export default function HomePage() {
       </section>
 
       <section className="blog-home" aria-labelledby="latest-color-guides">
-        <h2 className="blog-section-title" id="latest-color-guides">Paint color inspiration <a href="/blog/">Explore the blog ↗</a></h2>
-        <BlogCards posts={blogPosts} />
+        <h2 className="blog-section-title" id="latest-color-guides">Ideas for your next project <a href="/blog/">Explore the blog ↗</a></h2>
+        <BlogCards posts={blogPosts.slice(0, 4)} />
       </section>
       <ToolsGrid />
 
