@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import PoolVolumeCalculator from '@/components/PoolVolumeCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -22,6 +23,8 @@ export default function PoolVolumePage() {
 
       <PoolVolumeCalculator />
 
+      <CalculatorContent slug="pool-volume-calculator" part="intro" />
+
       <section className="seo-band">
         <div className="seo-grid">
           <article className="seo-card">
@@ -32,8 +35,8 @@ export default function PoolVolumePage() {
             <p><span className="formula">Volume (gallons) = ft³ × 7.48052</span></p>
             <p>
               For L-shaped pools, calculate the two rectangular sections separately and add their
-              volumes together before multiplying by the average depth. For oval and kidney pools,
-              use the appropriate area formula — this calculator handles them automatically.
+              surface areas together before multiplying by the average depth. For oval and kidney pools,
+              estimate the surface area separately using a formula suited to the shape.
             </p>
           </article>
 
@@ -50,14 +53,16 @@ export default function PoolVolumePage() {
           <article className="seo-card">
             <h2>Pool Volume Quick Reference</h2>
             <ul>
-              <li><strong>12×24 ft rectangular, 3.5–5 ft depth:</strong> ~12,000–14,000 gallons</li>
-              <li><strong>16×32 ft rectangular, 3.5–6 ft depth:</strong> ~22,000–25,000 gallons</li>
-              <li><strong>18×36 ft rectangular, 3.5–8 ft depth:</strong> ~32,000–38,000 gallons</li>
+              <li><strong>12×24 ft rectangular, 3.5–5 ft depth:</strong> ~9,160 gallons</li>
+              <li><strong>16×32 ft rectangular, 3.5–6 ft depth:</strong> ~18,190 gallons</li>
+              <li><strong>18×36 ft rectangular, 3.5–8 ft depth:</strong> ~27,870 gallons</li>
               <li><strong>24 ft round, 4 ft depth:</strong> ~13,600 gallons</li>
               <li><strong>27 ft round, 4 ft depth:</strong> ~17,200 gallons</li>
               <li><strong>15×30 ft oval, 4 ft depth:</strong> ~10,600 gallons</li>
             </ul>
           </article>
+
+          <CalculatorContent slug="pool-volume-calculator" part="sections" />
 
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
@@ -73,12 +78,9 @@ export default function PoolVolumePage() {
               <summary>How much does it cost to fill a pool?</summary>
               <p>At an average US water rate of $0.005 per gallon, a 20,000-gallon pool costs approximately $100 to fill from municipal water. Rates vary significantly — check your utility bill for your actual rate per 1,000 gallons.</p>
             </details>
-            <div className="related-links">
-              <a href="/pool-gallon-calculator/">Pool Gallon Calculator</a>
-              <a href="/pool-chemical-calculator/">Pool Chemical Calculator</a>
-              <a href="/cubic-feet-calculator/">Cubic Feet Calculator</a>
-            </div>
+            <CalculatorFaqs slug="pool-volume-calculator" />
           </article>
+          <CalculatorContent slug="pool-volume-calculator" part="related" />
         </div>
       </section>
     </>

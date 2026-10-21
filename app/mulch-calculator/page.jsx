@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import MulchCalculator from '@/components/MulchCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function MulchCalculatorPage() {
       </section>
 
       <MulchCalculator />
+
+      <CalculatorContent slug="mulch-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -59,6 +62,8 @@ export default function MulchCalculatorPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="mulch-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -73,13 +78,9 @@ export default function MulchCalculatorPage() {
               <summary>Does mulch attract termites?</summary>
               <p>Wood mulch does not attract termites but can provide moisture and cover they prefer. Keep mulch 15–30 cm (6–12 in) away from the foundation of your house as a precaution.</p>
             </details>
-            <div className="related-links">
-              <a href="/topsoil-calculator/">Topsoil Calculator</a>
-              <a href="/gravel-calculator/">Gravel Calculator</a>
-              <a href="/sod-calculator/">Sod Calculator</a>
-              <a href="/cubic-yard-calculator/">Cubic Yard Calculator</a>
-            </div>
+            <CalculatorFaqs slug="mulch-calculator" />
           </article>
+          <CalculatorContent slug="mulch-calculator" part="related" />
         </div>
       </section>
     </>

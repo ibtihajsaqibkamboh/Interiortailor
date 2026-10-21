@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import ConcreteSlabCalculator from '@/components/ConcreteSlabCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function ConcreteSlabPage() {
       </section>
 
       <ConcreteSlabCalculator />
+
+      <CalculatorContent slug="concrete-slab-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -64,6 +67,8 @@ export default function ConcreteSlabPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="concrete-slab-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -78,13 +83,9 @@ export default function ConcreteSlabPage() {
               <summary>How long before I can drive on a new concrete slab?</summary>
               <p>Passenger vehicles can typically use a residential driveway slab after 7 days. Heavy vehicles and loaded trucks should wait 28 days for full design strength.</p>
             </details>
-            <div className="related-links">
-              <a href="/concrete-bag-calculator/">Concrete Bag Calculator</a>
-              <a href="/concrete-calculator/">Concrete Calculator</a>
-              <a href="/rebar-calculator/">Rebar Calculator</a>
-              <a href="/gravel-calculator/">Gravel Sub-Base Calculator</a>
-            </div>
+            <CalculatorFaqs slug="concrete-slab-calculator" />
           </article>
+          <CalculatorContent slug="concrete-slab-calculator" part="related" />
         </div>
       </section>
     </>

@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import GravelCalculator from '@/components/GravelCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function GravelCalculatorPage() {
       </section>
 
       <GravelCalculator />
+
+      <CalculatorContent slug="gravel-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -58,6 +61,8 @@ export default function GravelCalculatorPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="gravel-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -72,13 +77,9 @@ export default function GravelCalculatorPage() {
               <summary>Do I need landscape fabric under gravel?</summary>
               <p>Landscape fabric under decorative gravel helps prevent weeds and stops the gravel from mixing into the soil over time. For driveways and drainage applications, use a geotextile fabric designed for those applications instead.</p>
             </details>
-            <div className="related-links">
-              <a href="/concrete-calculator/">Concrete Calculator</a>
-              <a href="/mulch-calculator/">Mulch Calculator</a>
-              <a href="/cubic-yard-calculator/">Cubic Yard Calculator</a>
-              <a href="/topsoil-calculator/">Topsoil Calculator</a>
-            </div>
+            <CalculatorFaqs slug="gravel-calculator" />
           </article>
+          <CalculatorContent slug="gravel-calculator" part="related" />
         </div>
       </section>
     </>

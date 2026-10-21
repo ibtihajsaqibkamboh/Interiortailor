@@ -1,0 +1,1682 @@
+{
+  "concrete-calculator": {
+    "intro": [
+      {
+        "title": "Plan Your Pour with a Fast, Accurate Concrete Calculator",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Whether you are pouring a patio, a garage floor, a footing for a deck or a round pad for a hot tub, the Interior Tailor Concrete Calculator turns your measurements into the volume of concrete to order. Enter the dimensions of a rectangular slab or a circular pad, add a waste allowance, and get your total in cubic yards or cubic metres, plus an equivalent bag count if you plan to mix on site. It takes the guesswork out of ordering, so you can avoid a short pour or paying for concrete you do not need."
+          }
+        ]
+      },
+      {
+        "title": "What the Concrete Calculator Does",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Two shapes in one tool: rectangular or square slabs, and circular pads.",
+              "Imperial and metric units: feet and cubic yards, or metres and cubic metres.",
+              "Common thickness presets: one-click values for slabs and patios, footings and beams, 100 mm walls and driveways.",
+              "Adjustable waste allowance: set a percentage for uneven sub-grades, spillage and minor measurement differences.",
+              "Equivalent bag count: see how many pre-mix bags the pour equals, so you can compare bags with ready-mix delivery."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Concrete Projects You Can Estimate",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator as a starting point for most flatwork and small structural pours:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Patios, walkways and garden paths",
+              "Driveways, garage floors and shed bases",
+              "Footings and beams",
+              "Circular pads for hot tubs, fire pits and equipment",
+              "Thin concrete walls at 100 mm (4 in) thickness"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Concrete Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "These examples use a 10% waste allowance. Swap in your own dimensions to see how quickly the numbers change."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Inputs",
+              "Volume",
+              "With 10% waste",
+              "80 lb bags"
+            ],
+            "rows": [
+              [
+                "Rectangular patio",
+                "12 ft x 12 ft x 4 in",
+                "1.78 cu yd",
+                "1.96 cu yd",
+                "88 bags"
+              ],
+              [
+                "Circular pad",
+                "8 ft diameter x 4 in",
+                "0.62 cu yd",
+                "0.68 cu yd",
+                "31 bags"
+              ],
+              [
+                "Strip footing (illustrative)",
+                "20 ft x 1.5 ft x 10 in",
+                "0.93 cu yd",
+                "1.02 cu yd",
+                "46 bags"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Bag counts assume an 80 lb bag yields about 0.6 cubic feet. Check the yield printed on the bag you buy."
+          }
+        ]
+      },
+      {
+        "title": "Tips for a More Accurate Concrete Estimate",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure inside the forms, not outside them, and check thickness at several points.",
+              "Add 5 to 15% waste. Around 10% is a common allowance, and uneven sub-grades call for more.",
+              "For irregular shapes, split the area into rectangles and circles, calculate each and add the volumes.",
+              "Above roughly one cubic yard, price a ready-mix delivery against mixing bags by hand.",
+              "Confirm slab thickness and reinforcement for your load with a local contractor or building code."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How many square feet does one cubic yard of concrete cover?",
+        "answer": "It depends on thickness. One cubic yard covers about 81 square feet at 4 inches thick, about 65 square feet at 5 inches and about 54 square feet at 6 inches, before any waste allowance."
+      },
+      {
+        "type": "faq",
+        "question": "Can I use this calculator for a round patio or footing?",
+        "answer": "Yes. Choose the circular shape and enter the diameter and thickness. For a trench footing or a thin wall, use the rectangular shape with the length, width and depth of the pour."
+      },
+      {
+        "type": "faq",
+        "question": "Should I order ready-mix or use bags?",
+        "answer": "Bags are practical for pours under about one cubic yard, such as posts and small pads. Larger pours are usually easier, more consistent and more economical with ready-mix delivery. The bag count in the results helps you compare both."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Planning the rest of the job? These tools work well alongside the concrete calculator:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Concrete Slab Calculator for slab and patio volume with presets",
+            "Concrete Bag Calculator to compare 40, 50, 60 and 80 lb bags",
+            "Rebar Calculator for reinforcement quantities",
+            "Gravel Calculator for the compacted sub-base",
+            "Cubic Yard Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  },
+  "concrete-slab-calculator": {
+    "intro": [
+      {
+        "title": "Calculate Concrete for a Slab, Patio or Driveway in Seconds",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Concrete Slab Calculator gives you the concrete volume for a slab, patio, driveway or floor from three simple measurements: length, width and thickness. Results come back in cubic yards or cubic metres, with an equivalent bag count if you plan to mix on site. Built-in thickness presets for a standard slab, a driveway and a heavy-load slab make it easy to start from a realistic number, and the waste allowance helps you order enough concrete for uneven sub-grades and small form variations."
+          }
+        ]
+      },
+      {
+        "title": "Why Use This Slab Calculator",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Simple inputs: length, width and thickness are all you need.",
+              "Units that match how you measure: imperial with feet and inches, or metric with metres and millimetres, so there is no manual conversion.",
+              "Thickness presets: standard slab, driveway and heavy-load options in one tap.",
+              "Waste allowance: a percentage field for spillage, uneven sub-grade and form variation.",
+              "Volume and bag estimate: see the amount to order and the equivalent number of bags for on-site mixing."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Slab Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The calculator suits any flat, uniform-thickness pour:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Patios, sidewalks and walkways",
+              "Driveways and garage floors",
+              "Shed, workshop and utility room floors",
+              "Equipment pads and light commercial floors",
+              "Basement and house floor slabs"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Slab Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Each example adds a 10% waste allowance. The metric example shows how the same method works in metres and millimetres."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Inputs",
+              "Volume",
+              "With 10% waste"
+            ],
+            "rows": [
+              [
+                "Patio",
+                "12 ft x 10 ft x 4 in",
+                "1.48 cu yd",
+                "1.63 cu yd"
+              ],
+              [
+                "Driveway",
+                "12 ft x 24 ft x 5 in",
+                "4.44 cu yd",
+                "4.89 cu yd"
+              ],
+              [
+                "Metric slab",
+                "4 m x 3 m x 100 mm",
+                "1.20 cu m",
+                "1.32 cu m"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Round up to the next quantity your supplier delivers. Always confirm thickness for your load and local code."
+          }
+        ]
+      },
+      {
+        "title": "Tips for an Accurate Slab Estimate",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure the inside of your forms and check the depth in several places across the sub-base.",
+              "Use the same thickness across the slab, or calculate thicker edges and footings separately and add them.",
+              "Add 5 to 10% waste for a typical slab, and more if the sub-grade is uneven.",
+              "Build in the gravel base and any vapour barrier when you set your finished thickness.",
+              "Reinforcement such as rebar or wire mesh does not change the volume, so use the Rebar Calculator for that."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "Do I need to convert inches to feet before I enter my slab size?",
+        "answer": "No. In imperial mode you enter length and width in feet and thickness in inches, and the calculator handles the conversion. In metric mode, use metres for length and width and millimetres for thickness."
+      },
+      {
+        "type": "faq",
+        "question": "How thick should a concrete driveway slab be?",
+        "answer": "A residential driveway is commonly at least 4 inches thick, and 5 inches gives extra strength for heavier vehicles. Use the driveway preset as a starting point, then confirm with a local contractor."
+      },
+      {
+        "type": "faq",
+        "question": "Can I order less than one cubic yard of ready-mix?",
+        "answer": "Minimum loads are usually about one cubic yard. Some suppliers offer smaller short loads at a premium, so for small slabs compare that cost with mixing bags."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "These calculators help you plan the rest of the slab:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Concrete Calculator for rectangular and circular pours",
+            "Concrete Bag Calculator to choose a bag size",
+            "Rebar Calculator for reinforcement",
+            "Gravel Calculator for the compacted base",
+            "Square Footage Calculator for measuring irregular areas"
+          ]
+        }
+      ]
+    }
+  },
+  "concrete-bag-calculator": {
+    "intro": [
+      {
+        "title": "Find Out How Many Bags of Concrete You Need",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Already know how much concrete your project needs? The Interior Tailor Concrete Bag Calculator converts that volume into a bag count in seconds. Enter your volume in cubic yards, cubic feet or cubic metres, choose a 40, 50, 60 or 80 lb bag, add a waste allowance, and see how many pre-mix bags to buy. It is the quickest way to compare bag sizes, price a small pour and decide whether bags or ready-mix concrete makes more sense."
+          }
+        ]
+      },
+      {
+        "title": "What This Bag Calculator Does",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Start from any volume: cubic yards, cubic feet or cubic metres.",
+              "Compare all common bag sizes: 40, 50, 60 and 80 lb bags, each with its approximate yield.",
+              "Waste allowance: add a percentage so you do not run short mid-pour.",
+              "Clear bag count: a single result to take straight to the store.",
+              "Pairs with the slab and concrete calculators: calculate volume first, then convert it to bags here."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "When Bagged Concrete Makes Sense",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Pre-mix bags are best for small, manageable jobs:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Fence, mailbox and deck posts",
+              "Small slabs and pads",
+              "Repairs and patching",
+              "Small footings",
+              "Locations a truck cannot reach"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Bag Counts at a Glance",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Here is how one volume turns into different bag counts. The first table starts from half a cubic yard with a 10% waste allowance. The second shows approximate bags per full cubic yard before waste."
+          },
+          {
+            "type": "paragraph",
+            "text": "Half a cubic yard (13.5 cu ft) plus 10% waste = 14.85 cu ft"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Bag size",
+              "Approx. yield",
+              "Bags needed"
+            ],
+            "rows": [
+              [
+                "40 lb",
+                "0.30 cu ft",
+                "50 bags"
+              ],
+              [
+                "50 lb",
+                "0.375 cu ft",
+                "40 bags"
+              ],
+              [
+                "60 lb",
+                "0.45 cu ft",
+                "33 bags"
+              ],
+              [
+                "80 lb",
+                "0.60 cu ft",
+                "25 bags"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Approximate bags per cubic yard (27 cu ft), before waste"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Bag size",
+              "Bags per cubic yard"
+            ],
+            "rows": [
+              [
+                "40 lb",
+                "About 90"
+              ],
+              [
+                "50 lb",
+                "About 72"
+              ],
+              [
+                "60 lb",
+                "About 60"
+              ],
+              [
+                "80 lb",
+                "About 45"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Yields vary slightly by brand, so check the stated yield on the bag you buy. Round up to a whole bag."
+          }
+        ]
+      },
+      {
+        "title": "Tips for Buying and Mixing Bagged Concrete",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Choose 80 lb bags for fewer bags to mix, or 60 lb bags if lighter lifting matters more.",
+              "For anything above about 10 bags, use a mechanical mixer rather than mixing by hand.",
+              "Add water gradually and follow the label. Too much water weakens the finished concrete.",
+              "Only mix what you can place and finish in about 30 to 45 minutes.",
+              "Above roughly one cubic yard, compare the cost and labour with a ready-mix delivery."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How many 80 lb bags of concrete make one cubic yard?",
+        "answer": "About 45 bags, based on a yield of roughly 0.6 cubic feet per bag. A cubic yard is 27 cubic feet, so 27 divided by 0.6 gives 45."
+      },
+      {
+        "type": "faq",
+        "question": "Which bag size is the best value?",
+        "answer": "The 80 lb bag is usually the most economical and needs the fewest bags. Smaller 40 to 60 lb bags are easier to lift and suit small repairs and posts. Compare the price per cubic foot of yield, not the price per bag."
+      },
+      {
+        "type": "faq",
+        "question": "How does the calculator work out my bag count?",
+        "answer": "It adds your waste allowance to the volume, then divides by the approximate yield of the bag size you choose. Always round up to a whole bag."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Use these tools with the bag calculator:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Concrete Slab Calculator to work out slab volume first",
+            "Concrete Calculator for rectangular and circular pours",
+            "Cubic Yard Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  },
+  "tile-calculator": {
+    "intro": [
+      {
+        "title": "Get an Accurate Tile Count for Any Floor, Wall or Backsplash",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Tile Calculator tells you how many tiles to buy for a floor, wall, backsplash or any other tiled surface. Enter the length and width of the area, pick a common tile size or type your own, set the grout gap and waste allowance, and get an instant tile count with an estimated grout quantity. Because the calculator counts each tile together with its grout joint, you get a more realistic number than a simple square footage guess, and the waste setting helps you cover cuts, breakage and pattern layouts."
+          }
+        ]
+      },
+      {
+        "title": "What the Tile Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Floors, walls and backsplashes: enter any rectangular area in feet or metres.",
+              "Common tile sizes: 4x4, 6x6, 12x12, 12x24, 18x18 and 24x24 inch presets, plus a custom size.",
+              "Grout gap presets: 1/16, 1/8, 3/16 and 1/4 inch, or enter your own.",
+              "Adjustable waste percentage: add extra for diagonal and herringbone layouts.",
+              "Built-in grout estimate: see roughly how much grout the job needs alongside your tile count."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Tile Projects You Can Estimate",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator for most interior tiling jobs:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Bathroom and kitchen floors",
+              "Shower walls and tub surrounds",
+              "Kitchen backsplashes",
+              "Entryways, hallways and laundry rooms",
+              "Fireplace surrounds and feature walls"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Tile Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "All examples use a 1/8 inch grout gap. Note how the pattern changes the waste allowance and the final count."
+          },
+          {
+            "type": "paragraph",
+            "text": "Tile count for a 10 ft x 12 ft floor (120 sq ft) with 12 x 24 inch tiles"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Layout",
+              "Waste",
+              "Tiles to buy"
+            ],
+            "rows": [
+              [
+                "Straight lay",
+                "10%",
+                "65 tiles"
+              ],
+              [
+                "Diagonal",
+                "15%",
+                "68 tiles"
+              ],
+              [
+                "Herringbone",
+                "20%",
+                "71 tiles"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Why the grout gap matters: 100 sq ft with 12 x 12 inch tiles"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Method",
+              "Calculation",
+              "Tiles (10% waste)"
+            ],
+            "rows": [
+              [
+                "Ignoring the grout gap",
+                "100 tiles + 10%",
+                "110 tiles"
+              ],
+              [
+                "Including a 1/8 inch gap",
+                "100 / 1.021 sq ft + 10%",
+                "108 tiles"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Figures are rounded up. Always buy from the same production batch and keep a few spare tiles for future repairs."
+          }
+        ]
+      },
+      {
+        "title": "Tips for Ordering the Right Amount of Tile",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure the room at its widest and longest points. For L-shaped rooms, calculate each section and add them.",
+              "Use 10% waste for a straight layout, 15% for diagonal and up to 20% for complex patterns.",
+              "Match the grout gap to your tile: rectified tile allows tighter joints, while non-rectified tile needs wider ones.",
+              "Subtract large areas that will not be tiled, such as a bathtub footprint or kitchen island.",
+              "Buy a little extra for future repairs, since dye lots can differ between batches."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How much waste should I add for diagonal or herringbone tile?",
+        "answer": "Around 15% for a diagonal layout and up to 20% for complex patterns such as herringbone, because they create more offcuts at the edges. A straight layout usually needs about 10%."
+      },
+      {
+        "type": "faq",
+        "question": "Can I use the tile calculator for a wall or backsplash?",
+        "answer": "Yes. Enter the wall length and the height as the second dimension, choose your tile size, and add waste. For a backsplash, subtract any large openings such as windows."
+      },
+      {
+        "type": "faq",
+        "question": "Does the tile calculator include grout?",
+        "answer": "It gives an estimated grout quantity alongside your tile count. For a more detailed estimate by tile thickness and grout type, use the Grout Calculator."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Continue planning your tile project with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Grout Calculator for a detailed grout estimate by type and joint width",
+            "Flooring Calculator for other floor coverings",
+            "Square Footage Calculator for measuring irregular rooms",
+            "Paver Calculator for outdoor paving"
+          ]
+        }
+      ]
+    }
+  },
+  "paver-calculator": {
+    "intro": [
+      {
+        "title": "Know Exactly How Many Pavers You Need for Your Patio, Walkway or Driveway",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Paver Calculator estimates how many pavers you need for a patio, walkway, driveway or any paved area. Enter your length and width, choose a common paver size or type your own, and set the joint gap and waste allowance for your pattern. The calculator counts each paver with its joint, so you get a realistic quantity, and it also estimates the sand and base material you need under the pavers. Ordering the right amount the first time helps you avoid a second delivery and mismatched colour batches."
+          }
+        ]
+      },
+      {
+        "title": "What the Paver Calculator Offers",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Area-based estimate: enter length and width in feet or metres.",
+              "Five common paver sizes: 4x8 standard brick, 6x6 square, 6x9 cobblestone, 12x12 large square and 12x24 rectangular slab, plus a custom size.",
+              "Joint gap setting: counts each paver together with its joint for a more realistic total.",
+              "Pattern-friendly waste allowance: increase it for diagonal, herringbone and basket-weave layouts.",
+              "Sand and base estimates: plan the setting bed and compacted gravel base alongside your paver order."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Paving Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator to size up:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Patios and outdoor living areas",
+              "Garden paths and walkways",
+              "Driveways and parking pads",
+              "Pool surrounds and fire pit areas",
+              "Entry landings and courtyards"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Paver Estimate",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "A 12 ft x 15 ft patio (180 sq ft) built with standard 4 x 8 inch pavers and a 1/8 inch joint. Each paver plus its joint covers about 0.233 sq ft, so the base count is about 773 pavers before waste."
+          },
+          {
+            "type": "paragraph",
+            "text": "Paver count by pattern"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Pattern",
+              "Waste",
+              "Pavers to buy"
+            ],
+            "rows": [
+              [
+                "Running bond or stack bond",
+                "10%",
+                "851 pavers"
+              ],
+              [
+                "Herringbone (90 degree)",
+                "15%",
+                "890 pavers"
+              ],
+              [
+                "Herringbone (45 degree) or complex",
+                "20%",
+                "928 pavers"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Base and sand for the same 180 sq ft patio"
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Layer",
+              "Depth",
+              "Volume"
+            ],
+            "rows": [
+              [
+                "Compacted gravel base",
+                "4 in",
+                "60 cu ft (2.22 cu yd)"
+              ],
+              [
+                "Compacted gravel base",
+                "6 in",
+                "90 cu ft (3.33 cu yd)"
+              ],
+              [
+                "Sand setting bed",
+                "1 in",
+                "15 cu ft (0.56 cu yd)"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Compacted base needs extra material to allow for compaction. Use the Gravel Calculator to add an allowance."
+          }
+        ]
+      },
+      {
+        "title": "Tips for an Accurate Paver Order",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure the finished paved area, then subtract any planters, trees or steps that will not be paved.",
+              "Match the waste allowance to your pattern: 5 to 10% for running bond, up to 20% for herringbone.",
+              "Order pavers from the same pallet batch and keep a few spares for future repairs.",
+              "Plan edge restraints and polymeric joint sand in addition to the pavers.",
+              "If your area is curved, expect extra cuts and raise the waste allowance."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How much extra should I order for a herringbone pattern?",
+        "answer": "Plan on roughly 15 to 20% extra for a 90 degree herringbone and 15 to 25% for a 45 degree layout, since these patterns create more edge cuts. Running bond and stack bond usually need 5 to 10%."
+      },
+      {
+        "type": "faq",
+        "question": "How much gravel base and sand do I need under pavers?",
+        "answer": "A common build uses a 4 to 6 inch compacted crushed stone base and a 1 inch sand setting bed. For 100 square feet, a 4 inch base is about 33 cubic feet (1.23 cubic yards) and a 1 inch sand bed is about 8 cubic feet (0.31 cubic yards)."
+      },
+      {
+        "type": "faq",
+        "question": "What joint gap should I enter?",
+        "answer": "Many paver projects use a narrow joint of about 1/8 inch, but follow your paver manufacturer's guidance. Joints are typically filled with polymeric sand after installation."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plan the base, sand and surrounding areas with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gravel Calculator for the compacted base",
+            "Square Footage Calculator for irregular patios",
+            "Concrete Slab Calculator if you are setting pavers on a slab",
+            "Tile Calculator for indoor tiling"
+          ]
+        }
+      ]
+    }
+  },
+  "grout-calculator": {
+    "intro": [
+      {
+        "title": "Estimate Exactly How Much Grout Your Tile Job Needs",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Grout Calculator works out how much grout you need from your tiled area, tile size, tile thickness and joint width. Choose sanded, unsanded or epoxy grout, add a waste allowance, and get your estimate in pounds along with the number of 10 lb and 25 lb bags to buy. Because it uses the real dimensions of your tiles instead of a rough guess, it is especially helpful for large-format tile, small mosaics and wide joints, where grout use can vary a lot."
+          }
+        ]
+      },
+      {
+        "title": "What the Grout Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Tile-specific inputs: tile width, height and thickness in inches, plus your tiled area in feet or metres.",
+              "Joint width presets: 1/16, 1/8, 3/16, 1/4 and 3/8 inch.",
+              "Three grout types: sanded, unsanded and epoxy grout.",
+              "Waste allowance: add extra for spillage, uneven substrates and mixing losses.",
+              "Pounds and bag count: see the result in pounds with the number of 10 lb and 25 lb bags."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Tiling Projects You Can Estimate",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the grout calculator for any tiled surface:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Bathroom and kitchen floors",
+              "Shower walls and tub surrounds",
+              "Kitchen backsplashes and countertops",
+              "Mosaic, subway and large-format porcelain tile",
+              "Fireplace surrounds and feature walls"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Planning Ranges for Grout",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "For average-size tiles with standard joints, a rough rule of thumb is about 1 lb of grout per 10 to 15 square feet. Smaller tiles, thicker tiles and wider joints need more, so use the calculator for your exact tile. The ranges below add 10% extra."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Tiled area",
+              "Rough grout range",
+              "With 10% extra"
+            ],
+            "rows": [
+              [
+                "50 sq ft",
+                "3.3 to 5 lb",
+                "3.7 to 5.5 lb"
+              ],
+              [
+                "100 sq ft",
+                "6.7 to 10 lb",
+                "7.3 to 11 lb"
+              ],
+              [
+                "200 sq ft",
+                "13.3 to 20 lb",
+                "14.7 to 22 lb"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Rule-of-thumb ranges only. Your actual quantity depends on tile size, tile thickness, joint width and grout type."
+          }
+        ]
+      },
+      {
+        "title": "Tips for Choosing and Buying Grout",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Use unsanded grout for joints up to 1/8 inch and for delicate surfaces such as glass or polished stone.",
+              "Use sanded grout for wider joints, where the sand helps prevent shrinkage cracking.",
+              "Consider epoxy grout for countertops, showers and other areas that need extra stain and moisture resistance.",
+              "Measure tile thickness accurately, since thicker tile means deeper joints and more grout.",
+              "Buy about 10% extra and use the same batch for the whole job to keep the colour consistent."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "What is the difference between sanded, unsanded and epoxy grout?",
+        "answer": "Unsanded grout suits narrow joints up to about 1/8 inch and delicate tile. Sanded grout is for wider joints and resists shrinkage cracking. Epoxy grout is a two-part, highly stain and moisture resistant option, but it costs more and is harder to apply."
+      },
+      {
+        "type": "faq",
+        "question": "Why does tile thickness matter for grout?",
+        "answer": "Thicker tile creates deeper joints, so more grout fills each line. That is why the calculator asks for thickness as well as tile size and joint width."
+      },
+      {
+        "type": "faq",
+        "question": "Do small mosaic tiles need more grout?",
+        "answer": "Yes. Smaller tiles mean more joint length per square foot, so a mosaic wall or floor uses noticeably more grout than large-format tile covering the same area."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plan the rest of your tiling project with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Tile Calculator to count tiles and include waste",
+            "Flooring Calculator for other floor coverings",
+            "Square Footage Calculator for measuring irregular rooms"
+          ]
+        }
+      ]
+    }
+  },
+  "gravel-calculator": {
+    "intro": [
+      {
+        "title": "Estimate Gravel by Volume and Weight for Any Landscaping or Construction Project",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Gravel Calculator estimates how much gravel, crushed stone, pea gravel or decomposed granite you need for driveways, paths, drainage layers and landscaping projects. Choose your material, enter the length, width and depth of the area, and add a waste allowance. You get the total volume to order and an estimated weight based on the typical bulk density of the material you selected, which helps whether your supplier sells by the cubic yard, the cubic metre or by weight."
+          }
+        ]
+      },
+      {
+        "title": "What the Gravel Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Five materials: pea gravel, crushed stone, decomposed granite, river rock and coarse sand.",
+              "Metric or imperial: metres and centimetres, or feet and inches.",
+              "Depth guidance built in: typical depth hints for driveways and pathways right beside the depth field.",
+              "Waste allowance: a percentage for compaction, uneven ground and spreading losses.",
+              "Volume and weight: an estimate of the quantity to order and its approximate weight."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Gravel Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator for any flat area filled to a consistent depth:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Driveway base and surface layers",
+              "Garden paths and walkways",
+              "French drains and drainage layers",
+              "Concrete sub-base under slabs and patios",
+              "Decorative beds, dry stream beds and play areas",
+              "Paver setting beds with coarse sand"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Gravel Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Each example adds a 10% waste allowance. Weights use the densities listed on this page and are rounded."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Material",
+              "Inputs",
+              "Volume",
+              "With 10% waste",
+              "Approx. weight"
+            ],
+            "rows": [
+              [
+                "Garden path",
+                "Pea gravel",
+                "20 ft x 3 ft x 2 in",
+                "0.37 cu yd",
+                "0.41 cu yd",
+                "about 1,020 lb"
+              ],
+              [
+                "Driveway section",
+                "Crushed stone",
+                "10 ft x 20 ft x 4 in",
+                "2.47 cu yd",
+                "2.72 cu yd",
+                "7,300 to 7,600 lb"
+              ],
+              [
+                "Decorative bed",
+                "Decomposed granite",
+                "12 ft x 12 ft x 3 in",
+                "1.33 cu yd",
+                "1.47 cu yd",
+                "about 4,250 lb"
+              ],
+              [
+                "Metric path",
+                "Any",
+                "5 m x 1 m x 6 cm",
+                "0.30 cu m",
+                "0.33 cu m",
+                "varies by material"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Weights are estimates. Moisture and stone size change real weight, so confirm with your supplier."
+          }
+        ]
+      },
+      {
+        "title": "Tips for a More Accurate Gravel Estimate",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Pick the material first. Crushed stone suits driveways, drainage and sub-base, while pea gravel suits paths and play areas.",
+              "Measure the area that actually receives gravel, and split irregular areas into rectangles.",
+              "Match depth to the job: paths and decorative beds need less than driveways and drainage layers.",
+              "Keep the 10% waste allowance for compaction, then round up to the nearest whole unit when ordering.",
+              "Check your supplier's unit and density. If they sell by weight, use the weight result."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "Which gravel type should I choose for a driveway, path or drain?",
+        "answer": "Crushed stone such as #57 is angular and compacts well, so it suits driveways, drainage and sub-base. Pea gravel is smooth and comfortable underfoot, which suits paths and play areas. Decomposed granite packs into a firm surface for paths, and river rock is mainly decorative."
+      },
+      {
+        "type": "faq",
+        "question": "How much extra gravel should I order?",
+        "answer": "The calculator includes a waste allowance, with 10% a common choice to cover compaction, uneven ground and spreading losses. Always round up to the nearest whole unit your supplier sells."
+      },
+      {
+        "type": "faq",
+        "question": "Does the gravel calculator work in metric and imperial?",
+        "answer": "Yes. Use metres and centimetres, or feet and inches. The depth hints beside the field show typical values for driveways and pathways."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plan the rest of your project, and read the in-depth guides:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Gravel Calculator guide for depth, weight and 2026 gravel trends",
+            "How to figure gravel by hand for shape formulas and quick conversions",
+            "Concrete Calculator for slabs and pads over a gravel base",
+            "Topsoil Calculator and Mulch Calculator for surrounding planting areas",
+            "Cubic Yard Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  },
+  "mulch-calculator": {
+    "intro": [
+      {
+        "title": "Work Out How Much Mulch You Need for Beds, Trees and Play Areas",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Mulch Calculator estimates how much mulch you need for garden beds, tree rings, vegetable gardens and landscaping areas. Pick your mulch type, enter the length, width and depth, and get a volume estimate plus an approximate bag count. One-click depth presets for flower beds, tree rings, vegetable gardens, playgrounds and weed suppression make it easy to start with a sensible depth, and a waste allowance covers settling and uneven spreading."
+          }
+        ]
+      },
+      {
+        "title": "What the Mulch Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Six mulch types: wood chip or bark, straw, compost or organic, rubber, cocoa hull and decorative gravel.",
+              "Metric or imperial: metres and centimetres, or feet and inches.",
+              "Quick-fill depths: flower beds, tree rings, vegetable gardens, playgrounds and weed suppression.",
+              "Waste allowance: a percentage for settling and uneven spreading.",
+              "Volume and bag count: the total to order, with an approximate number of bags."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Mulching Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator for most outdoor planting and surfacing jobs:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Flower beds and shrub borders",
+              "Tree rings and tree surrounds",
+              "Vegetable gardens",
+              "Paths and walkways",
+              "Playground safety surfacing"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Mulch Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Each example adds a 10% waste allowance and uses 2 cubic foot bags."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Inputs",
+              "Volume",
+              "With 10% waste",
+              "2 cu ft bags"
+            ],
+            "rows": [
+              [
+                "Flower bed",
+                "15 ft x 4 ft x 3 in",
+                "0.56 cu yd (15 cu ft)",
+                "0.61 cu yd (16.5 cu ft)",
+                "9 bags"
+              ],
+              [
+                "Tree ring (about 26.5 sq ft)",
+                "6 ft across, 6 in clear of trunk, 4 in deep",
+                "0.33 cu yd (8.8 cu ft)",
+                "0.36 cu yd (9.7 cu ft)",
+                "5 bags"
+              ],
+              [
+                "Play area",
+                "20 ft x 20 ft x 6 in",
+                "7.41 cu yd",
+                "8.15 cu yd",
+                "Bulk delivery"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "For a round bed or tree ring, work out the area (3.14 x radius x radius, minus the clear center) and enter an equivalent rectangle with the same area."
+          }
+        ]
+      },
+      {
+        "title": "Tips for an Accurate Mulch Estimate",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Choose depth by purpose: about 2 to 3 inches for flower beds, 3 to 4 inches for tree rings, and thicker for playground surfacing.",
+              "Keep mulch clear of trunks and stems, and avoid piling it deeper than about 10 cm (4 in) in flower beds.",
+              "Pick the material for the job: straw or untreated wood chip for vegetables, bark for ornamental beds, rubber for play areas.",
+              "Subtract the depth of mulch already in place if you are topping up an existing layer.",
+              "Above roughly one cubic yard, compare bulk delivery with bags."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How deep should mulch be around a tree?",
+        "answer": "About 3 to 4 inches (8 to 10 cm), kept about 6 inches (15 cm) clear of the trunk. Mulch piled against the trunk can trap moisture and cause rot."
+      },
+      {
+        "type": "faq",
+        "question": "Which mulch is best for a vegetable garden or a playground?",
+        "answer": "Straw or untreated wood chip works well for vegetable gardens. Rubber mulch does not decompose and suits playgrounds, but it is a poor choice for plant beds. Safety surfacing depth depends on the equipment, so check the manufacturer and local guidance."
+      },
+      {
+        "type": "faq",
+        "question": "Can I use the mulch calculator for a round bed?",
+        "answer": "The calculator takes length and width, so for a round bed work out the area first (3.14 x radius x radius) and enter an equivalent rectangle. Then pick your depth and waste allowance as usual."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Continue planning your planting project:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "How to figure out how much mulch you need for the full step-by-step method",
+            "Topsoil Calculator for beds and raised planters",
+            "Gravel Calculator for paths and decorative stone",
+            "Sod Calculator for new lawn areas",
+            "Cubic Yard Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  },
+  "topsoil-calculator": {
+    "intro": [
+      {
+        "title": "Calculate Topsoil by Volume, Weight and Bag Count",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Topsoil Calculator tells you how much topsoil you need for lawn preparation, raised beds, garden borders and landscaping. Enter the length, width and depth, add a waste allowance for settling, and get the volume in cubic yards or cubic metres, an estimated weight and an approximate bag count. Whether you are ordering a bulk delivery for a new lawn or a few bags for a raised bed, the calculator gives you the numbers to plan and budget with."
+          }
+        ]
+      },
+      {
+        "title": "What the Topsoil Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Area-based estimate: enter length and width in metres or feet.",
+              "Depth presets: quick buttons for common depths of 5, 10 and 15 cm.",
+              "Waste allowance: add extra for settling, since topsoil compacts once watered in.",
+              "Volume and weight: results in cubic yards or cubic metres, with an estimated weight.",
+              "Bag and bulk planning: an approximate bag count alongside the bulk volume."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Topsoil Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "New lawns and lawn repairs",
+              "Lawn topdressing and levelling",
+              "Raised vegetable beds",
+              "Garden borders and planting beds",
+              "Filling low spots"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Topsoil Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Weights use about 2,000 lb per cubic yard, the figure on this page. Real weight varies with moisture."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Inputs",
+              "Volume",
+              "With waste",
+              "Approx. weight"
+            ],
+            "rows": [
+              [
+                "New lawn",
+                "1,000 sq ft x 4 in",
+                "12.35 cu yd",
+                "14.2 cu yd (15%)",
+                "about 28,400 lb"
+              ],
+              [
+                "Lawn topdressing",
+                "1,000 sq ft x 1 in",
+                "3.09 cu yd",
+                "3.4 cu yd (10%)",
+                "about 6,800 lb"
+              ],
+              [
+                "Raised bed",
+                "4 ft x 8 ft x 10 in",
+                "0.99 cu yd (26.7 cu ft)",
+                "1.09 cu yd (29.3 cu ft)",
+                "30 bags of 1 cu ft"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "A 1 cu ft bag count is shown for the raised bed. At 0.75 cu ft per bag you would need about 40 bags."
+          }
+        ]
+      },
+      {
+        "title": "Tips for an Accurate Topsoil Estimate",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Match depth to the job: a light 1 to 2 inches for topdressing, 4 to 6 inches for a new lawn, and 8 to 12 inches for raised beds.",
+              "Add 10 to 15% for settling, since topsoil compacts once it is watered in.",
+              "Above roughly 1 cubic metre (1.3 cubic yards), bulk delivery is usually more economical than bags.",
+              "Check the supplier's composition. Screened topsoil suits lawns, while triple mix and garden mix suit beds.",
+              "Order a little extra for levelling low spots, and measure the depth after raking."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How much topsoil should I add for topdressing versus a new lawn?",
+        "answer": "Lawn topdressing needs only a thin layer, about 1 to 2 inches, to level the surface and improve drainage. A new lawn typically needs 4 to 6 inches (10 to 15 cm) to support healthy roots."
+      },
+      {
+        "type": "faq",
+        "question": "Should I buy bulk or bagged topsoil?",
+        "answer": "Bagged topsoil, usually 0.75 to 1 cubic foot per bag, suits small areas, topdressing and raised beds. For projects over about 1 cubic metre (1.3 cubic yards), bulk delivery is usually more economical."
+      },
+      {
+        "type": "faq",
+        "question": "How much does a cubic yard of topsoil weigh?",
+        "answer": "About 2,000 lb (900 kg), though moisture and composition change it. This matters for trailers, wheelbarrows and delivery limits, so use the weight result when planning transport."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plan the rest of your landscaping project with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Mulch Calculator for the finishing layer on beds",
+            "Sod Calculator for new lawn coverage",
+            "Gravel Calculator for paths and drainage",
+            "Cubic Yard Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  },
+  "sod-calculator": {
+    "intro": [
+      {
+        "title": "Know Exactly How Many Sod Rolls and Pallets You Need",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Sod Calculator shows how many sod rolls or slabs you need for a new lawn, a repair or a landscaping project. Enter the length and width of the area and a waste allowance, and get a roll count, a pallet estimate and an indicative material cost. Because sod is perishable and must be laid soon after delivery, ordering the right amount the first time matters, and the waste setting helps you plan for cuts around edges, curves and obstacles."
+          }
+        ]
+      },
+      {
+        "title": "What the Sod Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Simple area inputs: length and width in feet or metres.",
+              "Waste and offcuts setting: use about 5% for simple rectangles and 10 to 15% for irregular shapes or curves.",
+              "Roll count: based on a standard roll of about 9 sq ft (0.84 square metres).",
+              "Pallet estimate: see roughly how many pallets to order, with pallets typically holding 450 to 504 sq ft.",
+              "Indicative material cost: a quick budget figure for planning."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Sod Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the calculator for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "New front and back lawns",
+              "Lawn renovation and replacement",
+              "Patch repairs",
+              "Slopes and banks",
+              "Play areas and borders"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Sod Estimates",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Each example uses a roll of about 9 sq ft and a pallet of 450 sq ft. Pallets are rounded to the nearest tenth."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Project",
+              "Area",
+              "Waste",
+              "Rolls",
+              "Pallets (450 sq ft)"
+            ],
+            "rows": [
+              [
+                "Simple rectangular lawn",
+                "40 ft x 25 ft = 1,000 sq ft",
+                "5%",
+                "117",
+                "2.3"
+              ],
+              [
+                "Irregular lawn with curves",
+                "1,000 sq ft",
+                "15%",
+                "128",
+                "2.6"
+              ],
+              [
+                "Sloped front yard",
+                "600 sq ft",
+                "15% (10% + 5% slope)",
+                "77",
+                "1.5"
+              ],
+              [
+                "Patch repair",
+                "8 ft x 6 ft = 48 sq ft",
+                "10%",
+                "6",
+                "Less than 1"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Rolls are rounded up. Order pallets in whole numbers and confirm pallet size with your supplier."
+          }
+        ]
+      },
+      {
+        "title": "Tips for Ordering the Right Amount of Sod",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure the lawn in sections and subtract beds, patios and paths that will not be sodded.",
+              "Choose 5% waste for simple rectangles, 10 to 15% for curves, and add about 5% extra for slopes.",
+              "Time delivery for the day you will lay the sod. It is best laid within 24 to 48 hours.",
+              "Prepare the soil first. Use the Topsoil Calculator to plan any soil or compost you need to add.",
+              "Compare pallet quantities with your roll count, since pallet sizes vary by supplier."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How many rolls of sod do I need per square foot?",
+        "answer": "A standard roll covers about 9 square feet, which is roughly 0.11 rolls per square foot. For 100 square feet, you need about 11 rolls before waste, or about 12 with 5% waste."
+      },
+      {
+        "type": "faq",
+        "question": "How much waste should I add for curves and slopes?",
+        "answer": "Add about 5% for simple rectangles and 10 to 15% for irregular shapes or curves. Slopes make sod harder to lay without gaps, so add roughly another 5%."
+      },
+      {
+        "type": "faq",
+        "question": "How soon must sod be laid after delivery?",
+        "answer": "Sod is perishable, so lay it within about 24 to 48 hours of delivery. Prepare the soil and schedule the installation before your order arrives."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Plan the rest of your lawn project with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Topsoil Calculator for soil preparation under new sod",
+            "Square Footage Calculator for measuring irregular lawns",
+            "Mulch Calculator for surrounding beds"
+          ]
+        }
+      ]
+    }
+  },
+  "pool-volume-calculator": {
+    "intro": [
+      {
+        "title": "Find Your Pool Volume in Gallons or Litres for Any Pool Shape",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "The Interior Tailor Pool Volume Calculator works out how much water your swimming pool holds, in gallons or litres. Choose rectangular, circular or L-shaped, enter the surface dimensions and the shallow and deep end depths, and get an estimate you can use for chemical dosing, pump sizing and fill time planning. Because it uses the average depth of a sloped floor, it gives a more realistic result than a simple length by width by depth guess."
+          }
+        ]
+      },
+      {
+        "title": "What the Pool Volume Calculator Includes",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Three pool shapes: rectangle or square, circle, and L-shape. For an oval pool, calculate its surface area separately.",
+              "Sloped floor support: enter shallow and deep end depths so the calculator uses the average depth.",
+              "Metric or imperial: metres and litres, or feet and gallons.",
+              "Pump turnover estimate: see how volume relates to turnover time when sizing a pump.",
+              "Planning-ready result: use the volume for chemical dosing, heating and fill time."
+            ]
+          }
+        ]
+      }
+    ],
+    "sections": [
+      {
+        "title": "Pool Projects You Can Plan",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "Use the volume result for:"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Chemical dosing for chlorine, shock, algaecide and pH adjusters",
+              "Pump and filter sizing",
+              "Salt chlorinator selection",
+              "Heating and fill-time planning",
+              "Comparing pool sizes before you build or buy"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Example Pool Volume Calculations",
+        "blocks": [
+          {
+            "type": "paragraph",
+            "text": "These examples use the page's formula: volume = surface area x average depth, and gallons = cubic feet x 7.48052."
+          },
+          {
+            "type": "table",
+            "headers": [
+              "Pool",
+              "Inputs",
+              "Average depth",
+              "Volume"
+            ],
+            "rows": [
+              [
+                "Rectangular",
+                "16 ft x 32 ft, 3.5 ft to 6 ft deep",
+                "4.75 ft",
+                "2,432 cu ft, about 18,190 gal"
+              ],
+              [
+                "Round",
+                "24 ft diameter, 4 ft deep",
+                "4 ft",
+                "1,810 cu ft, about 13,540 gal"
+              ],
+              [
+                "L-shaped (two sections)",
+                "20 ft x 10 ft plus 10 ft x 10 ft, 5 ft average depth",
+                "5 ft",
+                "1,500 cu ft, about 11,220 gal"
+              ],
+              [
+                "Metric rectangular",
+                "8 m x 4 m, 1 m to 2 m deep",
+                "1.5 m",
+                "48 cu m, 48,000 litres"
+              ]
+            ]
+          },
+          {
+            "type": "paragraph",
+            "text": "Pump turnover example: an 18,190 gallon pool turned over every 6 to 8 hours needs about 2,270 to 3,030 gallons per hour."
+          }
+        ]
+      },
+      {
+        "title": "Tips for an Accurate Pool Volume",
+        "blocks": [
+          {
+            "type": "list",
+            "items": [
+              "Measure the water surface, not the outer pool wall, and use the average of the shallow and deep end depths.",
+              "Measure the actual water depth, not the pool wall height.",
+              "For L-shaped pools, split the pool into two rectangles. The calculator's L-shape option handles this for you.",
+              "For kidney and freeform pools, treat the result as an estimate and measure actual fill with a water meter if you need precision.",
+              "Re-check your volume before chemical dosing, since an incorrect volume causes over- or under-dosing."
+            ]
+          }
+        ]
+      }
+    ],
+    "faqs": [
+      {
+        "type": "faq",
+        "question": "How do I calculate pool volume for a pool with a sloped floor?",
+        "answer": "Find the average depth by adding the shallow and deep end depths and dividing by two. Multiply the surface area by that average depth for cubic feet, then multiply by 7.48052 to convert to gallons."
+      },
+      {
+        "type": "faq",
+        "question": "Why do I need to know my pool volume for chemicals?",
+        "answer": "Chlorine, shock, algaecide, pH adjusters and stabilizer are all dosed by volume of water, commonly per 10,000 gallons. A wrong volume leads to under- or over-dosing, so always follow the product label for your exact volume."
+      },
+      {
+        "type": "faq",
+        "question": "How long should my pump run to turn over the pool?",
+        "answer": "A common target is to turn over the full pool volume every 6 to 8 hours. Divide your volume by the hours to find the flow rate you need in gallons per hour."
+      }
+    ],
+    "related": {
+      "title": "Related Calculators and Guides",
+      "blocks": [
+        {
+          "type": "paragraph",
+          "text": "Continue planning your pool care with these tools:"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Pool Gallon Calculator for a direct gallon estimate",
+            "Pool Chemical Calculator for dosing based on your volume",
+            "Cubic Feet Calculator for converting volumes"
+          ]
+        }
+      ]
+    }
+  }
+}

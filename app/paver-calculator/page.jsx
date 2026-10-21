@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import PaverCalculator from '@/components/PaverCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function PaverPage() {
       </section>
 
       <PaverCalculator />
+
+      <CalculatorContent slug="paver-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -60,11 +63,13 @@ export default function PaverPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="paver-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
               <summary>How many pavers do I need per square foot?</summary>
-              <p>A standard 4×8 inch paver covers 0.222 sq ft (32 sq in) plus joint gap. With a 1/8-inch joint, each paver covers about 0.239 sq ft — approximately 4.2 pavers per square foot. A 12×12 paver requires about 1 paver per square foot.</p>
+              <p>A standard 4×8 inch paver covers 0.222 sq ft (32 sq in) plus joint gap. With a 1/8-inch joint, each paver covers about 0.233 sq ft — approximately 4.3 pavers per square foot. A 12×12 paver requires about 1 paver per square foot.</p>
             </details>
             <details>
               <summary>Do I need to seal pavers?</summary>
@@ -74,13 +79,9 @@ export default function PaverPage() {
               <summary>Can I install pavers over an existing concrete slab?</summary>
               <p>Yes, if the slab is in good condition without significant cracks or settlement. Set pavers directly in a thin mortar bed or use 1/2-inch plastic pedestal clips designed for overlay installations. The surface height will be raised by the paver and mortar thickness.</p>
             </details>
-            <div className="related-links">
-              <a href="/square-footage-calculator/">Square Footage Calculator</a>
-              <a href="/gravel-calculator/">Gravel Calculator</a>
-              <a href="/concrete-slab-calculator/">Concrete Slab Calculator</a>
-              <a href="/tile-calculator/">Tile Calculator</a>
-            </div>
+            <CalculatorFaqs slug="paver-calculator" />
           </article>
+          <CalculatorContent slug="paver-calculator" part="related" />
         </div>
       </section>
     </>

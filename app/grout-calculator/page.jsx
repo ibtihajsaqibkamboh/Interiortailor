@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import GroutCalculator from '@/components/GroutCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function GroutPage() {
       </section>
 
       <GroutCalculator />
+
+      <CalculatorContent slug="grout-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -62,6 +65,8 @@ export default function GroutPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="grout-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -76,12 +81,9 @@ export default function GroutPage() {
               <summary>Why is my grout cracking?</summary>
               <p>Common causes: adding too much water to the mix, insufficient curing time, substrate movement (inadequate sub-floor stiffness), or grouting in joints that should be caulked (inside corners, expansion joints).</p>
             </details>
-            <div className="related-links">
-              <a href="/tile-calculator/">Tile Calculator</a>
-              <a href="/flooring-calculator/">Flooring Calculator</a>
-              <a href="/square-footage-calculator/">Square Footage Calculator</a>
-            </div>
+            <CalculatorFaqs slug="grout-calculator" />
           </article>
+          <CalculatorContent slug="grout-calculator" part="related" />
         </div>
       </section>
     </>

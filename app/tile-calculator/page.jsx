@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import TileCalculator from '@/components/TileCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function TilePage() {
       </section>
 
       <TileCalculator />
+
+      <CalculatorContent slug="tile-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -63,6 +66,8 @@ export default function TilePage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="tile-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -77,12 +82,9 @@ export default function TilePage() {
               <summary>What is the best tile size for a small bathroom?</summary>
               <p>Larger tiles (12×24 or 24×24) with tight grout lines create fewer visual breaks and can make a small bathroom appear larger. Avoid very small mosaic tiles which emphasize the small size.</p>
             </details>
-            <div className="related-links">
-              <a href="/grout-calculator/">Grout Calculator</a>
-              <a href="/flooring-calculator/">Flooring Calculator</a>
-              <a href="/square-footage-calculator/">Square Footage Calculator</a>
-            </div>
+            <CalculatorFaqs slug="tile-calculator" />
           </article>
+          <CalculatorContent slug="tile-calculator" part="related" />
         </div>
       </section>
     </>

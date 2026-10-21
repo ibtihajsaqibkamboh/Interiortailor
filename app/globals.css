@@ -780,3 +780,13 @@ body.nav-open{ overflow:hidden; }
 .tool-card:hover .tool-card__arrow{
   opacity:1; transform:translateX(2px);
 }
+.calculator-content:has(table){grid-column:1 / -1;min-width:0}
+.calculator-content__table{overflow-x:auto;margin:20px 0;border:1px solid var(--line);border-radius:var(--radius-sm)}
+.calculator-content__table:focus-visible{outline:2px solid var(--purple);outline-offset:3px}
+.calculator-content table{width:100%;border-collapse:collapse;text-align:left;font-size:.9rem;line-height:1.6}
+.calculator-content caption{text-align:left;padding:12px 16px;font-weight:700;background:var(--purple-soft);color:var(--purple)}
+.calculator-content th,.calculator-content td{padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top;min-width:110px}
+.calculator-content thead th{background:var(--bg)}
+.calculator-content tbody th{font-weight:600}
+.calculator-content td{color:var(--ink-soft)}
+.calculator-content tbody tr:last-child>*{border-bottom:0}

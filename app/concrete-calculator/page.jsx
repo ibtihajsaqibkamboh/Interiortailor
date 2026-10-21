@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import ConcreteCalculator from '@/components/ConcreteCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function ConcreteCalculatorPage() {
       </section>
 
       <ConcreteCalculator />
+
+      <CalculatorContent slug="concrete-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -64,6 +67,8 @@ export default function ConcreteCalculatorPage() {
             <p>Ready-mix quality is more consistent and avoids the variability that comes from hand-mixing bags at different water ratios.</p>
           </article>
 
+          <CalculatorContent slug="concrete-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -78,13 +83,9 @@ export default function ConcreteCalculatorPage() {
               <summary>Do I need rebar in a concrete slab?</summary>
               <p>For structural slabs, driveways and any slab that may experience load or ground movement, yes. A 4-inch residential slab typically uses #4 rebar at 12–18 inches on center in both directions.</p>
             </details>
-            <div className="related-links">
-              <a href="/concrete-slab-calculator/">Concrete Slab Calculator</a>
-              <a href="/concrete-bag-calculator/">Concrete Bag Calculator</a>
-              <a href="/rebar-calculator/">Rebar Calculator</a>
-              <a href="/gravel-calculator/">Gravel Calculator</a>
-            </div>
+            <CalculatorFaqs slug="concrete-calculator" />
           </article>
+          <CalculatorContent slug="concrete-calculator" part="related" />
         </div>
       </section>
     </>

@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import ConcreteBagCalculator from '@/components/ConcreteBagCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function ConcreteBagPage() {
       </section>
 
       <ConcreteBagCalculator />
+
+      <CalculatorContent slug="concrete-bag-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -65,6 +68,8 @@ export default function ConcreteBagPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="concrete-bag-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -79,12 +84,9 @@ export default function ConcreteBagPage() {
               <summary>Can I add too little water to concrete?</summary>
               <p>Yes. Too little water prevents complete hydration of the cement particles, resulting in crumbly, weak concrete. Follow the bag's water recommendation. Adding extra water to improve workability reduces strength — use a plasticizer additive instead if needed.</p>
             </details>
-            <div className="related-links">
-              <a href="/concrete-slab-calculator/">Concrete Slab Calculator</a>
-              <a href="/concrete-calculator/">Concrete Calculator</a>
-              <a href="/cubic-yard-calculator/">Cubic Yard Calculator</a>
-            </div>
+            <CalculatorFaqs slug="concrete-bag-calculator" />
           </article>
+          <CalculatorContent slug="concrete-bag-calculator" part="related" />
         </div>
       </section>
     </>

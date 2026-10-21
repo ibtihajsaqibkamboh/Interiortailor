@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import SodCalculator from '@/components/SodCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -21,6 +22,8 @@ export default function SodPage() {
       </section>
 
       <SodCalculator />
+
+      <CalculatorContent slug="sod-calculator" part="intro" />
 
       <section className="seo-band">
         <div className="seo-grid">
@@ -62,6 +65,8 @@ export default function SodPage() {
             </ul>
           </article>
 
+          <CalculatorContent slug="sod-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -76,12 +81,9 @@ export default function SodPage() {
               <summary>How long before I can walk on new sod?</summary>
               <p>Limit foot traffic for the first 2–3 weeks. Once you cannot easily pull up a corner of sod (roots are anchoring it), light foot traffic is acceptable. Full use typically takes 4–6 weeks.</p>
             </details>
-            <div className="related-links">
-              <a href="/topsoil-calculator/">Topsoil Calculator</a>
-              <a href="/square-footage-calculator/">Square Footage Calculator</a>
-              <a href="/mulch-calculator/">Mulch Calculator</a>
-            </div>
+            <CalculatorFaqs slug="sod-calculator" />
           </article>
+          <CalculatorContent slug="sod-calculator" part="related" />
         </div>
       </section>
     </>

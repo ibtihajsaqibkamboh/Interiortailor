@@ -1,3 +1,4 @@
+import CalculatorContent, { CalculatorFaqs } from '@/components/CalculatorContent';
 import TopsoilCalculator from '@/components/TopsoilCalculator';
 import { pageMetadata } from '@/lib/site';
 
@@ -22,6 +23,8 @@ export default function TopsoilPage() {
 
       <TopsoilCalculator />
 
+      <CalculatorContent slug="topsoil-calculator" part="intro" />
+
       <section className="seo-band">
         <div className="seo-grid">
           <article className="seo-card">
@@ -38,7 +41,7 @@ export default function TopsoilPage() {
           <article className="seo-card">
             <h2>Topsoil Depth by Application</h2>
             <ul>
-              <li><strong>Lawn topdressing:</strong> 2–4 cm (1–2 in) — just enough to level and improve drainage</li>
+              <li><strong>Lawn topdressing:</strong> 2.5–5 cm (1–2 in) — just enough to level and improve drainage</li>
               <li><strong>New lawn establishment:</strong> 10–15 cm (4–6 in) — minimum depth for healthy root establishment</li>
               <li><strong>Raised vegetable beds:</strong> 20–30 cm (8–12 in) — deeper promotes better yields</li>
               <li><strong>Filling low spots:</strong> 5–10 cm (2–4 in)</li>
@@ -61,6 +64,8 @@ export default function TopsoilPage() {
             <p>Always confirm your supplier's topsoil composition before ordering — quality varies widely.</p>
           </article>
 
+          <CalculatorContent slug="topsoil-calculator" part="sections" />
+
           <article className="seo-card">
             <h2>Frequently Asked Questions</h2>
             <details>
@@ -75,13 +80,9 @@ export default function TopsoilPage() {
               <summary>Is topsoil the same as garden soil?</summary>
               <p>No. Topsoil is the natural upper layer of soil, which varies widely in quality. Bagged "garden soil" is typically a blend enriched with compost and other amendments — suitable for in-ground planting but too dense for raised beds without mixing.</p>
             </details>
-            <div className="related-links">
-              <a href="/mulch-calculator/">Mulch Calculator</a>
-              <a href="/gravel-calculator/">Gravel Calculator</a>
-              <a href="/sod-calculator/">Sod Calculator</a>
-              <a href="/cubic-yard-calculator/">Cubic Yard Calculator</a>
-            </div>
+            <CalculatorFaqs slug="topsoil-calculator" />
           </article>
+          <CalculatorContent slug="topsoil-calculator" part="related" />
         </div>
       </section>
     </>
